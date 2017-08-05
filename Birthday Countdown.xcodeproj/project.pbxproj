@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B29A0F0937C3BD68564827E /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
 		9525E0111F35447D008E6815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
-		9525E0131F35447D008E6815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0121F35447D008E6815 /* ViewController.swift */; };
-		9525E0161F35447D008E6815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* Main.storyboard */; };
+		9525E0161F35447D008E6815 /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
 		9525E0181F35447D008E6815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
 		9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
+		9525E0231F3545D9008E6815 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
+		9525E0271F3548C2008E6815 /* BirthdayCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */; };
+		9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
+		9525E02C1F3551E8008E6815 /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
+		9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
+		95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
+		95F9BFC11F358A1C003444E3 /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Birthday Countdown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.debug.xcconfig"; sourceTree = "<group>"; };
 		9525E00D1F35447D008E6815 /* Birthday Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525E0101F35447D008E6815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9525E0121F35447D008E6815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9525E0151F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9525E0151F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/datepick.storyboard; sourceTree = "<group>"; };
 		9525E0171F35447D008E6815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9525E01A1F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9525E01C1F35447D008E6815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayChooserViewController.swift; sourceTree = "<group>"; };
+		9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BirthdayCountdown.storyboard; sourceTree = "<group>"; };
+		9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = birthdayCountdownViewController.swift; path = Assets.xcassets/birthdayCountdownViewController.swift; sourceTree = "<group>"; };
+		9525E02B1F3551E8008E6815 /* Birthday.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Birthday.storyboard; sourceTree = "<group>"; };
+		9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		95F9BFBE1F358954003444E3 /* datePickModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePickModel.swift; sourceTree = "<group>"; };
+		95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickViewModel.swift; sourceTree = "<group>"; };
+		CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B29A0F0937C3BD68564827E /* libPods-Birthday Countdown.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514F5FB08DA5D280DDA9FA20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */,
+				CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9525E0041F35447D008E6815 = {
 			isa = PBXGroup;
 			children = (
 				9525E00F1F35447D008E6815 /* Birthday Countdown */,
 				9525E00E1F35447D008E6815 /* Products */,
+				514F5FB08DA5D280DDA9FA20 /* Pods */,
+				D2C818F37701DBDEB2F6AC30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,52 @@
 		9525E00F1F35447D008E6815 /* Birthday Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				9525E02A1F3551C9008E6815 /* Bithday */,
+				9525E0251F354882008E6815 /* date picker */,
+				9525E0241F35487E008E6815 /* Birthday Countdown */,
 				9525E0101F35447D008E6815 /* AppDelegate.swift */,
-				9525E0121F35447D008E6815 /* ViewController.swift */,
-				9525E0141F35447D008E6815 /* Main.storyboard */,
 				9525E0171F35447D008E6815 /* Assets.xcassets */,
 				9525E0191F35447D008E6815 /* LaunchScreen.storyboard */,
 				9525E01C1F35447D008E6815 /* Info.plist */,
 			);
 			path = "Birthday Countdown";
+			sourceTree = "<group>";
+		};
+		9525E0241F35487E008E6815 /* Birthday Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */,
+				9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */,
+			);
+			name = "Birthday Countdown";
+			sourceTree = "<group>";
+		};
+		9525E0251F354882008E6815 /* date picker */ = {
+			isa = PBXGroup;
+			children = (
+				9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */,
+				9525E0141F35447D008E6815 /* datepick.storyboard */,
+				95F9BFBE1F358954003444E3 /* datePickModel.swift */,
+				95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */,
+			);
+			name = "date picker";
+			sourceTree = "<group>";
+		};
+		9525E02A1F3551C9008E6815 /* Bithday */ = {
+			isa = PBXGroup;
+			children = (
+				9525E02B1F3551E8008E6815 /* Birthday.storyboard */,
+				9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */,
+			);
+			name = Bithday;
+			sourceTree = "<group>";
+		};
+		D2C818F37701DBDEB2F6AC30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9525E01F1F35447D008E6815 /* Build configuration list for PBXNativeTarget "Birthday Countdown" */;
 			buildPhases = (
+				27092E1FA289ABD1E85226B0 /* [CP] Check Pods Manifest.lock */,
 				9525E0091F35447D008E6815 /* Sources */,
 				9525E00A1F35447D008E6815 /* Frameworks */,
 				9525E00B1F35447D008E6815 /* Resources */,
+				1833ABB5246E3B2EEBC5D594 /* [CP] Embed Pods Frameworks */,
+				AD4E5EDF47F8D7CAF42037AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,31 +195,88 @@
 			files = (
 				9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */,
 				9525E0181F35447D008E6815 /* Assets.xcassets in Resources */,
-				9525E0161F35447D008E6815 /* Main.storyboard in Resources */,
+				9525E0161F35447D008E6815 /* datepick.storyboard in Resources */,
+				9525E02C1F3551E8008E6815 /* Birthday.storyboard in Resources */,
+				9525E0271F3548C2008E6815 /* BirthdayCountdown.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1833ABB5246E3B2EEBC5D594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27092E1FA289ABD1E85226B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthday Countdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4E5EDF47F8D7CAF42037AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9525E0091F35447D008E6815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9525E0131F35447D008E6815 /* ViewController.swift in Sources */,
+				9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */,
+				9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */,
+				95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */,
+				95F9BFC11F358A1C003444E3 /* DatePickViewModel.swift in Sources */,
 				9525E0111F35447D008E6815 /* AppDelegate.swift in Sources */,
+				9525E0231F3545D9008E6815 /* BirthdayChooserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9525E0141F35447D008E6815 /* Main.storyboard */ = {
+		9525E0141F35447D008E6815 /* datepick.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9525E0151F35447D008E6815 /* Base */,
 			);
-			name = Main.storyboard;
+			name = datepick.storyboard;
 			sourceTree = "<group>";
 		};
 		9525E0191F35447D008E6815 /* LaunchScreen.storyboard */ = {
@@ -261,9 +387,11 @@
 		};
 		9525E0201F35447D008E6815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Birthday Countdown/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
@@ -274,9 +402,11 @@
 		};
 		9525E0211F35447D008E6815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Birthday Countdown/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
@@ -304,6 +434,7 @@
 				9525E0211F35447D008E6815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

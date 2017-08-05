@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BirthdayCountdown-->
+        <scene sceneID="iEN-GQ-BfO">
+            <objects>
+                <viewController storyboardIdentifier="BirthdayCountdown" title="BirthdayCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A0C-XQ-fje" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CNy-lX-HJg"/>
+                        <viewControllerLayoutGuide type="bottom" id="3QN-se-1p6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hjl-LH-Z4h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NS5-cA-ZP5">
+                                <rect key="frame" x="16" y="28" width="343" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCd-Ua-2Bn">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="50"/>
+                                        <state key="normal" title="Days"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-gN-oMb">
+                                        <rect key="frame" x="86" y="0.0" width="85.5" height="50"/>
+                                        <state key="normal" title="Hours"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PML-8R-tMW">
+                                        <rect key="frame" x="171.5" y="0.0" width="86" height="50"/>
+                                        <state key="normal" title="Minutes"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TB-8C-bF5">
+                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="50"/>
+                                        <state key="normal" title="Seconds"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LUW-hi-j4a"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJ9-Lj-1UK">
+                                <rect key="frame" x="16" y="86" width="343" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="dHm-vb-rt3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="81"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="T45-jy-ZSq">
+                                <rect key="frame" x="16" y="244" width="343" height="62.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1160" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-ex-A7V">
+                                        <rect key="frame" x="0.0" y="0.0" width="143.5" height="62.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y38-qP-YMA">
+                                        <rect key="frame" x="143.5" y="0.0" width="199.5" height="62.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Until My Birthday!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9K-j0-dUX">
+                                <rect key="frame" x="16" y="356.5" width="343" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NS5-cA-ZP5" firstAttribute="top" secondItem="CNy-lX-HJg" secondAttribute="bottom" constant="8" id="00H-rH-fII"/>
+                            <constraint firstItem="r9K-j0-dUX" firstAttribute="leading" secondItem="T45-jy-ZSq" secondAttribute="leading" id="2fj-j7-Q5P"/>
+                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="leading" secondItem="hjl-LH-Z4h" secondAttribute="leadingMargin" id="50o-JV-6cn"/>
+                            <constraint firstItem="r9K-j0-dUX" firstAttribute="top" secondItem="T45-jy-ZSq" secondAttribute="bottom" constant="50" id="A7r-yp-yZz"/>
+                            <constraint firstItem="r9K-j0-dUX" firstAttribute="width" secondItem="T45-jy-ZSq" secondAttribute="width" id="IMr-fv-wDx"/>
+                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="LEd-O0-6GZ"/>
+                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="top" secondItem="NS5-cA-ZP5" secondAttribute="bottom" constant="8" id="LZK-mK-UkA"/>
+                            <constraint firstItem="T45-jy-ZSq" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="bbc-sb-oxP"/>
+                            <constraint firstItem="T45-jy-ZSq" firstAttribute="leading" secondItem="hjl-LH-Z4h" secondAttribute="leadingMargin" id="dlH-uh-FhX"/>
+                            <constraint firstItem="NS5-cA-ZP5" firstAttribute="top" secondItem="CNy-lX-HJg" secondAttribute="bottom" constant="8" id="dvU-Bo-bbA"/>
+                            <constraint firstItem="NS5-cA-ZP5" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="hZL-w1-nu8"/>
+                            <constraint firstItem="NS5-cA-ZP5" firstAttribute="leading" secondItem="hjl-LH-Z4h" secondAttribute="leadingMargin" id="pcb-sA-9q5"/>
+                            <constraint firstItem="T45-jy-ZSq" firstAttribute="top" secondItem="sJ9-Lj-1UK" secondAttribute="bottom" constant="8" id="rds-zf-hSu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0X-gk-70Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>
