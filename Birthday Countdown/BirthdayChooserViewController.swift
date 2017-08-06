@@ -27,19 +27,17 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         ["Month" : "November", "numDays" : 30],
         ["Month" : "December", "numDays" : 30]
     ]
-    let viewModel = DatePickViewModel()
+    var viewModel = DatePickViewModel()
     
     @IBOutlet weak var birthdayPicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func chooseBirthday(_ sender: Any) {
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(viewModel.chosenDate, forKey: "Date")
+        
         let storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "BirthdayCountdown")
         self.present(controller, animated: true, completion: nil)

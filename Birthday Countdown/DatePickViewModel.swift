@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DatePickViewModel {
+struct DatePickViewModel {
     let calendar = Calendar.current
     let dateFormatter = DateFormatter()
     var datePickModel = DatePickModel()
@@ -18,7 +18,7 @@ class DatePickViewModel {
         dateFormatter.dateFormat = "YYYY-MM-dd"
     }
 
-    private func setDate() {
+    private mutating func setDate() {
         var year = calendar.component(.year, from: datePickModel.currentDate)
         let dateString = "\(year)-\(datePickModel.month)-\(datePickModel.day)"
         var chosenDate = dateFormatter.date(from: dateString)
@@ -30,12 +30,12 @@ class DatePickViewModel {
         self.chosenDate = chosenDate!
     }
     
-    func setDay(day : Int) {
+    mutating func setDay(day : Int) {
         datePickModel.day = day
         setDate()
     }
     
-    func setMonth(month : Int) {
+    mutating func setMonth(month : Int) {
         datePickModel.month = month
         setDate()
     }

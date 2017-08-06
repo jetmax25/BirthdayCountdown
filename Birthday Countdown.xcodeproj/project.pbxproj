@@ -19,6 +19,7 @@
 		9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
 		95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
 		95F9BFC11F358A1C003444E3 /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
+		95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		95F9BFBE1F358954003444E3 /* datePickModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePickModel.swift; sourceTree = "<group>"; };
 		95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickViewModel.swift; sourceTree = "<group>"; };
+		95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCountdownViewModel.swift; sourceTree = "<group>"; };
 		CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 			children = (
 				9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */,
 				9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */,
+				95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */,
 			);
 			name = "Birthday Countdown";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */,
+				95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */,
 				9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */,
 				95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */,
 				95F9BFC11F358A1C003444E3 /* DatePickViewModel.swift in Sources */,
