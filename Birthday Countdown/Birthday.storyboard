@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LH9-oR-IkB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LH9-oR-IkB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Birthday View Controller-->
         <scene sceneID="kMZ-2f-iYg">
             <objects>
-                <viewController id="LH9-oR-IkB" sceneMemberID="viewController">
+                <viewController id="LH9-oR-IkB" customClass="BirthdayViewController" customModule="Birthday_Countdown" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VQ1-c1-W6k"/>
                         <viewControllerLayoutGuide type="bottom" id="B8U-xD-hGM"/>
@@ -28,9 +30,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gft-Fp-MVJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mute.png" translatesAutoresizingMaskIntoConstraints="NO" id="AgV-fi-0eX">
+                                <rect key="frame" x="321" y="629" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7tw-TL-b8V"/>
+                                    <constraint firstAttribute="width" secondItem="AgV-fi-0eX" secondAttribute="height" id="dMh-sp-SwW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="B8U-xD-hGM" firstAttribute="top" secondItem="AgV-fi-0eX" secondAttribute="bottom" constant="8" id="0Lt-Ol-Was"/>
                             <constraint firstItem="B8U-xD-hGM" firstAttribute="top" secondItem="z7F-IK-ttQ" secondAttribute="bottom" id="BIV-ch-gVv"/>
                             <constraint firstItem="Gft-Fp-MVJ" firstAttribute="top" secondItem="YQ3-Gq-tR9" secondAttribute="top" id="Ifq-c3-rue"/>
                             <constraint firstItem="z7F-IK-ttQ" firstAttribute="top" secondItem="Gft-Fp-MVJ" secondAttribute="bottom" id="JD9-Kc-TLj"/>
@@ -40,12 +50,19 @@
                             <constraint firstItem="Gft-Fp-MVJ" firstAttribute="centerX" secondItem="YQ3-Gq-tR9" secondAttribute="centerX" id="VJe-Gl-3vC"/>
                             <constraint firstItem="z7F-IK-ttQ" firstAttribute="width" secondItem="Gft-Fp-MVJ" secondAttribute="width" id="brm-kp-Zqv"/>
                             <constraint firstItem="z7F-IK-ttQ" firstAttribute="centerX" secondItem="YQ3-Gq-tR9" secondAttribute="centerX" id="cfj-ij-hoG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AgV-fi-0eX" secondAttribute="trailing" constant="8" id="xwi-fC-hSD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="muteImage" destination="AgV-fi-0eX" id="3gR-Vi-beA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8W-wy-eVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="25" y="55"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mute.png" width="50" height="50"/>
+    </resources>
 </document>

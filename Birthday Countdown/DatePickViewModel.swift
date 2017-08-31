@@ -12,14 +12,17 @@ struct DatePickViewModel {
     let calendar = Calendar.current
     let dateFormatter = DateFormatter()
     var datePickModel = DatePickModel()
-    var chosenDate : Date = NSDate() as Date
+    var chosenDate : Date!
+    let currentComponents : DateComponents!
     
     init() {
         dateFormatter.dateFormat = "YYYY-MM-dd"
+        currentComponents = calendar.dateComponents([.year, .month, .day], from: datePickModel.currentDate)
+        chosenDate = dateFormatter.date(from: "\(currentComponents.year!)-01-01" )!
     }
 
     private mutating func setDate() {
-        let currentComponents = calendar.dateComponents([.year, .month, .day], from: datePickModel.currentDate)
+        
         
         var year = currentComponents.year!
         if currentComponents.month! > datePickModel.month || (currentComponents.day! > datePickModel.day && currentComponents.month! == datePickModel.month) {

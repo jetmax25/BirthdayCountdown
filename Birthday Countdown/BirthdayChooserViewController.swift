@@ -15,7 +15,7 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
     @IBOutlet weak var monthChooser: UIPickerView!
     let monthData = [
         ["Month" : "January", "numDays" : 31],
-        ["Month" : "February", "numDays" : 29],
+        ["Month" : "February", "numDays" : 28],
         ["Month" : "March", "numDays" : 31],
         ["Month" : "April", "numDays" : 30],
         ["Month" : "May", "numDays" : 31],
@@ -39,7 +39,7 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         userDefaults.set(viewModel.chosenDate, forKey: "Date")
         
         var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
-        let diff = Calendar.current.dateComponents([.day], from: viewModel.chosenDate, to: Date())
+        let diff = Calendar.current.dateComponents([.day], from: Date(), to: viewModel.chosenDate)
         if diff.day == 0 {
             storyboard = UIStoryboard(name: "Birthday", bundle: nil)
         }
@@ -49,7 +49,7 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
-        if  pickerView.tag == 0 {
+        if pickerView.tag == 0 {
             return monthData.count
         } else {
             return monthData[monthChooser.selectedRow(inComponent: 0)]["numDays"] as! Int
