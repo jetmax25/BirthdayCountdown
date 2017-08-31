@@ -19,15 +19,16 @@ struct DatePickViewModel {
     }
 
     private mutating func setDate() {
-        var year = calendar.component(.year, from: datePickModel.currentDate)
-        let dateString = "\(year)-\(datePickModel.month)-\(datePickModel.day)"
-        var chosenDate = dateFormatter.date(from: dateString)
-        if chosenDate! < Date() {
+        let currentComponents = calendar.dateComponents([.year, .month, .day], from: datePickModel.currentDate)
+        
+        var year = currentComponents.year!
+        if currentComponents.month! > datePickModel.month || (currentComponents.day! > datePickModel.day && currentComponents.month! == datePickModel.month) {
             year = year + 1
-            let dateString = "\(year)-\(datePickModel.month)-\(datePickModel.day)"
-            chosenDate = dateFormatter.date(from: dateString)!
         }
-        self.chosenDate = chosenDate!
+        
+        let dateString = "\(year)-\(datePickModel.month)-\(datePickModel.day)"
+        self.chosenDate = dateFormatter.date(from: dateString)!
+        return
     }
     
     mutating func setDay(day : Int) {

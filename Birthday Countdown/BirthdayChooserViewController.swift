@@ -38,9 +38,13 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         let userDefaults = UserDefaults.standard
         userDefaults.set(viewModel.chosenDate, forKey: "Date")
         
-        let storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "BirthdayCountdown")
-        self.present(controller, animated: true, completion: nil)
+        var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
+        let diff = Calendar.current.dateComponents([.day], from: viewModel.chosenDate, to: Date())
+        if diff.day == 0 {
+            storyboard = UIStoryboard(name: "Birthday", bundle: nil)
+        }
+        let controller = storyboard.instantiateInitialViewController()
+        self.present(controller!, animated: true, completion: nil)
     }
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {

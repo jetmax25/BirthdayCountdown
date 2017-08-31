@@ -19,6 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
+        
+        let userDefaults = UserDefaults.standard
+        if let date = userDefaults.object(forKey: "Date") as? Date {
+            var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
+            let diff = Calendar.current.dateComponents([.day], from: date, to: Date())
+            
+            if diff.day == 0 {
+                let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date)
+                userDefaults.set(newDate, forKey: "Date")
+            } else {
+                storyboard = UIStoryboard(name: "Birthday", bundle: nil)
+            }
+            self.window?.rootViewController = storyboard.instantiateInitialViewController()
+        }
         return true
     }
 

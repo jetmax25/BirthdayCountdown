@@ -34,7 +34,6 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
         topOfButtonsConstraint.constant = bannerView.frame.height
         let userDefaults = UserDefaults.standard
         let date = userDefaults.object(forKey: "Date") as! Date
-        
         viewModel = BirthdayCountdownViewModel(chosenDate: date)
         changeTime(label: "Days", getTime: viewModel!.getDays, nextAction: 3600)
     }
@@ -67,11 +66,33 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
     
     private func changeTime(label : String, getTime : @escaping () -> Int, nextAction : Int)
     {
+        let daysLeft = viewModel?.getDays()
+        if daysLeft! <= 0 {
+            UpdateBirthday()
+        }
+        
+        if daysLeft == 0 {
+            ShowBirthday()
+        }
+        
         timeChangeTimer?.invalidate()
         timeDescriptionLabel.text = label
         timeCountLabel.text = "\(getTime())"
         timeChangeTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(nextAction), repeats: false, block: { _ in
             self.changeTime(label: label, getTime: getTime, nextAction: nextAction)
         })
+    }
+    
+    private func UpdateBirthday() {
+        let date = viewModel?.chosenDate
+        let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date!)
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(newDate, forKey: "Date")
+    }
+    
+    private func ShowBirthday() {
+        let storyboard = UIStoryboard(name: "Birthday", bundle: nil)
+        let controller = storyboard.instantiateInitialViewController()
+        self.present(controller!, animated: true, completion: nil)
     }
 }
