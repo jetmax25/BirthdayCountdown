@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="A0C-XQ-fje">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="A0C-XQ-fje">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,112 +25,103 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NS5-cA-ZP5">
                                 <rect key="frame" x="16" y="45" width="288" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCd-Ua-2Bn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCd-Ua-2Bn">
                                         <rect key="frame" x="0.0" y="0.0" width="72" height="50"/>
-                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="Days"/>
+                                        <state key="normal" image="days.png"/>
                                         <connections>
                                             <action selector="viewDays:" destination="A0C-XQ-fje" eventType="touchUpInside" id="fHe-Hk-Iad"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-gN-oMb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-gN-oMb">
                                         <rect key="frame" x="72" y="0.0" width="72" height="50"/>
-                                        <color key="backgroundColor" red="1" green="0.95456963299999997" blue="0.70212291090000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="Hours"/>
+                                        <state key="normal" image="hours.png"/>
                                         <connections>
                                             <action selector="viewHours:" destination="A0C-XQ-fje" eventType="touchUpInside" id="0BA-XJ-AHF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PML-8R-tMW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PML-8R-tMW">
                                         <rect key="frame" x="144" y="0.0" width="72" height="50"/>
-                                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="Minutes"/>
+                                        <state key="normal" image="minutes.png"/>
                                         <connections>
                                             <action selector="viewMinutes:" destination="A0C-XQ-fje" eventType="touchUpInside" id="HPZ-F9-uPg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TB-8C-bF5">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TB-8C-bF5">
                                         <rect key="frame" x="216" y="0.0" width="72" height="50"/>
-                                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                        <state key="normal" title="Seconds"/>
+                                        <state key="normal" image="seconds.png"/>
                                         <connections>
                                             <action selector="viewSeconds:" destination="A0C-XQ-fje" eventType="touchUpInside" id="8s2-8s-qCB"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="LUW-hi-j4a"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sJ9-Lj-1UK">
-                                <rect key="frame" x="16" y="103" width="288" height="103.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untilmybday.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIG-9Q-lw0">
+                                <rect key="frame" x="16" y="355" width="288" height="125"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" priority="750" constant="150" id="dHm-vb-rt3"/>
+                                    <constraint firstAttribute="height" constant="125" id="MmV-pc-2qK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="81"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Until My Birthday!!!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="r9K-j0-dUX">
-                                <rect key="frame" x="16" y="355.5" width="288" height="124.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="only.png" translatesAutoresizingMaskIntoConstraints="NO" id="ebG-EY-fkK">
+                                <rect key="frame" x="16" y="95" width="288" height="107"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="124.5" id="c4M-4Y-Zj4"/>
+                                    <constraint firstAttribute="height" constant="107" id="nr4-ND-Owc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y38-qP-YMA">
-                                <rect key="frame" x="16" y="284.5" width="288" height="62.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seconds.png" translatesAutoresizingMaskIntoConstraints="NO" id="R3G-0p-M9f">
+                                <rect key="frame" x="16" y="264.5" width="288" height="90.5"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1160" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-ex-A7V">
-                                <rect key="frame" x="16" y="214.5" width="288" height="62.5"/>
+                                <rect key="frame" x="16" y="202" width="288" height="62.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62.5" id="D6z-hv-9Kf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.19908787380000001" blue="0.1755763856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NS5-cA-ZP5" firstAttribute="top" secondItem="CNy-lX-HJg" secondAttribute="bottom" constant="25" id="00H-rH-fII" userLabel="topOfButtons"/>
-                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="leading" secondItem="sJ9-Lj-1UK" secondAttribute="leading" id="1sC-OD-UfH"/>
-                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="leading" secondItem="hjl-LH-Z4h" secondAttribute="leadingMargin" id="50o-JV-6cn"/>
-                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="top" secondItem="sJ9-Lj-1UK" secondAttribute="bottom" constant="8" id="5dC-lW-yv6"/>
-                            <constraint firstItem="y38-qP-YMA" firstAttribute="leading" secondItem="3Ey-ex-A7V" secondAttribute="leading" id="BFv-5G-nrc"/>
-                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="LEd-O0-6GZ"/>
-                            <constraint firstItem="sJ9-Lj-1UK" firstAttribute="top" secondItem="NS5-cA-ZP5" secondAttribute="bottom" constant="8" id="LZK-mK-UkA"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="r9K-j0-dUX" secondAttribute="bottom" id="NFs-hJ-ivu"/>
-                            <constraint firstItem="y38-qP-YMA" firstAttribute="width" secondItem="3Ey-ex-A7V" secondAttribute="width" id="OWT-Yi-ilv"/>
-                            <constraint firstItem="r9K-j0-dUX" firstAttribute="leading" secondItem="y38-qP-YMA" secondAttribute="leading" id="S1M-6c-2a1"/>
-                            <constraint firstItem="y38-qP-YMA" firstAttribute="top" secondItem="3Ey-ex-A7V" secondAttribute="bottom" constant="8" id="aiV-I9-SS4"/>
-                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="height" secondItem="y38-qP-YMA" secondAttribute="height" id="ddo-XN-6Qw"/>
-                            <constraint firstItem="r9K-j0-dUX" firstAttribute="top" secondItem="y38-qP-YMA" secondAttribute="bottom" constant="8" id="eNP-KO-K7j"/>
-                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="width" secondItem="sJ9-Lj-1UK" secondAttribute="width" id="exm-Ky-QFL"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KIG-9Q-lw0" secondAttribute="bottom" id="Ied-TN-DTg"/>
+                            <constraint firstItem="R3G-0p-M9f" firstAttribute="trailing" secondItem="ebG-EY-fkK" secondAttribute="trailing" id="JIR-Td-Z2J"/>
+                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="leading" secondItem="ebG-EY-fkK" secondAttribute="leading" id="L7F-ks-CeZ"/>
+                            <constraint firstItem="KIG-9Q-lw0" firstAttribute="leading" secondItem="R3G-0p-M9f" secondAttribute="leading" id="R8j-vC-Gol"/>
+                            <constraint firstItem="R3G-0p-M9f" firstAttribute="leading" secondItem="ebG-EY-fkK" secondAttribute="leading" id="c3q-7s-672"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="trailing" secondItem="9TB-8C-bF5" secondAttribute="trailing" id="ecZ-Jw-e2n"/>
+                            <constraint firstItem="R3G-0p-M9f" firstAttribute="top" secondItem="3Ey-ex-A7V" secondAttribute="bottom" id="enE-cR-Uhj"/>
                             <constraint firstItem="NS5-cA-ZP5" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="hZL-w1-nu8"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="top" secondItem="PML-8R-tMW" secondAttribute="bottom" id="lNf-25-g48"/>
+                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="top" secondItem="ebG-EY-fkK" secondAttribute="bottom" id="mey-wS-fSy"/>
+                            <constraint firstItem="KIG-9Q-lw0" firstAttribute="trailing" secondItem="R3G-0p-M9f" secondAttribute="trailing" id="obd-1w-HAz"/>
                             <constraint firstItem="NS5-cA-ZP5" firstAttribute="leading" secondItem="hjl-LH-Z4h" secondAttribute="leadingMargin" id="pcb-sA-9q5"/>
-                            <constraint firstItem="r9K-j0-dUX" firstAttribute="width" secondItem="y38-qP-YMA" secondAttribute="width" id="rLS-LG-rHx"/>
-                            <constraint firstItem="y38-qP-YMA" firstAttribute="centerX" secondItem="3Ey-ex-A7V" secondAttribute="centerX" id="v5a-mX-dki"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="leading" secondItem="kCd-Ua-2Bn" secondAttribute="leading" id="qZU-aT-d1K"/>
+                            <constraint firstItem="3Ey-ex-A7V" firstAttribute="trailing" secondItem="ebG-EY-fkK" secondAttribute="trailing" id="ww5-Fz-JHn"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="x4G-sO-3v3"/>
+                            <constraint firstItem="KIG-9Q-lw0" firstAttribute="top" secondItem="R3G-0p-M9f" secondAttribute="bottom" id="xtO-Gl-bWr"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="timeCountLabel" destination="3Ey-ex-A7V" id="7MP-xm-ljq"/>
-                        <outlet property="timeDescriptionLabel" destination="y38-qP-YMA" id="gC8-Tj-YzZ"/>
+                        <outlet property="timeDescriptionImage" destination="R3G-0p-M9f" id="SW4-R6-nZ7"/>
                         <outlet property="topOfButtonsConstraint" destination="00H-rH-fII" id="jDY-Wc-GzK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m0X-gk-70Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.8" y="35.532233883058474"/>
+            <point key="canvasLocation" x="103.125" y="35"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Untilmybday.png" width="500" height="275"/>
+        <image name="days.png" width="500" height="250"/>
+        <image name="hours.png" width="500" height="250"/>
+        <image name="minutes.png" width="500" height="250"/>
+        <image name="only.png" width="500" height="250"/>
+        <image name="seconds.png" width="500" height="250"/>
+    </resources>
 </document>

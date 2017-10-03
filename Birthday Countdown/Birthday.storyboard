@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LH9-oR-IkB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LH9-oR-IkB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,11 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z7F-IK-ttQ">
-                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gft-Fp-MVJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItsMyBirthday.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z7F-IK-ttQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mute.png" translatesAutoresizingMaskIntoConstraints="NO" id="AgV-fi-0eX">
                                 <rect key="frame" x="321" y="629" width="30" height="30"/>
@@ -37,19 +33,46 @@
                                     <constraint firstAttribute="width" secondItem="AgV-fi-0eX" secondAttribute="height" id="dMh-sp-SwW"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PartyHat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qat-38-A0c">
+                                <rect key="frame" x="16" y="40" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PartyHats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zqc-f5-oiY">
+                                <rect key="frame" x="109" y="40" width="156" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Present.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-n8-9Hg">
+                                <rect key="frame" x="225" y="28" width="159" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n00-dh-AvK">
+                                <rect key="frame" x="0.0" y="592" width="300" height="75"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-K1-yf9">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="75"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L5W-AB-hdT">
+                                        <rect key="frame" x="100" y="0.0" width="100" height="75"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q04-wO-xn1">
+                                        <rect key="frame" x="200" y="0.0" width="100" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="RlH-cf-Cgw"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="B8U-xD-hGM" firstAttribute="top" secondItem="AgV-fi-0eX" secondAttribute="bottom" constant="8" id="0Lt-Ol-Was"/>
+                            <constraint firstAttribute="trailing" secondItem="n00-dh-AvK" secondAttribute="trailing" constant="75" id="6gu-ZC-67B"/>
+                            <constraint firstAttribute="bottom" secondItem="n00-dh-AvK" secondAttribute="bottom" id="9Li-Gk-OR3"/>
                             <constraint firstItem="B8U-xD-hGM" firstAttribute="top" secondItem="z7F-IK-ttQ" secondAttribute="bottom" id="BIV-ch-gVv"/>
-                            <constraint firstItem="Gft-Fp-MVJ" firstAttribute="top" secondItem="YQ3-Gq-tR9" secondAttribute="top" id="Ifq-c3-rue"/>
-                            <constraint firstItem="z7F-IK-ttQ" firstAttribute="top" secondItem="Gft-Fp-MVJ" secondAttribute="bottom" id="JD9-Kc-TLj"/>
-                            <constraint firstItem="z7F-IK-ttQ" firstAttribute="leading" secondItem="Gft-Fp-MVJ" secondAttribute="leading" id="JZK-uh-F34"/>
-                            <constraint firstItem="Gft-Fp-MVJ" firstAttribute="leading" secondItem="YQ3-Gq-tR9" secondAttribute="leading" id="OiF-ED-IZN"/>
-                            <constraint firstItem="Gft-Fp-MVJ" firstAttribute="height" secondItem="YQ3-Gq-tR9" secondAttribute="height" multiplier="1:4" id="Ov9-Nf-7uB"/>
-                            <constraint firstItem="Gft-Fp-MVJ" firstAttribute="centerX" secondItem="YQ3-Gq-tR9" secondAttribute="centerX" id="VJe-Gl-3vC"/>
-                            <constraint firstItem="z7F-IK-ttQ" firstAttribute="width" secondItem="Gft-Fp-MVJ" secondAttribute="width" id="brm-kp-Zqv"/>
+                            <constraint firstItem="z7F-IK-ttQ" firstAttribute="top" secondItem="VQ1-c1-W6k" secondAttribute="bottom" id="YxG-oW-G3s"/>
                             <constraint firstItem="z7F-IK-ttQ" firstAttribute="centerX" secondItem="YQ3-Gq-tR9" secondAttribute="centerX" id="cfj-ij-hoG"/>
+                            <constraint firstItem="n00-dh-AvK" firstAttribute="leading" secondItem="YQ3-Gq-tR9" secondAttribute="leading" id="gkD-Xz-0Xp"/>
+                            <constraint firstItem="z7F-IK-ttQ" firstAttribute="leading" secondItem="YQ3-Gq-tR9" secondAttribute="leading" id="lgp-uf-Kg1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AgV-fi-0eX" secondAttribute="trailing" constant="8" id="xwi-fC-hSD"/>
                         </constraints>
                     </view>
@@ -59,10 +82,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8W-wy-eVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25" y="55"/>
+            <point key="canvasLocation" x="24.800000000000001" y="54.422788605697157"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ItsMyBirthday.jpg" width="500" height="500"/>
         <image name="Mute.png" width="50" height="50"/>
+        <image name="PartyHat.jpg" width="500" height="250"/>
+        <image name="PartyHats.jpg" width="500" height="250"/>
+        <image name="Present.jpg" width="500" height="250"/>
+        <image name="Presents.jpg" width="500" height="250"/>
     </resources>
 </document>

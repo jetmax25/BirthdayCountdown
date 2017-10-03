@@ -8,23 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0B29A0F0937C3BD68564827E /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
+		2706FE731F8327C8002AD9B1 /* seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE721F8325E4002AD9B1 /* seconds.png */; };
+		2706FE741F8327CA002AD9B1 /* Whenisthebigday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */; };
+		2706FE751F8327CC002AD9B1 /* Untilmybday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */; };
+		2706FE761F8327CF002AD9B1 /* days.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6F1F8324D9002AD9B1 /* days.png */; };
+		2706FE771F8327D7002AD9B1 /* hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6E1F8324D9002AD9B1 /* hours.png */; };
+		2706FE781F8327D7002AD9B1 /* minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE701F8324D9002AD9B1 /* minutes.png */; };
+		2706FE791F8327D7002AD9B1 /* only.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE711F8324DA002AD9B1 /* only.png */; };
+		2706FE7A1F8327D7002AD9B1 /* Thisismybirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */; };
+		2706FE7C1F832ABB002AD9B1 /* BallonBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */; };
+		2706FE7D1F832ABB002AD9B1 /* BallonBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */; };
+		27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
+		27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
+		27AC201D1F802A2800D94BE2 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
+		27AC201E1F802A2800D94BE2 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
+		27AC201F1F802A2800D94BE2 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
+		27AC20201F802A2800D94BE2 /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
+		27AC20211F802A2800D94BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
+		27AC20231F802A2800D94BE2 /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
+		27AC20251F802A2800D94BE2 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
+		27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
+		27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
+		27AC20281F802A2800D94BE2 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
+		27AC20291F802A2800D94BE2 /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
+		27AC202A1F802A2800D94BE2 /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
+		27AC202B1F802A2800D94BE2 /* BirthdayCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */; };
+		27AC202C1F802A2800D94BE2 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
+		27AC202D1F802A2800D94BE2 /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27E924941F57A48900739DE7 /* BirthdaySong.mp3 */; };
+		27AC20361F802C7F00D94BE2 /* ItsMyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */; };
+		27AC20391F802C7F00D94BE2 /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20111F8029AB00D94BE2 /* PartyHat.jpg */; };
+		27AC203A1F802C7F00D94BE2 /* PartyHats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20151F8029AB00D94BE2 /* PartyHats.jpg */; };
+		27AC203B1F802C7F00D94BE2 /* Present.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC200C1F8029AB00D94BE2 /* Present.jpg */; };
+		27AC203C1F802C7F00D94BE2 /* Presents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20101F8029AB00D94BE2 /* Presents.jpg */; };
+		27AC20411F802C7F00D94BE2 /* Yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC200B1F8029AB00D94BE2 /* Yes.jpg */; };
+		27AC20491F80303600D94BE2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
+		27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
+		27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
+		27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
 		27E924931F579C2800739DE7 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
 		27E924951F57A48900739DE7 /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27E924941F57A48900739DE7 /* BirthdaySong.mp3 */; };
 		27E924971F57A5D800739DE7 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
 		27E924991F57A5F800739DE7 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
-		27E924A11F57AE7100739DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E924A01F57AE7100739DE7 /* AppDelegate.swift */; };
-		27E924A31F57AE7100739DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E924A21F57AE7100739DE7 /* ViewController.swift */; };
-		27E924A61F57AE7100739DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E924A41F57AE7100739DE7 /* Main.storyboard */; };
-		27E924A81F57AE7100739DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E924A71F57AE7100739DE7 /* Assets.xcassets */; };
-		27E924AB1F57AE7100739DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E924A91F57AE7100739DE7 /* LaunchScreen.storyboard */; };
-		27E924CC1F57AF3C00739DE7 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
-		27E924CD1F57AF3F00739DE7 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
-		27E924CE1F57AF4400739DE7 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
-		27E924CF1F57AF4F00739DE7 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
-		27E924D31F57AF5B00739DE7 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
-		27E924D41F57AF5B00739DE7 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27E924D51F57AF6200739DE7 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
-		27E924D61F57AF6D00739DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		9525E0111F35447D008E6815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		9525E0161F35447D008E6815 /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
 		9525E0181F35447D008E6815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
@@ -40,17 +65,35 @@
 
 /* Begin PBXFileReference section */
 		22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Birthday Countdown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2706FE671F8324B3002AD9B1 /* 2x1-present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2x1-present.png"; sourceTree = "<group>"; };
+		2706FE681F8324B3002AD9B1 /* 2x1-hats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2x1-hats.png"; sourceTree = "<group>"; };
+		2706FE691F8324B3002AD9B1 /* 2x1-horn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2x1-horn.png"; sourceTree = "<group>"; };
+		2706FE6A1F8324B3002AD9B1 /* 2x1--presents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2x1--presents.png"; sourceTree = "<group>"; };
+		2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untilmybday.png; sourceTree = "<group>"; };
+		2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whenisthebigday.png; sourceTree = "<group>"; };
+		2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thisismybirthday.png; sourceTree = "<group>"; };
+		2706FE6E1F8324D9002AD9B1 /* hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hours.png; sourceTree = "<group>"; };
+		2706FE6F1F8324D9002AD9B1 /* days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = days.png; sourceTree = "<group>"; };
+		2706FE701F8324D9002AD9B1 /* minutes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minutes.png; sourceTree = "<group>"; };
+		2706FE711F8324DA002AD9B1 /* only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = only.png; sourceTree = "<group>"; };
+		2706FE721F8325E4002AD9B1 /* seconds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seconds.png; sourceTree = "<group>"; };
+		2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BallonBackground.jpg; sourceTree = "<group>"; };
+		27AC20091F8028C900D94BE2 /* PartyHat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PartyHat.jpg; sourceTree = "<group>"; };
+		27AC200B1F8029AB00D94BE2 /* Yes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yes.jpg; sourceTree = "<group>"; };
+		27AC200C1F8029AB00D94BE2 /* Present.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Present.jpg; sourceTree = "<group>"; };
+		27AC20101F8029AB00D94BE2 /* Presents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Presents.jpg; sourceTree = "<group>"; };
+		27AC20111F8029AB00D94BE2 /* PartyHat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PartyHat.jpg; sourceTree = "<group>"; };
+		27AC20151F8029AB00D94BE2 /* PartyHats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PartyHats.jpg; sourceTree = "<group>"; };
+		27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItsMyBirthday.jpg; sourceTree = "<group>"; };
+		27AC20331F802A2800D94BE2 /* Spanish Birthday Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spanish Birthday Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AC20341F802A2900D94BE2 /* Birthday Countdown copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Birthday Countdown copy-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Birthday Countdown copy-Info.plist"; sourceTree = "<absolute>"; };
+		27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BirthdayBackground.jpg; sourceTree = "<group>"; };
+		27AC20481F80303600D94BE2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIncrements.swift; sourceTree = "<group>"; };
 		27E924921F579C2800739DE7 /* ClockTick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ClockTick.wav; sourceTree = "<group>"; };
 		27E924941F57A48900739DE7 /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
 		27E924961F57A5D800739DE7 /* Mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mute.png; sourceTree = "<group>"; };
 		27E924981F57A5F800739DE7 /* UnMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnMute.png; sourceTree = "<group>"; };
-		27E9249E1F57AE7100739DE7 /* Christmas Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27E924A01F57AE7100739DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27E924A21F57AE7100739DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27E924A51F57AE7100739DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27E924A71F57AE7100739DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27E924AA1F57AE7100739DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27E924AC1F57AE7100739DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.debug.xcconfig"; sourceTree = "<group>"; };
 		9525E00D1F35447D008E6815 /* Birthday Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525E0101F35447D008E6815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,10 +113,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27E9249B1F57AE7100739DE7 /* Frameworks */ = {
+		27AC20221F802A2800D94BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC20231F802A2800D94BE2 /* libPods-Birthday Countdown.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,28 +132,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27AC20051F8027D900D94BE2 /* English Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */,
+				2706FE721F8325E4002AD9B1 /* seconds.png */,
+				2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */,
+				2706FE6F1F8324D9002AD9B1 /* days.png */,
+				2706FE6E1F8324D9002AD9B1 /* hours.png */,
+				2706FE701F8324D9002AD9B1 /* minutes.png */,
+				2706FE711F8324DA002AD9B1 /* only.png */,
+				2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */,
+				27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */,
+				27AC20111F8029AB00D94BE2 /* PartyHat.jpg */,
+				27AC20151F8029AB00D94BE2 /* PartyHats.jpg */,
+				27AC200C1F8029AB00D94BE2 /* Present.jpg */,
+				27AC20101F8029AB00D94BE2 /* Presents.jpg */,
+				27AC200B1F8029AB00D94BE2 /* Yes.jpg */,
+			);
+			path = "English Assets";
+			sourceTree = "<group>";
+		};
+		27AC20061F8027EB00D94BE2 /* Spanish Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Spanish Assets";
+			sourceTree = "<group>";
+		};
+		27AC20081F80284400D94BE2 /* General Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2706FE6A1F8324B3002AD9B1 /* 2x1--presents.png */,
+				27E924961F57A5D800739DE7 /* Mute.png */,
+				27E924921F579C2800739DE7 /* ClockTick.wav */,
+				2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */,
+				27E924981F57A5F800739DE7 /* UnMute.png */,
+				27E924941F57A48900739DE7 /* BirthdaySong.mp3 */,
+				2706FE681F8324B3002AD9B1 /* 2x1-hats.png */,
+				2706FE691F8324B3002AD9B1 /* 2x1-horn.png */,
+				2706FE671F8324B3002AD9B1 /* 2x1-present.png */,
+				27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */,
+				27AC20091F8028C900D94BE2 /* PartyHat.jpg */,
+			);
+			path = "General Assets";
+			sourceTree = "<group>";
+		};
 		27E924911F579BCA00739DE7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				27E924961F57A5D800739DE7 /* Mute.png */,
-				27E924921F579C2800739DE7 /* ClockTick.wav */,
-				27E924981F57A5F800739DE7 /* UnMute.png */,
-				27E924941F57A48900739DE7 /* BirthdaySong.mp3 */,
+				27AC20081F80284400D94BE2 /* General Assets */,
+				27AC20061F8027EB00D94BE2 /* Spanish Assets */,
+				27AC20051F8027D900D94BE2 /* English Assets */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		27E9249F1F57AE7100739DE7 /* Christmas Countdown */ = {
-			isa = PBXGroup;
-			children = (
-				27E924A01F57AE7100739DE7 /* AppDelegate.swift */,
-				27E924A21F57AE7100739DE7 /* ViewController.swift */,
-				27E924A41F57AE7100739DE7 /* Main.storyboard */,
-				27E924A71F57AE7100739DE7 /* Assets.xcassets */,
-				27E924A91F57AE7100739DE7 /* LaunchScreen.storyboard */,
-				27E924AC1F57AE7100739DE7 /* Info.plist */,
-			);
-			path = "Christmas Countdown";
 			sourceTree = "<group>";
 		};
 		514F5FB08DA5D280DDA9FA20 /* Pods */ = {
@@ -126,10 +202,10 @@
 			children = (
 				27E924911F579BCA00739DE7 /* Assets */,
 				9525E00F1F35447D008E6815 /* Birthday Countdown */,
-				27E9249F1F57AE7100739DE7 /* Christmas Countdown */,
 				9525E00E1F35447D008E6815 /* Products */,
 				514F5FB08DA5D280DDA9FA20 /* Pods */,
 				D2C818F37701DBDEB2F6AC30 /* Frameworks */,
+				27AC20341F802A2900D94BE2 /* Birthday Countdown copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				9525E00D1F35447D008E6815 /* Birthday Countdown.app */,
-				27E9249E1F57AE7100739DE7 /* Christmas Countdown.app */,
+				27AC20331F802A2800D94BE2 /* Spanish Birthday Countdown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +228,7 @@
 				9525E0171F35447D008E6815 /* Assets.xcassets */,
 				9525E0191F35447D008E6815 /* LaunchScreen.storyboard */,
 				9525E01C1F35447D008E6815 /* Info.plist */,
+				27AC20481F80303600D94BE2 /* ViewExtensions.swift */,
 			);
 			path = "Birthday Countdown";
 			sourceTree = "<group>";
@@ -162,6 +239,7 @@
 				9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */,
 				9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */,
 				95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */,
+				27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */,
 			);
 			name = "Birthday Countdown";
 			sourceTree = "<group>";
@@ -197,21 +275,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27E9249D1F57AE7100739DE7 /* Christmas Countdown */ = {
+		27AC20181F802A2800D94BE2 /* Spanish Birthday Countdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27E924C31F57AE7200739DE7 /* Build configuration list for PBXNativeTarget "Christmas Countdown" */;
+			buildConfigurationList = 27AC20301F802A2800D94BE2 /* Build configuration list for PBXNativeTarget "Spanish Birthday Countdown" */;
 			buildPhases = (
-				27E9249A1F57AE7100739DE7 /* Sources */,
-				27E9249B1F57AE7100739DE7 /* Frameworks */,
-				27E9249C1F57AE7100739DE7 /* Resources */,
+				27AC20191F802A2800D94BE2 /* [CP] Check Pods Manifest.lock */,
+				27AC201A1F802A2800D94BE2 /* Sources */,
+				27AC20221F802A2800D94BE2 /* Frameworks */,
+				27AC20241F802A2800D94BE2 /* Resources */,
+				27AC202E1F802A2800D94BE2 /* [CP] Embed Pods Frameworks */,
+				27AC202F1F802A2800D94BE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Christmas Countdown";
-			productName = "Christmas Countdown";
-			productReference = 27E9249E1F57AE7100739DE7 /* Christmas Countdown.app */;
+			name = "Spanish Birthday Countdown";
+			productName = "Birthday Countdown";
+			productReference = 27AC20331F802A2800D94BE2 /* Spanish Birthday Countdown.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9525E00C1F35447D008E6815 /* Birthday Countdown */ = {
@@ -244,12 +325,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Jetmax;
 				TargetAttributes = {
-					27E9249D1F57AE7100739DE7 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
 					9525E00C1F35447D008E6815 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 363P6K3ZSX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -268,22 +346,27 @@
 			projectRoot = "";
 			targets = (
 				9525E00C1F35447D008E6815 /* Birthday Countdown */,
-				27E9249D1F57AE7100739DE7 /* Christmas Countdown */,
+				27AC20181F802A2800D94BE2 /* Spanish Birthday Countdown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27E9249C1F57AE7100739DE7 /* Resources */ = {
+		27AC20241F802A2800D94BE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E924CE1F57AF4400739DE7 /* Mute.png in Resources */,
-				27E924CC1F57AF3C00739DE7 /* ClockTick.wav in Resources */,
-				27E924AB1F57AE7100739DE7 /* LaunchScreen.storyboard in Resources */,
-				27E924CD1F57AF3F00739DE7 /* UnMute.png in Resources */,
-				27E924A81F57AE7100739DE7 /* Assets.xcassets in Resources */,
-				27E924A61F57AE7100739DE7 /* Main.storyboard in Resources */,
+				27AC20251F802A2800D94BE2 /* UnMute.png in Resources */,
+				27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */,
+				27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */,
+				27AC20281F802A2800D94BE2 /* ClockTick.wav in Resources */,
+				27AC20291F802A2800D94BE2 /* datepick.storyboard in Resources */,
+				27AC202A1F802A2800D94BE2 /* Birthday.storyboard in Resources */,
+				27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */,
+				27AC202B1F802A2800D94BE2 /* BirthdayCountdown.storyboard in Resources */,
+				27AC202C1F802A2800D94BE2 /* Mute.png in Resources */,
+				27AC202D1F802A2800D94BE2 /* BirthdaySong.mp3 in Resources */,
+				2706FE7D1F832ABB002AD9B1 /* BallonBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +374,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC20391F802C7F00D94BE2 /* PartyHat.jpg in Resources */,
+				27AC20361F802C7F00D94BE2 /* ItsMyBirthday.jpg in Resources */,
 				27E924991F57A5F800739DE7 /* UnMute.png in Resources */,
+				27AC203C1F802C7F00D94BE2 /* Presents.jpg in Resources */,
 				9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */,
+				2706FE781F8327D7002AD9B1 /* minutes.png in Resources */,
 				9525E0181F35447D008E6815 /* Assets.xcassets in Resources */,
 				27E924931F579C2800739DE7 /* ClockTick.wav in Resources */,
+				2706FE7A1F8327D7002AD9B1 /* Thisismybirthday.png in Resources */,
+				2706FE771F8327D7002AD9B1 /* hours.png in Resources */,
+				2706FE731F8327C8002AD9B1 /* seconds.png in Resources */,
 				9525E0161F35447D008E6815 /* datepick.storyboard in Resources */,
+				2706FE741F8327CA002AD9B1 /* Whenisthebigday.png in Resources */,
+				2706FE7C1F832ABB002AD9B1 /* BallonBackground.jpg in Resources */,
+				27AC203A1F802C7F00D94BE2 /* PartyHats.jpg in Resources */,
 				9525E02C1F3551E8008E6815 /* Birthday.storyboard in Resources */,
+				2706FE791F8327D7002AD9B1 /* only.png in Resources */,
+				27AC203B1F802C7F00D94BE2 /* Present.jpg in Resources */,
 				9525E0271F3548C2008E6815 /* BirthdayCountdown.storyboard in Resources */,
 				27E924971F57A5D800739DE7 /* Mute.png in Resources */,
+				2706FE751F8327CC002AD9B1 /* Untilmybday.png in Resources */,
+				2706FE761F8327CF002AD9B1 /* days.png in Resources */,
+				27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */,
+				27AC20411F802C7F00D94BE2 /* Yes.jpg in Resources */,
 				27E924951F57A48900739DE7 /* BirthdaySong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +438,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27AC20191F802A2800D94BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthday Countdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AC202E1F802A2800D94BE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AC202F1F802A2800D94BE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AD4E5EDF47F8D7CAF42037AC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,16 +504,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27E9249A1F57AE7100739DE7 /* Sources */ = {
+		27AC201A1F802A2800D94BE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E924D61F57AF6D00739DE7 /* AppDelegate.swift in Sources */,
-				27E924A31F57AE7100739DE7 /* ViewController.swift in Sources */,
-				27E924A11F57AE7100739DE7 /* AppDelegate.swift in Sources */,
-				27E924CF1F57AF4F00739DE7 /* BirthdayViewController.swift in Sources */,
-				27E924D41F57AF5B00739DE7 /* BirthdayCountdownViewModel.swift in Sources */,
-				27E924D31F57AF5B00739DE7 /* birthdayCountdownViewController.swift in Sources */,
+				27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */,
+				27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */,
+				27AC201D1F802A2800D94BE2 /* BirthdayViewController.swift in Sources */,
+				27AC201E1F802A2800D94BE2 /* datePickModel.swift in Sources */,
+				27AC201F1F802A2800D94BE2 /* BirthdayChooserViewController.swift in Sources */,
+				27AC20201F802A2800D94BE2 /* DatePickViewModel.swift in Sources */,
+				27AC20211F802A2800D94BE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +524,8 @@
 			files = (
 				9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */,
 				95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */,
+				27AC20491F80303600D94BE2 /* ViewExtensions.swift in Sources */,
+				27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */,
 				9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */,
 				95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */,
 				27E924D51F57AF6200739DE7 /* BirthdayChooserViewController.swift in Sources */,
@@ -387,22 +537,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27E924A41F57AE7100739DE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27E924A51F57AE7100739DE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		27E924A91F57AE7100739DE7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27E924AA1F57AE7100739DE7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		9525E0141F35447D008E6815 /* datepick.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,27 +556,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		27E924C41F57AE7200739DE7 /* Debug */ = {
+		27AC20311F802A2800D94BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Christmas Countdown/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Birthday Countdown copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-DCHRISTMAS";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Christmas-Countdown";
+				OTHER_SWIFT_FLAGS = "-DBIRTHDAY";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		27E924C51F57AE7200739DE7 /* Release */ = {
+		27AC20321F802A2800D94BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Christmas Countdown/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Birthday Countdown copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-DCHRISTMAS";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Christmas-Countdown";
+				OTHER_SWIFT_FLAGS = "-DBIRTHDAY";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -548,13 +688,17 @@
 			baseConfigurationReference = 627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Birthday Countdown/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DBIRTHDAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -564,13 +708,17 @@
 			baseConfigurationReference = CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Birthday Countdown/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DBIRTHDAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -578,11 +726,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27E924C31F57AE7200739DE7 /* Build configuration list for PBXNativeTarget "Christmas Countdown" */ = {
+		27AC20301F802A2800D94BE2 /* Build configuration list for PBXNativeTarget "Spanish Birthday Countdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27E924C41F57AE7200739DE7 /* Debug */,
-				27E924C51F57AE7200739DE7 /* Release */,
+				27AC20311F802A2800D94BE2 /* Debug */,
+				27AC20321F802A2800D94BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

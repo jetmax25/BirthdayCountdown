@@ -19,10 +19,10 @@ struct DatePickViewModel {
         dateFormatter.dateFormat = "YYYY-MM-dd"
         currentComponents = calendar.dateComponents([.year, .month, .day], from: datePickModel.currentDate)
         chosenDate = dateFormatter.date(from: "\(currentComponents.year!)-01-01" )!
+        setDate()
     }
 
     private mutating func setDate() {
-        
         
         var year = currentComponents.year!
         if currentComponents.month! > datePickModel.month || (currentComponents.day! > datePickModel.day && currentComponents.month! == datePickModel.month) {

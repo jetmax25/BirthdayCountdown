@@ -24,12 +24,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let userDefaults = UserDefaults.standard
         if let date = userDefaults.object(forKey: "Date") as? Date {
             var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
-            let diff = Calendar.current.dateComponents([.day], from: date, to: Date())
+            let diff = Calendar.current.dateComponents([.day], from: Date(), to: date )
+
+            if diff.day! < 0 {
+                let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date)
+                userDefaults.set(newDate, forKey: "Date")
+            }
             
             if diff.day == 0 {
                 storyboard = UIStoryboard(name: "Birthday", bundle: nil)
-                let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date)
-                userDefaults.set(newDate, forKey: "Date")
             }
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
         }

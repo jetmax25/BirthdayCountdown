@@ -14,7 +14,9 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
 
     @IBOutlet weak var topOfButtonsConstraint: NSLayoutConstraint!
     @IBOutlet weak var timeCountLabel: UILabel!
-    @IBOutlet weak var timeDescriptionLabel: UILabel!
+    @IBOutlet weak var timeDescriptionImage: UIImageView!
+    
+    
     var bannerView: GADBannerView!
     var viewModel : BirthdayCountdownViewModel?
     var timeChangeTimer : Timer?
@@ -22,7 +24,6 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         bannerView = GADBannerView(adSize: kGADAdSizeFullBanner)
-        self.view.addSubview(bannerView)
         bannerView.adUnitID = "ca-app-pub-5594325776314197/4976965253"
         bannerView.rootViewController = self
         bannerView.delegate = self
@@ -30,12 +31,15 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
         request.tag(forChildDirectedTreatment: true)
         request.testDevices = [kGADSimulatorID]
         bannerView.load(request)
+        self.view.addSubview(bannerView)
         
         topOfButtonsConstraint.constant = bannerView.frame.height
         let userDefaults = UserDefaults.standard
         let date = userDefaults.object(forKey: "Date") as! Date
         viewModel = BirthdayCountdownViewModel(chosenDate: date)
-        changeTime(label: "Days", getTime: viewModel!.getDays, nextAction: 3600)
+        changeTime(timeIncrement: .days, getTime: viewModel!.getDays, nextAction: 3600)
+        
+        self.view.setUpBlurryBackgroundImage(imageName: "BallonBackground.jpg")
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,42 +56,35 @@ class birthdayCountdownViewController: UIViewController, GADBannerViewDelegate {
     }
     
     @IBAction func viewDays(_ sender: Any) {
-        changeTime(label: "Days", getTime: viewModel!.getDays, nextAction: 3600)
+        changeTime(timeIncrement: .days, getTime: viewModel!.getDays, nextAction: 3600)
     }
     @IBAction func viewHours(_ sender: Any) {
-        changeTime(label: "Hours", getTime: viewModel!.getHours, nextAction: 60)
+        changeTime(timeIncrement: .hours, getTime: viewModel!.getHours, nextAction: 60)
     }
     @IBAction func viewMinutes(_ sender: Any) {
-        changeTime(label: "Minutes", getTime: viewModel!.getMinutes, nextAction: 60)
+        changeTime(timeIncrement: .minutes, getTime: viewModel!.getMinutes, nextAction: 60)
     }
     @IBAction func viewSeconds(_ sender: Any) {
-        changeTime(label: "Seconds", getTime: viewModel!.getSeconds, nextAction: 1)
+        changeTime(timeIncrement: .seconds, getTime: viewModel!.getSeconds, nextAction: 1)
     }
     
-    private func changeTime(label : String, getTime : @escaping () -> Int, nextAction : Int)
+    private func changeTime(timeIncrement : TimeIncrement, getTime : @escaping () -> Int, nextAction : Int)
     {
-        let daysLeft = viewModel?.getDays()
-        if daysLeft! <= 0 {
-            UpdateBirthday()
-        }
-        
+        let daysLeft = viewModel?.getDays()        
         if daysLeft == 0 {
             ShowBirthday()
         }
         
         timeChangeTimer?.invalidate()
-        timeDescriptionLabel.text = label
+        
+        let imageName = timeIncrement.rawValue + ".png"
+        let image = UIImage(named: imageName)
+        self.timeDescriptionImage.image = image
+        
         timeCountLabel.text = "\(getTime())"
         timeChangeTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(nextAction), repeats: false, block: { _ in
-            self.changeTime(label: label, getTime: getTime, nextAction: nextAction)
+            self.changeTime(timeIncrement: timeIncrement, getTime: getTime, nextAction: nextAction)
         })
-    }
-    
-    private func UpdateBirthday() {
-        let date = viewModel?.chosenDate
-        let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date!)
-        let userDefaults = UserDefaults.standard
-        userDefaults.set(newDate, forKey: "Date")
     }
     
     private func ShowBirthday() {

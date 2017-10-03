@@ -32,6 +32,8 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
     @IBOutlet weak var birthdayPicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.setUpBlurryBackgroundImage(imageName: "BirthdayBackground.jpg")
     }
     
     @IBAction func chooseBirthday(_ sender: Any) {
@@ -60,11 +62,24 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         return 1
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        if pickerView.tag == 0 {
-            return monthData[row]["Month"] as! String
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        var pickerLabel = view as? UILabel;
+        
+        if (pickerLabel == nil)
+        {
+            pickerLabel = UILabel()
+            
+            pickerLabel?.font = UIFont.boldSystemFont(ofSize: 28)
+            pickerLabel?.textAlignment = NSTextAlignment.center
         }
-        return "\(row + 1)"
+        
+        if pickerView.tag == 0 {
+            pickerLabel?.text =  monthData[row]["Month"] as? String
+        } else {
+            pickerLabel?.text = "\(row + 1)"
+        }
+        
+        return pickerLabel!
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
