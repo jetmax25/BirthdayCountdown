@@ -13,6 +13,8 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
 
     @IBOutlet weak var dayChooser: UIPickerView!
     @IBOutlet weak var monthChooser: UIPickerView!
+    
+    #if BIRTHDAY
     let monthData = [
         ["Month" : "January", "numDays" : 31],
         ["Month" : "February", "numDays" : 28],
@@ -27,6 +29,22 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         ["Month" : "November", "numDays" : 30],
         ["Month" : "December", "numDays" : 30]
     ]
+    #elseif SpanishBirthday
+    let monthData = [
+        ["Month" : "enero", "numDays" : 31],
+        ["Month" : "febrero", "numDays" : 28],
+        ["Month" : "marzo", "numDays" : 31],
+        ["Month" : "abril", "numDays" : 30],
+        ["Month" : "mayo", "numDays" : 31],
+        ["Month" : "junio", "numDays" : 30],
+        ["Month" : "julio", "numDays" : 31],
+        ["Month" : "agosto", "numDays" : 31],
+        ["Month" : "septiembre", "numDays" : 30],
+        ["Month" : "octubre", "numDays" : 31],
+        ["Month" : "noviembre", "numDays" : 30],
+        ["Month" : "diciembre", "numDays" : 30]
+    ]
+    #endif
     var viewModel = DatePickViewModel()
     
     @IBOutlet weak var birthdayPicker: UIDatePicker!
@@ -69,7 +87,8 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         {
             pickerLabel = UILabel()
             
-            pickerLabel?.font = UIFont.boldSystemFont(ofSize: 28)
+            pickerLabel?.font = UIFont.boldSystemFont(ofSize: 36)
+            pickerLabel?.textColor = .red
             pickerLabel?.textAlignment = NSTextAlignment.center
         }
         
@@ -83,8 +102,10 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
         if pickerView.tag == 0 {
             dayChooser.reloadComponent(0)
+            viewModel.setDay(day: dayChooser.selectedRow(inComponent: 0) + 1)
             viewModel.setMonth(month: row + 1)
         } else {
             viewModel.setDay(day: row + 1)

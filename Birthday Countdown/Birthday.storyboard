@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -14,7 +13,7 @@
         <!--Birthday View Controller-->
         <scene sceneID="kMZ-2f-iYg">
             <objects>
-                <viewController id="LH9-oR-IkB" customClass="BirthdayViewController" customModule="Birthday_Countdown" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LH9-oR-IkB" customClass="BirthdayViewController" customModule="Es_casi_mi_cumpleaños" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VQ1-c1-W6k"/>
                         <viewControllerLayoutGuide type="bottom" id="B8U-xD-hGM"/>
@@ -37,24 +36,44 @@
                                 <rect key="frame" x="16" y="40" width="109" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PartyHats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zqc-f5-oiY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hats.png" translatesAutoresizingMaskIntoConstraints="NO" id="zqc-f5-oiY">
                                 <rect key="frame" x="109" y="40" width="156" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Present.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-n8-9Hg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="present.png" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-n8-9Hg">
                                 <rect key="frame" x="225" y="28" width="159" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PartyHat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jjC-cG-bvw">
+                                <rect key="frame" x="370" y="33" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hats.png" translatesAutoresizingMaskIntoConstraints="NO" id="orJ-km-YS1">
+                                <rect key="frame" x="463" y="33" width="156" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="present.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Qw-Tb-s0e">
+                                <rect key="frame" x="579" y="21" width="159" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PartyHat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DeU-pd-7IH">
+                                <rect key="frame" x="380" y="43" width="109" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="present.png" translatesAutoresizingMaskIntoConstraints="NO" id="1IP-pq-aW4">
+                                <rect key="frame" x="589" y="31" width="159" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n00-dh-AvK">
                                 <rect key="frame" x="0.0" y="592" width="300" height="75"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-K1-yf9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="presents.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-K1-yf9">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="75"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L5W-AB-hdT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="presents.png" translatesAutoresizingMaskIntoConstraints="NO" id="L5W-AB-hdT">
                                         <rect key="frame" x="100" y="0.0" width="100" height="75"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Presents.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q04-wO-xn1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="presents.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q04-wO-xn1">
                                         <rect key="frame" x="200" y="0.0" width="100" height="75"/>
                                     </imageView>
                                 </subviews>
@@ -62,6 +81,10 @@
                                     <constraint firstAttribute="height" constant="75" id="RlH-cf-Cgw"/>
                                 </constraints>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hats.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y4w-1E-gLG">
+                                <rect key="frame" x="713" y="29" width="156" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -89,8 +112,8 @@
         <image name="ItsMyBirthday.jpg" width="500" height="500"/>
         <image name="Mute.png" width="50" height="50"/>
         <image name="PartyHat.jpg" width="500" height="250"/>
-        <image name="PartyHats.jpg" width="500" height="250"/>
-        <image name="Present.jpg" width="500" height="250"/>
-        <image name="Presents.jpg" width="500" height="250"/>
+        <image name="hats.png" width="500" height="250"/>
+        <image name="present.png" width="500" height="250"/>
+        <image name="presents.png" width="500" height="250"/>
     </resources>
 </document>

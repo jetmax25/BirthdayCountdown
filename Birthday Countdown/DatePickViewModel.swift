@@ -23,7 +23,6 @@ struct DatePickViewModel {
     }
 
     private mutating func setDate() {
-        
         var year = currentComponents.year!
         if currentComponents.month! > datePickModel.month || (currentComponents.day! > datePickModel.day && currentComponents.month! == datePickModel.month) {
             year = year + 1

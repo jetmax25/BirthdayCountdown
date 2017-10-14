@@ -4,16 +4,16 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--BirthdayCountdown-->
         <scene sceneID="iEN-GQ-BfO">
             <objects>
-                <viewController storyboardIdentifier="BirthdayCountdown" title="BirthdayCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A0C-XQ-fje" customClass="birthdayCountdownViewController" customModule="Birthday_Countdown" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BirthdayCountdown" title="BirthdayCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A0C-XQ-fje" customClass="birthdayCountdownViewController" customModule="Es_casi_mi_cumpleaños" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CNy-lX-HJg"/>
                         <viewControllerLayoutGuide type="bottom" id="3QN-se-1p6"/>
@@ -23,31 +23,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NS5-cA-ZP5">
-                                <rect key="frame" x="16" y="45" width="288" height="50"/>
+                                <rect key="frame" x="16" y="45" width="288" height="35"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCd-Ua-2Bn">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="35"/>
                                         <state key="normal" image="days.png"/>
                                         <connections>
                                             <action selector="viewDays:" destination="A0C-XQ-fje" eventType="touchUpInside" id="fHe-Hk-Iad"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-gN-oMb">
-                                        <rect key="frame" x="72" y="0.0" width="72" height="50"/>
+                                        <rect key="frame" x="72" y="0.0" width="72" height="35"/>
                                         <state key="normal" image="hours.png"/>
                                         <connections>
                                             <action selector="viewHours:" destination="A0C-XQ-fje" eventType="touchUpInside" id="0BA-XJ-AHF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PML-8R-tMW">
-                                        <rect key="frame" x="144" y="0.0" width="72" height="50"/>
+                                        <rect key="frame" x="144" y="0.0" width="72" height="35"/>
                                         <state key="normal" image="minutes.png"/>
                                         <connections>
                                             <action selector="viewMinutes:" destination="A0C-XQ-fje" eventType="touchUpInside" id="HPZ-F9-uPg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TB-8C-bF5">
-                                        <rect key="frame" x="216" y="0.0" width="72" height="50"/>
+                                        <rect key="frame" x="216" y="0.0" width="72" height="35"/>
                                         <state key="normal" image="seconds.png"/>
                                         <connections>
                                             <action selector="viewSeconds:" destination="A0C-XQ-fje" eventType="touchUpInside" id="8s2-8s-qCB"/>
@@ -55,31 +55,19 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="LUW-hi-j4a"/>
-                                </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untilmybday.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIG-9Q-lw0">
-                                <rect key="frame" x="16" y="355" width="288" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="125" id="MmV-pc-2qK"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="340.5" width="288" height="139.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="only.png" translatesAutoresizingMaskIntoConstraints="NO" id="ebG-EY-fkK">
-                                <rect key="frame" x="16" y="95" width="288" height="107"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="107" id="nr4-ND-Owc"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="80" width="288" height="70"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seconds.png" translatesAutoresizingMaskIntoConstraints="NO" id="R3G-0p-M9f">
-                                <rect key="frame" x="16" y="264.5" width="288" height="90.5"/>
+                                <rect key="frame" x="16" y="270.5" width="288" height="70"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1160" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-ex-A7V">
-                                <rect key="frame" x="16" y="202" width="288" height="62.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62.5" id="D6z-hv-9Kf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1160" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-ex-A7V">
+                                <rect key="frame" x="16" y="150" width="288" height="120.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="152"/>
                                 <color key="textColor" red="1" green="0.19908787380000001" blue="0.1755763856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,11 +75,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NS5-cA-ZP5" firstAttribute="top" secondItem="CNy-lX-HJg" secondAttribute="bottom" constant="25" id="00H-rH-fII" userLabel="topOfButtons"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="height" secondItem="NS5-cA-ZP5" secondAttribute="height" multiplier="2" id="EvB-aE-dUY"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KIG-9Q-lw0" secondAttribute="bottom" id="Ied-TN-DTg"/>
                             <constraint firstItem="R3G-0p-M9f" firstAttribute="trailing" secondItem="ebG-EY-fkK" secondAttribute="trailing" id="JIR-Td-Z2J"/>
                             <constraint firstItem="3Ey-ex-A7V" firstAttribute="leading" secondItem="ebG-EY-fkK" secondAttribute="leading" id="L7F-ks-CeZ"/>
+                            <constraint firstItem="KIG-9Q-lw0" firstAttribute="height" secondItem="R3G-0p-M9f" secondAttribute="height" multiplier="2" id="Pgj-qJ-NKR"/>
                             <constraint firstItem="KIG-9Q-lw0" firstAttribute="leading" secondItem="R3G-0p-M9f" secondAttribute="leading" id="R8j-vC-Gol"/>
                             <constraint firstItem="R3G-0p-M9f" firstAttribute="leading" secondItem="ebG-EY-fkK" secondAttribute="leading" id="c3q-7s-672"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="height" secondItem="R3G-0p-M9f" secondAttribute="height" id="cca-DM-B0S"/>
+                            <constraint firstItem="ebG-EY-fkK" firstAttribute="height" secondItem="3Ey-ex-A7V" secondAttribute="height" constant="-50" id="e57-EB-XTA"/>
                             <constraint firstItem="ebG-EY-fkK" firstAttribute="trailing" secondItem="9TB-8C-bF5" secondAttribute="trailing" id="ecZ-Jw-e2n"/>
                             <constraint firstItem="R3G-0p-M9f" firstAttribute="top" secondItem="3Ey-ex-A7V" secondAttribute="bottom" id="enE-cR-Uhj"/>
                             <constraint firstItem="NS5-cA-ZP5" firstAttribute="centerX" secondItem="hjl-LH-Z4h" secondAttribute="centerX" id="hZL-w1-nu8"/>
