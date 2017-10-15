@@ -8,7 +8,9 @@
 
 import UIKit
 import GoogleMobileAds
-
+import Fabric
+import Crashlytics
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,26 +19,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        FirebaseApp.configure()
+        Fabric.with([Crashlytics.self])
         // Override point for customization after application launch.
         GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
         
         #if BIRTHDAY
-        let userDefaults = UserDefaults.standard
-        if let date = userDefaults.object(forKey: "Date") as? Date {
-            var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
-            let diff = Calendar.current.dateComponents([.day], from: Date(), to: date )
+            let userDefaults = UserDefaults.standard
+            if let date = userDefaults.object(forKey: "Date") as? Date {
+                var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
+                let diff = Calendar.current.dateComponents([.day], from: Date(), to: date )
 
-            if diff.day! < 0 {
-                let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date)
-                userDefaults.set(newDate, forKey: "Date")
+                if diff.day! < 0 {
+                    let newDate = Calendar.current.date(byAdding: .year, value: 1, to: date)
+                    userDefaults.set(newDate, forKey: "Date")
+                }
+                
+                if diff.day == 0 {
+                    storyboard = UIStoryboard(name: "Birthday", bundle: nil)
+                }
+                self.window?.rootViewController = storyboard.instantiateInitialViewController()
             }
-            
-            if diff.day == 0 {
-                storyboard = UIStoryboard(name: "Birthday", bundle: nil)
-            }
+        #elseif HALLOWEEN
+            var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
-        }
-            #endif
+        #elseif CHRISTMAS
+            var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
+            self.window?.rootViewController = storyboard.instantiateInitialViewController()
+        #endif
         return true
     }
 

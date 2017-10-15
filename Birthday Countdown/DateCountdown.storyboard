@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQH-GV-qEC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BloodLust.ttf">
+            <string>BloodLust</string>
+        </array>
+        <array key="MountainsofChristmas.ttf">
+            <string>MountainsofChristmas-Regular</string>
+        </array>
+        <array key="PWHappyChristmas.ttf">
+            <string>PWJoyeuxNoel</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--DateCountdown-->
+        <scene sceneID="Ptz-td-rTu">
+            <objects>
+                <viewController storyboardIdentifier="DateCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UQH-GV-qEC" userLabel="DateCountdown" customClass="DateCountdownViewController" customModule="Its_Almost_Christmas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g5R-TY-P22"/>
+                        <viewControllerLayoutGuide type="bottom" id="OdX-N6-1Cw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qGh-My-U2e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HoU-st-KqA">
+                                <rect key="frame" x="16" y="50" width="343" height="123.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-f2-2CK">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="123.5"/>
+                                        <state key="normal" image="days.png"/>
+                                        <connections>
+                                            <action selector="viewDays:" destination="UQH-GV-qEC" eventType="touchUpInside" id="N8w-4A-VMl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SA-Mt-edB">
+                                        <rect key="frame" x="86" y="0.0" width="85.5" height="123.5"/>
+                                        <state key="normal" image="hours.png"/>
+                                        <connections>
+                                            <action selector="viewHours:" destination="UQH-GV-qEC" eventType="touchUpInside" id="a9D-th-h98"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-MX-T0X">
+                                        <rect key="frame" x="171.5" y="0.0" width="86" height="123.5"/>
+                                        <state key="normal" image="minutes.png"/>
+                                        <connections>
+                                            <action selector="viewMinutes:" destination="UQH-GV-qEC" eventType="touchUpInside" id="EAl-5J-maf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-1E-iz5">
+                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="123.5"/>
+                                        <state key="normal" image="seconds.png"/>
+                                        <connections>
+                                            <action selector="viewSeconds:" destination="UQH-GV-qEC" eventType="touchUpInside" id="9bW-MB-Nyw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Na-8R-pdt">
+                                <rect key="frame" x="16" y="173.5" width="343" height="493.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pnb-Xo-tsc">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="123.5"/>
+                                        <fontDescription key="fontDescription" name="BloodLust" family="Blood Lust" pointSize="200"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-IK-B2q">
+                                        <rect key="frame" x="0.0" y="123.5" width="343" height="123.5"/>
+                                        <fontDescription key="fontDescription" name="PWJoyeuxNoel" family="PWJoyeuxNoel" pointSize="200"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-xW-CBC">
+                                        <rect key="frame" x="0.0" y="247" width="343" height="123"/>
+                                        <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-SH-Gu3">
+                                        <rect key="frame" x="0.0" y="370" width="343" height="123.5"/>
+                                        <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXg-ki-dko">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="D2g-7c-Z4I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zXg-ki-dko" firstAttribute="top" secondItem="qGh-My-U2e" secondAttribute="top" id="0Ab-Pj-gm5"/>
+                            <constraint firstItem="HoU-st-KqA" firstAttribute="top" secondItem="zXg-ki-dko" secondAttribute="bottom" id="2q3-Vc-PQl"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="height" secondItem="HoU-st-KqA" secondAttribute="height" multiplier="4" id="8vU-30-pxI"/>
+                            <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="zXg-ki-dko" secondAttribute="trailing" id="CWI-WV-o1T"/>
+                            <constraint firstItem="zXg-ki-dko" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="EuK-O2-n5n"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="leading" secondItem="HoU-st-KqA" secondAttribute="leading" id="Rm3-E0-25t"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="trailing" secondItem="HoU-st-KqA" secondAttribute="trailing" id="W3J-4T-SfP"/>
+                            <constraint firstItem="OdX-N6-1Cw" firstAttribute="top" secondItem="0Na-8R-pdt" secondAttribute="bottom" id="ZTI-sY-5va"/>
+                            <constraint firstItem="HoU-st-KqA" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leadingMargin" id="eRC-rp-6rj"/>
+                            <constraint firstItem="HoU-st-KqA" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="jDp-l0-1a9"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="top" secondItem="HoU-st-KqA" secondAttribute="bottom" id="mYh-lD-BHd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cbo-iG-9oV"/>
+                    </view>
+                    <connections>
+                        <outlet property="EventLabel" destination="f5p-SH-Gu3" id="KdA-wm-g2f"/>
+                        <outlet property="TimeDurationLabel" destination="HBq-xW-CBC" id="8S7-gW-co7"/>
+                        <outlet property="adView" destination="zXg-ki-dko" id="BOy-GL-euI"/>
+                        <outlet property="onlyLabel" destination="pnb-Xo-tsc" id="SGj-Mk-DhJ"/>
+                        <outlet property="timeCountLabel" destination="7Ft-IK-B2q" id="WtW-fC-P3L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yz2-LO-myK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.59999999999999" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="days.png" width="500" height="250"/>
+        <image name="hours.png" width="500" height="250"/>
+        <image name="minutes.png" width="500" height="250"/>
+        <image name="seconds.png" width="500" height="250"/>
+    </resources>
+</document>

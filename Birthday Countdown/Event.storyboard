@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nhk-o9-QDQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Event View Controller-->
+        <scene sceneID="RcA-sd-XYm">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nhk-o9-QDQ" customClass="EventViewController" customModule="Its_Almost_Christmas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rlj-C8-knh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Its Event !!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="3p8-ci-nO0">
+                                <rect key="frame" x="0.0" y="206" width="375" height="255.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="107"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc0-yG-Hhx">
+                                <rect key="frame" x="317" y="609" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sc0-yG-Hhx" secondAttribute="height" id="BFV-ST-ueW"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Mute.png"/>
+                                <connections>
+                                    <action selector="muteSound:" destination="Nhk-o9-QDQ" eventType="touchUpInside" id="SiZ-3g-hUz"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CwA-6g-ztC">
+                                <rect key="frame" x="0.0" y="617" width="312" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3p8-ci-nO0" firstAttribute="leading" secondItem="rlj-C8-knh" secondAttribute="leading" id="3QE-MQ-Lpa"/>
+                            <constraint firstItem="CwA-6g-ztC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3p8-ci-nO0" secondAttribute="bottom" id="4zE-Ya-aTT"/>
+                            <constraint firstItem="CwA-6g-ztC" firstAttribute="leading" secondItem="3p8-ci-nO0" secondAttribute="leading" id="EKZ-2S-OcH"/>
+                            <constraint firstItem="tWb-oG-14y" firstAttribute="trailing" secondItem="sc0-yG-Hhx" secondAttribute="trailing" constant="8" id="JyX-oA-3tJ"/>
+                            <constraint firstItem="3p8-ci-nO0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tWb-oG-14y" secondAttribute="top" id="V2S-Fz-7t1"/>
+                            <constraint firstItem="CwA-6g-ztC" firstAttribute="height" secondItem="sc0-yG-Hhx" secondAttribute="height" id="cRt-bp-xYp"/>
+                            <constraint firstItem="3p8-ci-nO0" firstAttribute="centerX" secondItem="rlj-C8-knh" secondAttribute="centerX" id="cbJ-kR-2LF"/>
+                            <constraint firstItem="tWb-oG-14y" firstAttribute="bottom" secondItem="CwA-6g-ztC" secondAttribute="bottom" id="f5o-PE-Mqn"/>
+                            <constraint firstItem="3p8-ci-nO0" firstAttribute="centerY" secondItem="rlj-C8-knh" secondAttribute="centerY" id="lsd-QP-QP9"/>
+                            <constraint firstItem="tWb-oG-14y" firstAttribute="bottom" secondItem="sc0-yG-Hhx" secondAttribute="bottom" constant="8" id="sDx-sU-rgk"/>
+                            <constraint firstItem="sc0-yG-Hhx" firstAttribute="leading" secondItem="CwA-6g-ztC" secondAttribute="trailing" constant="5" id="xJn-cK-c08"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tWb-oG-14y"/>
+                    </view>
+                    <connections>
+                        <outlet property="appAdView" destination="CwA-6g-ztC" id="nyF-Gf-qyx"/>
+                        <outlet property="eventLabel" destination="3p8-ci-nO0" id="0Ke-mM-Omq"/>
+                        <outlet property="muteButton" destination="sc0-yG-Hhx" id="Zvy-BI-MB4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xno-w6-7m1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368.80000000000001" y="-373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mute.png" width="50" height="50"/>
+    </resources>
+</document>

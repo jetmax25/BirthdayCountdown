@@ -29,11 +29,15 @@
 		271E43BC1F85D115000005A5 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
 		271E43BD1F85D12B000005A5 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
 		271E43C41F85DBAE000005A5 /* ItsMyBirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43C31F85DB78000005A5 /* ItsMyBirthday.png */; };
-		271E43C61F85DD6D000005A5 /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 271E43C51F85DD64000005A5 /* BirthdaySong.mp3 */; };
 		271E43C71F85DD78000005A5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
 		271E43C81F85DD79000005A5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
 		271E43C91F85DD7B000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
 		271E43CA1F85DD7C000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
+		2744FA2A1F93BCA700F412DE /* BloodLust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA271F93BC8F00F412DE /* BloodLust.ttf */; };
+		2744FA2C1F93BE6D00F412DE /* MountainsofChristmas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA2B1F93BE6A00F412DE /* MountainsofChristmas.ttf */; };
+		2744FA2D1F93BE6F00F412DE /* MountainsofChristmas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA2B1F93BE6A00F412DE /* MountainsofChristmas.ttf */; };
+		2744FA2F1F93BF5A00F412DE /* CartoonChristmas.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA2E1F93BF3E00F412DE /* CartoonChristmas.otf */; };
+		2744FA311F93C0A000F412DE /* PWHappyChristmas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA301F93C06200F412DE /* PWHappyChristmas.ttf */; };
 		275CE8271F8338F10011F6F8 /* hats.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE681F8324B3002AD9B1 /* hats.png */; };
 		275CE8281F8338F10011F6F8 /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE691F8324B3002AD9B1 /* horn.png */; };
 		275CE8291F8338F10011F6F8 /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
@@ -42,6 +46,32 @@
 		275CE82C1F8338F20011F6F8 /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
 		275CE82D1F8338F60011F6F8 /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
 		275CE82E1F8338F60011F6F8 /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
+		279042211F92AA7200079B5E /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
+		279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
+		279042261F92AD3900079B5E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9525E01C1F35447D008E6815 /* Info.plist */; };
+		279042281F92AEA600079B5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
+		27A842521F92BF8A00E11D49 /* DateCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161C1F92B654003DA19F /* DateCountdown.storyboard */; };
+		27A842531F92BF8B00E11D49 /* DateCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161C1F92B654003DA19F /* DateCountdown.storyboard */; };
+		27A842591F92D22600E11D49 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A842581F92D22600E11D49 /* Event.storyboard */; };
+		27A8425A1F92D22600E11D49 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A842581F92D22600E11D49 /* Event.storyboard */; };
+		27A8425C1F92D26100E11D49 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8425B1F92D26100E11D49 /* EventViewController.swift */; };
+		27A8425D1F92D26100E11D49 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8425B1F92D26100E11D49 /* EventViewController.swift */; };
+		27A842651F92DE6900E11D49 /* JingleBells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27A842601F92D77000E11D49 /* JingleBells.mp3 */; };
+		27A842661F92DE6C00E11D49 /* WishYouMerryChristmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27A842611F92D77B00E11D49 /* WishYouMerryChristmas.mp3 */; };
+		27A842671F92DE6E00E11D49 /* AlmostHalloween.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27A842631F92DA2500E11D49 /* AlmostHalloween.mp3 */; };
+		27A842681F92DE7100E11D49 /* ItsHalloween.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27A842641F92DA3500E11D49 /* ItsHalloween.wav */; };
+		27A8426A1F92E04900E11D49 /* chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27A842691F92E04600E11D49 /* chime.wav */; };
+		27A8426C1F92E0C900E11D49 /* HorrorTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27A8426B1F92E0C700E11D49 /* HorrorTick.wav */; };
+		27A8426E1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */; };
+		27A8426F1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */; };
+		27A842701F92E77E00E11D49 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */; };
+		27A842711F92E77E00E11D49 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */; };
+		27A842761F92ECB100E11D49 /* ItsChristmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A842741F92ECA000E11D49 /* ItsChristmas.jpg */; };
+		27A842771F92ECB100E11D49 /* AlmostChristmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A842751F92ECA900E11D49 /* AlmostChristmas.jpg */; };
+		27A842781F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */; };
+		27A842791F92ECB700E11D49 /* ItsHalloween.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A842721F92EC8000E11D49 /* ItsHalloween.png */; };
+		27A8427A1F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */; };
+		27A8427B1F92ECB700E11D49 /* ItsHalloween.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A842721F92EC8000E11D49 /* ItsHalloween.png */; };
 		27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
 		27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27AC201D1F802A2800D94BE2 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
@@ -49,7 +79,6 @@
 		27AC201F1F802A2800D94BE2 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
 		27AC20201F802A2800D94BE2 /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
 		27AC20211F802A2800D94BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
-		27AC20231F802A2800D94BE2 /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
 		27AC20251F802A2800D94BE2 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
 		27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
@@ -64,8 +93,92 @@
 		27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
+		27C7157F1F92B3B7003DA19F /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
+		27C715801F92B3B7003DA19F /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
+		27C715811F92B3B7003DA19F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
+		27C715821F92B3B7003DA19F /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
+		27C715831F92B3B7003DA19F /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
+		27C715841F92B3B7003DA19F /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
+		27C715861F92B3B7003DA19F /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
+		27C715871F92B3B7003DA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
+		27C715891F92B3B7003DA19F /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
+		27C7158A1F92B3B7003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */; };
+		27C7158C1F92B3B7003DA19F /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
+		27C7158D1F92B3B7003DA19F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
+		27C7158E1F92B3B7003DA19F /* ItsMyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */; };
+		27C7158F1F92B3B7003DA19F /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
+		27C715901F92B3B7003DA19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
+		27C715911F92B3B7003DA19F /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
+		27C715921F92B3B7003DA19F /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE691F8324B3002AD9B1 /* horn.png */; };
+		27C715931F92B3B7003DA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
+		27C715941F92B3B7003DA19F /* minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE701F8324D9002AD9B1 /* minutes.png */; };
+		27C715951F92B3B7003DA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
+		27C715961F92B3B7003DA19F /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
+		27C715971F92B3B7003DA19F /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
+		27C715981F92B3B7003DA19F /* Thisismybirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */; };
+		27C715991F92B3B7003DA19F /* hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6E1F8324D9002AD9B1 /* hours.png */; };
+		27C7159A1F92B3B7003DA19F /* seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE721F8325E4002AD9B1 /* seconds.png */; };
+		27C7159B1F92B3B7003DA19F /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
+		27C7159C1F92B3B7003DA19F /* Whenisthebigday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */; };
+		27C7159D1F92B3B7003DA19F /* BallonBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */; };
+		27C7159E1F92B3B7003DA19F /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
+		27C7159F1F92B3B7003DA19F /* only.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE711F8324DA002AD9B1 /* only.png */; };
+		27C715A01F92B3B7003DA19F /* BirthdayCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */; };
+		27C715A11F92B3B7003DA19F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9525E01C1F35447D008E6815 /* Info.plist */; };
+		27C715A21F92B3B7003DA19F /* hats.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE681F8324B3002AD9B1 /* hats.png */; };
+		27C715A31F92B3B7003DA19F /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
+		27C715A41F92B3B7003DA19F /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
+		27C715A51F92B3B7003DA19F /* Untilmybday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */; };
+		27C715A61F92B3B7003DA19F /* days.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6F1F8324D9002AD9B1 /* days.png */; };
+		27C715A71F92B3B7003DA19F /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
+		27C715A81F92B3B7003DA19F /* Yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC200B1F8029AB00D94BE2 /* Yes.jpg */; };
+		27C715E91F92B429003DA19F /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
+		27C715EA1F92B429003DA19F /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
+		27C715EB1F92B429003DA19F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
+		27C715EC1F92B429003DA19F /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
+		27C715ED1F92B429003DA19F /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
+		27C715EE1F92B429003DA19F /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
+		27C715F01F92B429003DA19F /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
+		27C715F11F92B429003DA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
+		27C715F31F92B429003DA19F /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
+		27C715F41F92B429003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */; };
+		27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
+		27C715F71F92B429003DA19F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
+		27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */; };
+		27C715F91F92B429003DA19F /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
+		27C715FA1F92B429003DA19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
+		27C715FB1F92B429003DA19F /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
+		27C715FC1F92B429003DA19F /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE691F8324B3002AD9B1 /* horn.png */; };
+		27C715FD1F92B429003DA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
+		27C715FE1F92B429003DA19F /* minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE701F8324D9002AD9B1 /* minutes.png */; };
+		27C715FF1F92B429003DA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
+		27C716001F92B429003DA19F /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
+		27C716011F92B429003DA19F /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
+		27C716021F92B429003DA19F /* Thisismybirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */; };
+		27C716031F92B429003DA19F /* hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6E1F8324D9002AD9B1 /* hours.png */; };
+		27C716041F92B429003DA19F /* seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE721F8325E4002AD9B1 /* seconds.png */; };
+		27C716051F92B429003DA19F /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
+		27C716061F92B429003DA19F /* Whenisthebigday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */; };
+		27C716071F92B429003DA19F /* BallonBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */; };
+		27C716081F92B429003DA19F /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
+		27C716091F92B429003DA19F /* only.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE711F8324DA002AD9B1 /* only.png */; };
+		27C7160A1F92B429003DA19F /* BirthdayCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */; };
+		27C7160B1F92B429003DA19F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9525E01C1F35447D008E6815 /* Info.plist */; };
+		27C7160C1F92B429003DA19F /* hats.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE681F8324B3002AD9B1 /* hats.png */; };
+		27C7160D1F92B429003DA19F /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
+		27C7160E1F92B429003DA19F /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
+		27C7160F1F92B429003DA19F /* Untilmybday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */; };
+		27C716101F92B429003DA19F /* days.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6F1F8324D9002AD9B1 /* days.png */; };
+		27C716111F92B429003DA19F /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
+		27C716121F92B429003DA19F /* Yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC200B1F8029AB00D94BE2 /* Yes.jpg */; };
+		27C7161F1F92B665003DA19F /* DateCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */; };
+		27C716201F92B665003DA19F /* DateCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */; };
+		27C716221F92B677003DA19F /* DateCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C716211F92B677003DA19F /* DateCountdownViewModel.swift */; };
+		27C716231F92B677003DA19F /* DateCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C716211F92B677003DA19F /* DateCountdownViewModel.swift */; };
+		27C716261F92B6B7003DA19F /* Its Almost My Birthday copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */; };
+		27C716281F92B6BB003DA19F /* Its Almost Halloween-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */; };
+		27C716291F92B6BD003DA19F /* Its Almost Christmas-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */; };
 		27E924931F579C2800739DE7 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
-		27E924951F57A48900739DE7 /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27E924941F57A48900739DE7 /* BirthdaySong.mp3 */; };
 		27E924971F57A5D800739DE7 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
 		27E924991F57A5F800739DE7 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27E924D51F57AF6200739DE7 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
@@ -80,6 +193,8 @@
 		95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
 		95F9BFC11F358A1C003444E3 /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
 		95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
+		D1806D9A38BBB38DDC7CBEEE /* Pods_Its_Almost_My_Birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */; };
+		D9217F126389C0A1AFCAC4F2 /* Pods_Es_casi_mi_cumplea_os.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35017CB2B3FDDA0C5B905C1A /* Pods_Es_casi_mi_cumplea_os.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,20 +223,47 @@
 		271E43B01F85CFA8000005A5 /* seconds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seconds.png; sourceTree = "<group>"; };
 		271E43C01F85D9F3000005A5 /* horas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horas.png; sourceTree = "<group>"; };
 		271E43C31F85DB78000005A5 /* ItsMyBirthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItsMyBirthday.png; sourceTree = "<group>"; };
-		271E43C51F85DD64000005A5 /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
+		2744FA271F93BC8F00F412DE /* BloodLust.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BloodLust.ttf; sourceTree = "<group>"; };
+		2744FA2B1F93BE6A00F412DE /* MountainsofChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MountainsofChristmas.ttf; sourceTree = "<group>"; };
+		2744FA2E1F93BF3E00F412DE /* CartoonChristmas.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CartoonChristmas.otf; sourceTree = "<group>"; };
+		2744FA301F93C06200F412DE /* PWHappyChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWHappyChristmas.ttf; sourceTree = "<group>"; };
+		279042201F92AA6A00079B5E /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
+		279042271F92AEA400079B5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27A842581F92D22600E11D49 /* Event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
+		27A8425B1F92D26100E11D49 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		27A842601F92D77000E11D49 /* JingleBells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JingleBells.mp3; sourceTree = "<group>"; };
+		27A842611F92D77B00E11D49 /* WishYouMerryChristmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WishYouMerryChristmas.mp3; sourceTree = "<group>"; };
+		27A842631F92DA2500E11D49 /* AlmostHalloween.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AlmostHalloween.mp3; sourceTree = "<group>"; };
+		27A842641F92DA3500E11D49 /* ItsHalloween.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ItsHalloween.wav; sourceTree = "<group>"; };
+		27A842691F92E04600E11D49 /* chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chime.wav; sourceTree = "<group>"; };
+		27A8426B1F92E0C700E11D49 /* HorrorTick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HorrorTick.wav; sourceTree = "<group>"; };
+		27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		27A842721F92EC8000E11D49 /* ItsHalloween.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItsHalloween.png; sourceTree = "<group>"; };
+		27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlmostHalloween.jpg; sourceTree = "<group>"; };
+		27A842741F92ECA000E11D49 /* ItsChristmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItsChristmas.jpg; sourceTree = "<group>"; };
+		27A842751F92ECA900E11D49 /* AlmostChristmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlmostChristmas.jpg; sourceTree = "<group>"; };
 		27AC20091F8028C900D94BE2 /* PartyHat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PartyHat.jpg; sourceTree = "<group>"; };
 		27AC200B1F8029AB00D94BE2 /* Yes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yes.jpg; sourceTree = "<group>"; };
 		27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItsMyBirthday.jpg; sourceTree = "<group>"; };
 		27AC20331F802A2800D94BE2 /* Es casi mi cumpleaños.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Es casi mi cumpleaños.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27AC20341F802A2900D94BE2 /* Birthday Countdown copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Birthday Countdown copy-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Birthday Countdown copy-Info.plist"; sourceTree = "<absolute>"; };
 		27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BirthdayBackground.jpg; sourceTree = "<group>"; };
 		27AC20481F80303600D94BE2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIncrements.swift; sourceTree = "<group>"; };
+		27C715AF1F92B3B7003DA19F /* Its Almost Halloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost Halloween.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost My Birthday copy-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost My Birthday copy-Info.plist"; sourceTree = "<absolute>"; };
+		27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost Halloween-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost Halloween-Info.plist"; sourceTree = "<absolute>"; };
+		27C716191F92B429003DA19F /* Its Almost Christmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost Christmas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost Christmas-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost Christmas-Info.plist"; sourceTree = "<absolute>"; };
+		27C7161C1F92B654003DA19F /* DateCountdown.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DateCountdown.storyboard; sourceTree = "<group>"; };
+		27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCountdownViewController.swift; sourceTree = "<group>"; };
+		27C716211F92B677003DA19F /* DateCountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCountdownViewModel.swift; sourceTree = "<group>"; };
 		27E924921F579C2800739DE7 /* ClockTick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ClockTick.wav; sourceTree = "<group>"; };
-		27E924941F57A48900739DE7 /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
 		27E924961F57A5D800739DE7 /* Mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mute.png; sourceTree = "<group>"; };
 		27E924981F57A5F800739DE7 /* UnMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnMute.png; sourceTree = "<group>"; };
-		627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.debug.xcconfig"; sourceTree = "<group>"; };
+		2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost My Birthday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.debug.xcconfig"; sourceTree = "<group>"; };
+		35017CB2B3FDDA0C5B905C1A /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Es_casi_mi_cumplea_os.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484D124C9BE879F7713AB47E /* Pods-Es casi mi cumpleaños.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Es casi mi cumpleaños.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_Almost_My_Birthday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525E00D1F35447D008E6815 /* Its Almost My Birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost My Birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525E0101F35447D008E6815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9525E0151F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/datepick.storyboard; sourceTree = "<group>"; };
@@ -136,7 +278,8 @@
 		95F9BFBE1F358954003444E3 /* datePickModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePickModel.swift; sourceTree = "<group>"; };
 		95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickViewModel.swift; sourceTree = "<group>"; };
 		95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCountdownViewModel.swift; sourceTree = "<group>"; };
-		CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthday Countdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown.release.xcconfig"; sourceTree = "<group>"; };
+		AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost My Birthday.release.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.release.xcconfig"; sourceTree = "<group>"; };
+		FE6716D3A97F0801E7DF80ED /* Pods-Es casi mi cumpleaños.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Es casi mi cumpleaños.release.xcconfig"; path = "Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +287,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AC20231F802A2800D94BE2 /* libPods-Birthday Countdown.a in Frameworks */,
+				D9217F126389C0A1AFCAC4F2 /* Pods_Es_casi_mi_cumplea_os.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C715881F92B3B7003DA19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C715891F92B3B7003DA19F /* libPods-Birthday Countdown.a in Frameworks */,
+				27C7158A1F92B3B7003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C715F21F92B429003DA19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C715F31F92B429003DA19F /* libPods-Birthday Countdown.a in Frameworks */,
+				27C715F41F92B429003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,16 +314,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B29A0F0937C3BD68564827E /* libPods-Birthday Countdown.a in Frameworks */,
+				D1806D9A38BBB38DDC7CBEEE /* Pods_Its_Almost_My_Birthday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27A842541F92D1F000E11D49 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				27A842581F92D22600E11D49 /* Event.storyboard */,
+				27A8425B1F92D26100E11D49 /* EventViewController.swift */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		27A8425F1F92D75400E11D49 /* Christmas Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27A842741F92ECA000E11D49 /* ItsChristmas.jpg */,
+				27A842751F92ECA900E11D49 /* AlmostChristmas.jpg */,
+				27A842691F92E04600E11D49 /* chime.wav */,
+				27A842601F92D77000E11D49 /* JingleBells.mp3 */,
+				27A842611F92D77B00E11D49 /* WishYouMerryChristmas.mp3 */,
+			);
+			path = "Christmas Assets";
+			sourceTree = "<group>";
+		};
+		27A842621F92DA1400E11D49 /* Halloween Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */,
+				27A842721F92EC8000E11D49 /* ItsHalloween.png */,
+				27A8426B1F92E0C700E11D49 /* HorrorTick.wav */,
+				27A842641F92DA3500E11D49 /* ItsHalloween.wav */,
+				27A842631F92DA2500E11D49 /* AlmostHalloween.mp3 */,
+			);
+			path = "Halloween Assets";
+			sourceTree = "<group>";
+		};
 		27AC20051F8027D900D94BE2 /* English Assets */ = {
 			isa = PBXGroup;
 			children = (
-				27E924941F57A48900739DE7 /* BirthdaySong.mp3 */,
 				2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */,
 				2706FE721F8325E4002AD9B1 /* seconds.png */,
 				2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */,
@@ -180,7 +374,6 @@
 		27AC20061F8027EB00D94BE2 /* Spanish Assets */ = {
 			isa = PBXGroup;
 			children = (
-				271E43C51F85DD64000005A5 /* BirthdaySong.mp3 */,
 				271E43A71F85CFA7000005A5 /* Whenisthebigday.png */,
 				271E43AA1F85CFA7000005A5 /* 2x1---hastamycumpleanos.png */,
 				271E43C31F85DB78000005A5 /* ItsMyBirthday.png */,
@@ -198,6 +391,7 @@
 		27AC20081F80284400D94BE2 /* General Assets */ = {
 			isa = PBXGroup;
 			children = (
+				279042201F92AA6A00079B5E /* BirthdaySong.mp3 */,
 				271E43A61F85C35E000005A5 /* AppIcon.png */,
 				2706FE6A1F8324B3002AD9B1 /* presents.png */,
 				27E924961F57A5D800739DE7 /* Mute.png */,
@@ -213,9 +407,32 @@
 			path = "General Assets";
 			sourceTree = "<group>";
 		};
+		27B7AA381F93B775001F3538 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2744FA2E1F93BF3E00F412DE /* CartoonChristmas.otf */,
+				2744FA2B1F93BE6A00F412DE /* MountainsofChristmas.ttf */,
+				2744FA301F93C06200F412DE /* PWHappyChristmas.ttf */,
+				2744FA271F93BC8F00F412DE /* BloodLust.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		27C7161B1F92B622003DA19F /* DateCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				27C7161C1F92B654003DA19F /* DateCountdown.storyboard */,
+				27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */,
+				27C716211F92B677003DA19F /* DateCountdownViewModel.swift */,
+			);
+			name = DateCountdown;
+			sourceTree = "<group>";
+		};
 		27E924911F579BCA00739DE7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				27A842621F92DA1400E11D49 /* Halloween Assets */,
+				27A8425F1F92D75400E11D49 /* Christmas Assets */,
 				27AC20081F80284400D94BE2 /* General Assets */,
 				27AC20061F8027EB00D94BE2 /* Spanish Assets */,
 				27AC20051F8027D900D94BE2 /* English Assets */,
@@ -226,8 +443,10 @@
 		514F5FB08DA5D280DDA9FA20 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */,
-				CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */,
+				2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */,
+				AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */,
+				484D124C9BE879F7713AB47E /* Pods-Es casi mi cumpleaños.debug.xcconfig */,
+				FE6716D3A97F0801E7DF80ED /* Pods-Es casi mi cumpleaños.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -235,12 +454,16 @@
 		9525E0041F35447D008E6815 = {
 			isa = PBXGroup;
 			children = (
+				27B7AA381F93B775001F3538 /* Fonts */,
+				279042271F92AEA400079B5E /* GoogleService-Info.plist */,
 				27E924911F579BCA00739DE7 /* Assets */,
 				9525E00F1F35447D008E6815 /* Birthday Countdown */,
 				9525E00E1F35447D008E6815 /* Products */,
 				514F5FB08DA5D280DDA9FA20 /* Pods */,
 				D2C818F37701DBDEB2F6AC30 /* Frameworks */,
-				27AC20341F802A2900D94BE2 /* Birthday Countdown copy-Info.plist */,
+				27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */,
+				27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */,
+				27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +472,8 @@
 			children = (
 				9525E00D1F35447D008E6815 /* Its Almost My Birthday.app */,
 				27AC20331F802A2800D94BE2 /* Es casi mi cumpleaños.app */,
+				27C715AF1F92B3B7003DA19F /* Its Almost Halloween.app */,
+				27C716191F92B429003DA19F /* Its Almost Christmas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,6 +481,8 @@
 		9525E00F1F35447D008E6815 /* Birthday Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				27A842541F92D1F000E11D49 /* Event */,
+				27C7161B1F92B622003DA19F /* DateCountdown */,
 				9525E02A1F3551C9008E6815 /* Bithday */,
 				9525E0251F354882008E6815 /* date picker */,
 				9525E0241F35487E008E6815 /* Birthday Countdown */,
@@ -264,6 +491,7 @@
 				9525E0191F35447D008E6815 /* LaunchScreen.storyboard */,
 				9525E01C1F35447D008E6815 /* Info.plist */,
 				27AC20481F80303600D94BE2 /* ViewExtensions.swift */,
+				27A8426D1F92E77E00E11D49 /* UILabelExtensions.swift */,
 			);
 			path = "Birthday Countdown";
 			sourceTree = "<group>";
@@ -303,6 +531,8 @@
 			isa = PBXGroup;
 			children = (
 				22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */,
+				4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */,
+				35017CB2B3FDDA0C5B905C1A /* Pods_Es_casi_mi_cumplea_os.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,12 +544,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27AC20301F802A2800D94BE2 /* Build configuration list for PBXNativeTarget "Es casi mi cumpleaños" */;
 			buildPhases = (
-				27AC20191F802A2800D94BE2 /* [CP] Check Pods Manifest.lock */,
+				26BE14C35D846F2CB464D55E /* [CP] Check Pods Manifest.lock */,
 				27AC201A1F802A2800D94BE2 /* Sources */,
 				27AC20221F802A2800D94BE2 /* Frameworks */,
 				27AC20241F802A2800D94BE2 /* Resources */,
-				27AC202E1F802A2800D94BE2 /* [CP] Embed Pods Frameworks */,
-				27AC202F1F802A2800D94BE2 /* [CP] Copy Pods Resources */,
+				A23014893EB76E41FEA4BFAA /* [CP] Embed Pods Frameworks */,
+				87640ABF042014978C67E133 /* [CP] Copy Pods Resources */,
+				279042251F92AD1D00079B5E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -328,6 +559,48 @@
 			name = "Es casi mi cumpleaños";
 			productName = "Birthday Countdown";
 			productReference = 27AC20331F802A2800D94BE2 /* Es casi mi cumpleaños.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C7157C1F92B3B7003DA19F /* Its Almost Halloween */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C715AC1F92B3B7003DA19F /* Build configuration list for PBXNativeTarget "Its Almost Halloween" */;
+			buildPhases = (
+				27C7157D1F92B3B7003DA19F /* [CP] Check Pods Manifest.lock */,
+				27C7157E1F92B3B7003DA19F /* Sources */,
+				27C715881F92B3B7003DA19F /* Frameworks */,
+				27C7158B1F92B3B7003DA19F /* Resources */,
+				27C715A91F92B3B7003DA19F /* [CP] Embed Pods Frameworks */,
+				27C715AA1F92B3B7003DA19F /* [CP] Copy Pods Resources */,
+				27C715AB1F92B3B7003DA19F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Its Almost Halloween";
+			productName = "Birthday Countdown";
+			productReference = 27C715AF1F92B3B7003DA19F /* Its Almost Halloween.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C715E61F92B429003DA19F /* Its Almost Christmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C716161F92B429003DA19F /* Build configuration list for PBXNativeTarget "Its Almost Christmas" */;
+			buildPhases = (
+				27C715E71F92B429003DA19F /* [CP] Check Pods Manifest.lock */,
+				27C715E81F92B429003DA19F /* Sources */,
+				27C715F21F92B429003DA19F /* Frameworks */,
+				27C715F51F92B429003DA19F /* Resources */,
+				27C716131F92B429003DA19F /* [CP] Embed Pods Frameworks */,
+				27C716141F92B429003DA19F /* [CP] Copy Pods Resources */,
+				27C716151F92B429003DA19F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Its Almost Christmas";
+			productName = "Birthday Countdown";
+			productReference = 27C716191F92B429003DA19F /* Its Almost Christmas.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9525E00C1F35447D008E6815 /* Its Almost My Birthday */ = {
@@ -340,6 +613,7 @@
 				9525E00B1F35447D008E6815 /* Resources */,
 				1833ABB5246E3B2EEBC5D594 /* [CP] Embed Pods Frameworks */,
 				AD4E5EDF47F8D7CAF42037AC /* [CP] Copy Pods Resources */,
+				279042231F92AC7E00079B5E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -363,6 +637,14 @@
 					27AC20181F802A2800D94BE2 = {
 						DevelopmentTeam = 363P6K3ZSX;
 					};
+					27C7157C1F92B3B7003DA19F = {
+						DevelopmentTeam = 363P6K3ZSX;
+						ProvisioningStyle = Automatic;
+					};
+					27C715E61F92B429003DA19F = {
+						DevelopmentTeam = 363P6K3ZSX;
+						ProvisioningStyle = Automatic;
+					};
 					9525E00C1F35447D008E6815 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 363P6K3ZSX;
@@ -385,6 +667,8 @@
 			targets = (
 				9525E00C1F35447D008E6815 /* Its Almost My Birthday */,
 				27AC20181F802A2800D94BE2 /* Es casi mi cumpleaños */,
+				27C7157C1F92B3B7003DA19F /* Its Almost Halloween */,
+				27C715E61F92B429003DA19F /* Its Almost Christmas */,
 			);
 		};
 /* End PBXProject section */
@@ -396,6 +680,7 @@
 			files = (
 				27AC20251F802A2800D94BE2 /* UnMute.png in Resources */,
 				271E43C41F85DBAE000005A5 /* ItsMyBirthday.png in Resources */,
+				279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */,
 				271E43BA1F85CFC0000005A5 /* minutes.png in Resources */,
 				27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */,
 				27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */,
@@ -406,13 +691,13 @@
 				271E43B81F85CFC0000005A5 /* Thisismybirthday.png in Resources */,
 				271E43B41F85CFC0000005A5 /* 2x1---hastamycumpleanos.png in Resources */,
 				27AC20291F802A2800D94BE2 /* datepick.storyboard in Resources */,
-				271E43C61F85DD6D000005A5 /* BirthdaySong.mp3 in Resources */,
 				275CE82C1F8338F20011F6F8 /* present.png in Resources */,
 				27AC202A1F802A2800D94BE2 /* Birthday.storyboard in Resources */,
 				271E43BB1F85CFC0000005A5 /* seconds.png in Resources */,
 				275CE82E1F8338F60011F6F8 /* PartyHat.jpg in Resources */,
 				27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */,
 				275CE82A1F8338F20011F6F8 /* hats.png in Resources */,
+				27C716261F92B6B7003DA19F /* Its Almost My Birthday copy-Info.plist in Resources */,
 				271E43CA1F85DD7C000005A5 /* presents.png in Resources */,
 				27AC202B1F802A2800D94BE2 /* BirthdayCountdown.storyboard in Resources */,
 				271E43C81F85DD79000005A5 /* AppIcon.png in Resources */,
@@ -423,13 +708,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C7158B1F92B3B7003DA19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A842791F92ECB700E11D49 /* ItsHalloween.png in Resources */,
+				27C7158C1F92B3B7003DA19F /* BirthdaySong.mp3 in Resources */,
+				27C7158D1F92B3B7003DA19F /* AppIcon.png in Resources */,
+				2744FA2A1F93BCA700F412DE /* BloodLust.ttf in Resources */,
+				27C7158E1F92B3B7003DA19F /* ItsMyBirthday.jpg in Resources */,
+				27C7158F1F92B3B7003DA19F /* UnMute.png in Resources */,
+				27A842671F92DE6E00E11D49 /* AlmostHalloween.mp3 in Resources */,
+				27A842681F92DE7100E11D49 /* ItsHalloween.wav in Resources */,
+				27C715901F92B3B7003DA19F /* GoogleService-Info.plist in Resources */,
+				27A842781F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */,
+				27C715911F92B3B7003DA19F /* PartyHat.jpg in Resources */,
+				27C715921F92B3B7003DA19F /* horn.png in Resources */,
+				27C715931F92B3B7003DA19F /* LaunchScreen.storyboard in Resources */,
+				27A842521F92BF8A00E11D49 /* DateCountdown.storyboard in Resources */,
+				27A842591F92D22600E11D49 /* Event.storyboard in Resources */,
+				2744FA2D1F93BE6F00F412DE /* MountainsofChristmas.ttf in Resources */,
+				27C715941F92B3B7003DA19F /* minutes.png in Resources */,
+				27C715951F92B3B7003DA19F /* Assets.xcassets in Resources */,
+				27C715961F92B3B7003DA19F /* present.png in Resources */,
+				27C715971F92B3B7003DA19F /* ClockTick.wav in Resources */,
+				27C715981F92B3B7003DA19F /* Thisismybirthday.png in Resources */,
+				27C715991F92B3B7003DA19F /* hours.png in Resources */,
+				27C7159A1F92B3B7003DA19F /* seconds.png in Resources */,
+				27C7159B1F92B3B7003DA19F /* datepick.storyboard in Resources */,
+				27C7159C1F92B3B7003DA19F /* Whenisthebigday.png in Resources */,
+				27C7159D1F92B3B7003DA19F /* BallonBackground.jpg in Resources */,
+				27C7159E1F92B3B7003DA19F /* Birthday.storyboard in Resources */,
+				27C7159F1F92B3B7003DA19F /* only.png in Resources */,
+				27A8426C1F92E0C900E11D49 /* HorrorTick.wav in Resources */,
+				27C715A01F92B3B7003DA19F /* BirthdayCountdown.storyboard in Resources */,
+				27C715A11F92B3B7003DA19F /* Info.plist in Resources */,
+				27C715A21F92B3B7003DA19F /* hats.png in Resources */,
+				27C716281F92B6BB003DA19F /* Its Almost Halloween-Info.plist in Resources */,
+				27C715A31F92B3B7003DA19F /* presents.png in Resources */,
+				27C715A41F92B3B7003DA19F /* Mute.png in Resources */,
+				27C715A51F92B3B7003DA19F /* Untilmybday.png in Resources */,
+				27C715A61F92B3B7003DA19F /* days.png in Resources */,
+				27C715A71F92B3B7003DA19F /* BirthdayBackground.jpg in Resources */,
+				27C715A81F92B3B7003DA19F /* Yes.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C715F51F92B429003DA19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */,
+				27C715F71F92B429003DA19F /* AppIcon.png in Resources */,
+				27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */,
+				27C715F91F92B429003DA19F /* UnMute.png in Resources */,
+				27C716291F92B6BD003DA19F /* Its Almost Christmas-Info.plist in Resources */,
+				2744FA2C1F93BE6D00F412DE /* MountainsofChristmas.ttf in Resources */,
+				27C715FA1F92B429003DA19F /* GoogleService-Info.plist in Resources */,
+				27C715FB1F92B429003DA19F /* PartyHat.jpg in Resources */,
+				27C715FC1F92B429003DA19F /* horn.png in Resources */,
+				27A842531F92BF8B00E11D49 /* DateCountdown.storyboard in Resources */,
+				27A8425A1F92D22600E11D49 /* Event.storyboard in Resources */,
+				27C715FD1F92B429003DA19F /* LaunchScreen.storyboard in Resources */,
+				27C715FE1F92B429003DA19F /* minutes.png in Resources */,
+				27C715FF1F92B429003DA19F /* Assets.xcassets in Resources */,
+				27A842761F92ECB100E11D49 /* ItsChristmas.jpg in Resources */,
+				27C716001F92B429003DA19F /* present.png in Resources */,
+				27C716011F92B429003DA19F /* ClockTick.wav in Resources */,
+				27A8427B1F92ECB700E11D49 /* ItsHalloween.png in Resources */,
+				27A842651F92DE6900E11D49 /* JingleBells.mp3 in Resources */,
+				2744FA311F93C0A000F412DE /* PWHappyChristmas.ttf in Resources */,
+				27C716021F92B429003DA19F /* Thisismybirthday.png in Resources */,
+				27C716031F92B429003DA19F /* hours.png in Resources */,
+				27C716041F92B429003DA19F /* seconds.png in Resources */,
+				27C716051F92B429003DA19F /* datepick.storyboard in Resources */,
+				27C716061F92B429003DA19F /* Whenisthebigday.png in Resources */,
+				27C716071F92B429003DA19F /* BallonBackground.jpg in Resources */,
+				27A8427A1F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */,
+				27C716081F92B429003DA19F /* Birthday.storyboard in Resources */,
+				27C716091F92B429003DA19F /* only.png in Resources */,
+				27C7160A1F92B429003DA19F /* BirthdayCountdown.storyboard in Resources */,
+				27C7160B1F92B429003DA19F /* Info.plist in Resources */,
+				27A842661F92DE6C00E11D49 /* WishYouMerryChristmas.mp3 in Resources */,
+				2744FA2F1F93BF5A00F412DE /* CartoonChristmas.otf in Resources */,
+				27C7160C1F92B429003DA19F /* hats.png in Resources */,
+				27C7160D1F92B429003DA19F /* presents.png in Resources */,
+				27C7160E1F92B429003DA19F /* Mute.png in Resources */,
+				27C7160F1F92B429003DA19F /* Untilmybday.png in Resources */,
+				27C716101F92B429003DA19F /* days.png in Resources */,
+				27A842771F92ECB100E11D49 /* AlmostChristmas.jpg in Resources */,
+				27C716111F92B429003DA19F /* BirthdayBackground.jpg in Resources */,
+				27C716121F92B429003DA19F /* Yes.jpg in Resources */,
+				27A8426A1F92E04900E11D49 /* chime.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9525E00B1F35447D008E6815 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279042211F92AA7200079B5E /* BirthdaySong.mp3 in Resources */,
 				271E43C71F85DD78000005A5 /* AppIcon.png in Resources */,
 				27AC20361F802C7F00D94BE2 /* ItsMyBirthday.jpg in Resources */,
 				27E924991F57A5F800739DE7 /* UnMute.png in Resources */,
+				279042281F92AEA600079B5E /* GoogleService-Info.plist in Resources */,
 				275CE82D1F8338F60011F6F8 /* PartyHat.jpg in Resources */,
 				275CE8281F8338F10011F6F8 /* horn.png in Resources */,
 				9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */,
@@ -446,6 +828,7 @@
 				9525E02C1F3551E8008E6815 /* Birthday.storyboard in Resources */,
 				2706FE791F8327D7002AD9B1 /* only.png in Resources */,
 				9525E0271F3548C2008E6815 /* BirthdayCountdown.storyboard in Resources */,
+				279042261F92AD3900079B5E /* Info.plist in Resources */,
 				275CE8271F8338F10011F6F8 /* hats.png in Resources */,
 				271E43C91F85DD7B000005A5 /* presents.png in Resources */,
 				27E924971F57A5D800739DE7 /* Mute.png in Resources */,
@@ -453,7 +836,6 @@
 				2706FE761F8327CF002AD9B1 /* days.png in Resources */,
 				27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */,
 				27AC20411F802C7F00D94BE2 /* Yes.jpg in Resources */,
-				27E924951F57A48900739DE7 /* BirthdaySong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,13 +848,36 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26BE14C35D846F2CB464D55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Es casi mi cumpleaños-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27092E1FA289ABD1E85226B0 /* [CP] Check Pods Manifest.lock */ = {
@@ -486,14 +891,40 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Birthday Countdown-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Its Almost My Birthday-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27AC20191F802A2800D94BE2 /* [CP] Check Pods Manifest.lock */ = {
+		279042231F92AC7E00079B5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 258cf248ce2ad403e5064877d6f7bd80fb24f3fb 5416df9d0131568be683c6eb0df30043d968d1ae8ed8836a7d5e87c6ecfb6c9c";
+		};
+		279042251F92AD1D00079B5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 258cf248ce2ad403e5064877d6f7bd80fb24f3fb 5416df9d0131568be683c6eb0df30043d968d1ae8ed8836a7d5e87c6ecfb6c9c";
+		};
+		27C7157D1F92B3B7003DA19F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,29 +935,34 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Birthday Countdown-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Its Almost My Birthday-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27AC202E1F802A2800D94BE2 /* [CP] Embed Pods Frameworks */ = {
+		27C715A91F92B3B7003DA19F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27AC202F1F802A2800D94BE2 /* [CP] Copy Pods Resources */ = {
+		27C715AA1F92B3B7003DA19F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -538,7 +974,121 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C715AB1F92B3B7003DA19F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 258cf248ce2ad403e5064877d6f7bd80fb24f3fb 5416df9d0131568be683c6eb0df30043d968d1ae8ed8836a7d5e87c6ecfb6c9c";
+		};
+		27C715E71F92B429003DA19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Its Almost My Birthday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C716131F92B429003DA19F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C716141F92B429003DA19F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C716151F92B429003DA19F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 258cf248ce2ad403e5064877d6f7bd80fb24f3fb 5416df9d0131568be683c6eb0df30043d968d1ae8ed8836a7d5e87c6ecfb6c9c";
+		};
+		87640ABF042014978C67E133 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23014893EB76E41FEA4BFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.3/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD4E5EDF47F8D7CAF42037AC /* [CP] Copy Pods Resources */ = {
@@ -553,7 +1103,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthday Countdown/Pods-Birthday Countdown-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -565,6 +1115,7 @@
 			files = (
 				27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */,
 				27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */,
+				27A8426F1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				271E43BC1F85D115000005A5 /* ViewExtensions.swift in Sources */,
 				271E43BD1F85D12B000005A5 /* TimeIncrements.swift in Sources */,
 				27AC201D1F802A2800D94BE2 /* BirthdayViewController.swift in Sources */,
@@ -575,12 +1126,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C7157E1F92B3B7003DA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C7157F1F92B3B7003DA19F /* birthdayCountdownViewController.swift in Sources */,
+				27A8425C1F92D26100E11D49 /* EventViewController.swift in Sources */,
+				27A842701F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
+				27C715801F92B3B7003DA19F /* BirthdayCountdownViewModel.swift in Sources */,
+				27C715811F92B3B7003DA19F /* ViewExtensions.swift in Sources */,
+				27C715821F92B3B7003DA19F /* TimeIncrements.swift in Sources */,
+				27C7161F1F92B665003DA19F /* DateCountdownViewController.swift in Sources */,
+				27C715831F92B3B7003DA19F /* BirthdayViewController.swift in Sources */,
+				27C716221F92B677003DA19F /* DateCountdownViewModel.swift in Sources */,
+				27C715841F92B3B7003DA19F /* datePickModel.swift in Sources */,
+				27C715861F92B3B7003DA19F /* DatePickViewModel.swift in Sources */,
+				27C715871F92B3B7003DA19F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C715E81F92B429003DA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C715E91F92B429003DA19F /* birthdayCountdownViewController.swift in Sources */,
+				27A8425D1F92D26100E11D49 /* EventViewController.swift in Sources */,
+				27A842711F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
+				27C715EA1F92B429003DA19F /* BirthdayCountdownViewModel.swift in Sources */,
+				27C715EB1F92B429003DA19F /* ViewExtensions.swift in Sources */,
+				27C715EC1F92B429003DA19F /* TimeIncrements.swift in Sources */,
+				27C716201F92B665003DA19F /* DateCountdownViewController.swift in Sources */,
+				27C715ED1F92B429003DA19F /* BirthdayViewController.swift in Sources */,
+				27C716231F92B677003DA19F /* DateCountdownViewModel.swift in Sources */,
+				27C715EE1F92B429003DA19F /* datePickModel.swift in Sources */,
+				27C715F01F92B429003DA19F /* DatePickViewModel.swift in Sources */,
+				27C715F11F92B429003DA19F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9525E0091F35447D008E6815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */,
 				95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */,
+				27A8426E1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				27AC20491F80303600D94BE2 /* ViewExtensions.swift in Sources */,
 				27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */,
 				9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */,
@@ -615,7 +1205,7 @@
 /* Begin XCBuildConfiguration section */
 		27AC20311F802A2800D94BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */;
+			baseConfigurationReference = 484D124C9BE879F7713AB47E /* Pods-Es casi mi cumpleaños.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
@@ -632,7 +1222,7 @@
 		};
 		27AC20321F802A2800D94BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */;
+			baseConfigurationReference = FE6716D3A97F0801E7DF80ED /* Pods-Es casi mi cumpleaños.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
@@ -642,6 +1232,86 @@
 				OTHER_SWIFT_FLAGS = "-DSpanishBirthday";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27C715AD1F92B3B7003DA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Its Almost My Birthday copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DHALLOWEEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27C715AE1F92B3B7003DA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Its Almost My Birthday copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DHALLOWEEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27C716171F92B429003DA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Its Almost Christmas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DCHRISTMAS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27C716181F92B429003DA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Its Almost Christmas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DCHRISTMAS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JetmaxStudios.Birthday-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -743,7 +1413,7 @@
 		};
 		9525E0201F35447D008E6815 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 627CE1CC680679C9DF592E73 /* Pods-Birthday Countdown.debug.xcconfig */;
+			baseConfigurationReference = 2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -763,7 +1433,7 @@
 		};
 		9525E0211F35447D008E6815 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0902B478ACD56D44465C23 /* Pods-Birthday Countdown.release.xcconfig */;
+			baseConfigurationReference = AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -789,6 +1459,24 @@
 			buildConfigurations = (
 				27AC20311F802A2800D94BE2 /* Debug */,
 				27AC20321F802A2800D94BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C715AC1F92B3B7003DA19F /* Build configuration list for PBXNativeTarget "Its Almost Halloween" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C715AD1F92B3B7003DA19F /* Debug */,
+				27C715AE1F92B3B7003DA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C716161F92B429003DA19F /* Build configuration list for PBXNativeTarget "Its Almost Christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C716171F92B429003DA19F /* Debug */,
+				27C716181F92B429003DA19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

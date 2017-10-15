@@ -9,5 +9,5 @@
 import Foundation
 
 enum TimeIncrement : String {
-    case seconds, minutes, hours, days
+    case seconds = "Seconds", minutes = "Minutes", hours = "Hours", days = "Days"
 }
