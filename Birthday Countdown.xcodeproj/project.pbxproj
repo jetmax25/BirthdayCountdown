@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B29A0F0937C3BD68564827E /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
+		1EBE655C4C8888EEE4DF8FFA /* Pods_Its_Almost_Christmas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8E181666201AC1D804BFF5 /* Pods_Its_Almost_Christmas.framework */; };
 		2706FE731F8327C8002AD9B1 /* seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE721F8325E4002AD9B1 /* seconds.png */; };
 		2706FE741F8327CA002AD9B1 /* Whenisthebigday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */; };
 		2706FE751F8327CC002AD9B1 /* Untilmybday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */; };
@@ -30,7 +31,6 @@
 		271E43BD1F85D12B000005A5 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
 		271E43C41F85DBAE000005A5 /* ItsMyBirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43C31F85DB78000005A5 /* ItsMyBirthday.png */; };
 		271E43C71F85DD78000005A5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
-		271E43C81F85DD79000005A5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
 		271E43C91F85DD7B000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
 		271E43CA1F85DD7C000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
 		2744FA2A1F93BCA700F412DE /* BloodLust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA271F93BC8F00F412DE /* BloodLust.ttf */; };
@@ -72,7 +72,6 @@
 		27A842791F92ECB700E11D49 /* ItsHalloween.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A842721F92EC8000E11D49 /* ItsHalloween.png */; };
 		27A8427A1F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */; };
 		27A8427B1F92ECB700E11D49 /* ItsHalloween.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A842721F92EC8000E11D49 /* ItsHalloween.png */; };
-		27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
 		27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27AC201D1F802A2800D94BE2 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
 		27AC201E1F802A2800D94BE2 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
@@ -81,7 +80,6 @@
 		27AC20211F802A2800D94BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		27AC20251F802A2800D94BE2 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
-		27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
 		27AC20281F802A2800D94BE2 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
 		27AC20291F802A2800D94BE2 /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
 		27AC202A1F802A2800D94BE2 /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
@@ -93,7 +91,9 @@
 		27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
-		27C7157F1F92B3B7003DA19F /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
+		27B2D7261F943FC200FD038F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7251F943FBE00FD038F /* AppIcon.png */; };
+		27B2D7291F94415E00FD038F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7281F94414D00FD038F /* AppIcon.png */; };
+		27B2D72A1F94423F00FD038F /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
 		27C715801F92B3B7003DA19F /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27C715811F92B3B7003DA19F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
 		27C715821F92B3B7003DA19F /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
@@ -102,9 +102,7 @@
 		27C715861F92B3B7003DA19F /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
 		27C715871F92B3B7003DA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		27C715891F92B3B7003DA19F /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
-		27C7158A1F92B3B7003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */; };
 		27C7158C1F92B3B7003DA19F /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
-		27C7158D1F92B3B7003DA19F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
 		27C7158E1F92B3B7003DA19F /* ItsMyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */; };
 		27C7158F1F92B3B7003DA19F /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27C715901F92B3B7003DA19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
@@ -112,7 +110,6 @@
 		27C715921F92B3B7003DA19F /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE691F8324B3002AD9B1 /* horn.png */; };
 		27C715931F92B3B7003DA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
 		27C715941F92B3B7003DA19F /* minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE701F8324D9002AD9B1 /* minutes.png */; };
-		27C715951F92B3B7003DA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
 		27C715961F92B3B7003DA19F /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
 		27C715971F92B3B7003DA19F /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
 		27C715981F92B3B7003DA19F /* Thisismybirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */; };
@@ -132,7 +129,6 @@
 		27C715A61F92B3B7003DA19F /* days.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6F1F8324D9002AD9B1 /* days.png */; };
 		27C715A71F92B3B7003DA19F /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27C715A81F92B3B7003DA19F /* Yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC200B1F8029AB00D94BE2 /* Yes.jpg */; };
-		27C715E91F92B429003DA19F /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
 		27C715EA1F92B429003DA19F /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27C715EB1F92B429003DA19F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
 		27C715EC1F92B429003DA19F /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
@@ -141,9 +137,7 @@
 		27C715F01F92B429003DA19F /* DatePickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */; };
 		27C715F11F92B429003DA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		27C715F31F92B429003DA19F /* libPods-Birthday Countdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */; };
-		27C715F41F92B429003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */; };
 		27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
-		27C715F71F92B429003DA19F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
 		27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20171F8029AB00D94BE2 /* ItsMyBirthday.jpg */; };
 		27C715F91F92B429003DA19F /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27C715FA1F92B429003DA19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
@@ -151,7 +145,6 @@
 		27C715FC1F92B429003DA19F /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE691F8324B3002AD9B1 /* horn.png */; };
 		27C715FD1F92B429003DA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
 		27C715FE1F92B429003DA19F /* minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE701F8324D9002AD9B1 /* minutes.png */; };
-		27C715FF1F92B429003DA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
 		27C716001F92B429003DA19F /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
 		27C716011F92B429003DA19F /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
 		27C716021F92B429003DA19F /* Thisismybirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6D1F8324D9002AD9B1 /* Thisismybirthday.png */; };
@@ -182,12 +175,11 @@
 		27E924971F57A5D800739DE7 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
 		27E924991F57A5F800739DE7 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
 		27E924D51F57AF6200739DE7 /* BirthdayChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */; };
+		822630980834FA622E1A6572 /* Pods_Its_Almost_Halloween.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CF357A98D690F231AE27DD /* Pods_Its_Almost_Halloween.framework */; };
 		9525E0111F35447D008E6815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0101F35447D008E6815 /* AppDelegate.swift */; };
 		9525E0161F35447D008E6815 /* datepick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0141F35447D008E6815 /* datepick.storyboard */; };
-		9525E0181F35447D008E6815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* Assets.xcassets */; };
 		9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0191F35447D008E6815 /* LaunchScreen.storyboard */; };
 		9525E0271F3548C2008E6815 /* BirthdayCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */; };
-		9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */; };
 		9525E02C1F3551E8008E6815 /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525E02B1F3551E8008E6815 /* Birthday.storyboard */; };
 		9525E02E1F3551F6008E6815 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */; };
 		95F9BFBF1F358954003444E3 /* datePickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFBE1F358954003444E3 /* datePickModel.swift */; };
@@ -249,6 +241,8 @@
 		27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BirthdayBackground.jpg; sourceTree = "<group>"; };
 		27AC20481F80303600D94BE2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIncrements.swift; sourceTree = "<group>"; };
+		27B2D7251F943FBE00FD038F /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		27B2D7281F94414D00FD038F /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		27C715AF1F92B3B7003DA19F /* Its Almost Halloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost Halloween.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost My Birthday copy-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost My Birthday copy-Info.plist"; sourceTree = "<absolute>"; };
 		27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost Halloween-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost Halloween-Info.plist"; sourceTree = "<absolute>"; };
@@ -262,23 +256,28 @@
 		27E924981F57A5F800739DE7 /* UnMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnMute.png; sourceTree = "<group>"; };
 		2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost My Birthday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.debug.xcconfig"; sourceTree = "<group>"; };
 		35017CB2B3FDDA0C5B905C1A /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Es_casi_mi_cumplea_os.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E181666201AC1D804BFF5 /* Pods_Its_Almost_Christmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_Almost_Christmas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484D124C9BE879F7713AB47E /* Pods-Es casi mi cumpleaños.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Es casi mi cumpleaños.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.debug.xcconfig"; sourceTree = "<group>"; };
+		4A75F5BE39C01433421C8D8F /* Pods-Its Almost Christmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost Christmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.release.xcconfig"; sourceTree = "<group>"; };
 		4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_Almost_My_Birthday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5845BB529A07F27EF272565B /* Pods-Its Almost Halloween.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost Halloween.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.debug.xcconfig"; sourceTree = "<group>"; };
 		9525E00D1F35447D008E6815 /* Its Almost My Birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost My Birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525E0101F35447D008E6815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9525E0151F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/datepick.storyboard; sourceTree = "<group>"; };
-		9525E0171F35447D008E6815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9525E0171F35447D008E6815 /* C.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = C.xcassets; sourceTree = "<group>"; };
 		9525E01A1F35447D008E6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9525E01C1F35447D008E6815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9525E0221F3545D9008E6815 /* BirthdayChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayChooserViewController.swift; sourceTree = "<group>"; };
 		9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BirthdayCountdown.storyboard; sourceTree = "<group>"; };
-		9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = birthdayCountdownViewController.swift; path = Assets.xcassets/birthdayCountdownViewController.swift; sourceTree = "<group>"; };
 		9525E02B1F3551E8008E6815 /* Birthday.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Birthday.storyboard; sourceTree = "<group>"; };
 		9525E02D1F3551F6008E6815 /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		95F9BFBE1F358954003444E3 /* datePickModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePickModel.swift; sourceTree = "<group>"; };
 		95F9BFC01F358A1C003444E3 /* DatePickViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickViewModel.swift; sourceTree = "<group>"; };
 		95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCountdownViewModel.swift; sourceTree = "<group>"; };
+		A386D822B2553F06451FA5C5 /* Pods-Its Almost Halloween.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost Halloween.release.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.release.xcconfig"; sourceTree = "<group>"; };
+		A88CC7D6F077D5754AB1394D /* Pods-Its Almost Christmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost Christmas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.debug.xcconfig"; sourceTree = "<group>"; };
 		AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its Almost My Birthday.release.xcconfig"; path = "Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.release.xcconfig"; sourceTree = "<group>"; };
+		D2CF357A98D690F231AE27DD /* Pods_Its_Almost_Halloween.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_Almost_Halloween.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6716D3A97F0801E7DF80ED /* Pods-Es casi mi cumpleaños.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Es casi mi cumpleaños.release.xcconfig"; path = "Pods/Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C715891F92B3B7003DA19F /* libPods-Birthday Countdown.a in Frameworks */,
-				27C7158A1F92B3B7003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */,
+				822630980834FA622E1A6572 /* Pods_Its_Almost_Halloween.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C715F31F92B429003DA19F /* libPods-Birthday Countdown.a in Frameworks */,
-				27C715F41F92B429003DA19F /* Pods_Its_Almost_My_Birthday.framework in Frameworks */,
+				1EBE655C4C8888EEE4DF8FFA /* Pods_Its_Almost_Christmas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +332,7 @@
 		27A8425F1F92D75400E11D49 /* Christmas Assets */ = {
 			isa = PBXGroup;
 			children = (
+				27B2D7281F94414D00FD038F /* AppIcon.png */,
 				27A842741F92ECA000E11D49 /* ItsChristmas.jpg */,
 				27A842751F92ECA900E11D49 /* AlmostChristmas.jpg */,
 				27A842691F92E04600E11D49 /* chime.wav */,
@@ -345,6 +345,7 @@
 		27A842621F92DA1400E11D49 /* Halloween Assets */ = {
 			isa = PBXGroup;
 			children = (
+				27B2D7251F943FBE00FD038F /* AppIcon.png */,
 				27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */,
 				27A842721F92EC8000E11D49 /* ItsHalloween.png */,
 				27A8426B1F92E0C700E11D49 /* HorrorTick.wav */,
@@ -357,6 +358,7 @@
 		27AC20051F8027D900D94BE2 /* English Assets */ = {
 			isa = PBXGroup;
 			children = (
+				271E43A61F85C35E000005A5 /* AppIcon.png */,
 				2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */,
 				2706FE721F8325E4002AD9B1 /* seconds.png */,
 				2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */,
@@ -392,7 +394,6 @@
 			isa = PBXGroup;
 			children = (
 				279042201F92AA6A00079B5E /* BirthdaySong.mp3 */,
-				271E43A61F85C35E000005A5 /* AppIcon.png */,
 				2706FE6A1F8324B3002AD9B1 /* presents.png */,
 				27E924961F57A5D800739DE7 /* Mute.png */,
 				27E924921F579C2800739DE7 /* ClockTick.wav */,
@@ -447,6 +448,10 @@
 				AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */,
 				484D124C9BE879F7713AB47E /* Pods-Es casi mi cumpleaños.debug.xcconfig */,
 				FE6716D3A97F0801E7DF80ED /* Pods-Es casi mi cumpleaños.release.xcconfig */,
+				A88CC7D6F077D5754AB1394D /* Pods-Its Almost Christmas.debug.xcconfig */,
+				4A75F5BE39C01433421C8D8F /* Pods-Its Almost Christmas.release.xcconfig */,
+				5845BB529A07F27EF272565B /* Pods-Its Almost Halloween.debug.xcconfig */,
+				A386D822B2553F06451FA5C5 /* Pods-Its Almost Halloween.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -487,7 +492,7 @@
 				9525E0251F354882008E6815 /* date picker */,
 				9525E0241F35487E008E6815 /* Birthday Countdown */,
 				9525E0101F35447D008E6815 /* AppDelegate.swift */,
-				9525E0171F35447D008E6815 /* Assets.xcassets */,
+				9525E0171F35447D008E6815 /* C.xcassets */,
 				9525E0191F35447D008E6815 /* LaunchScreen.storyboard */,
 				9525E01C1F35447D008E6815 /* Info.plist */,
 				27AC20481F80303600D94BE2 /* ViewExtensions.swift */,
@@ -500,7 +505,6 @@
 			isa = PBXGroup;
 			children = (
 				9525E0261F3548C2008E6815 /* BirthdayCountdown.storyboard */,
-				9525E0281F3548DC008E6815 /* birthdayCountdownViewController.swift */,
 				95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */,
 				27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */,
 			);
@@ -533,6 +537,8 @@
 				22A74BA9CABDBB17B15F37E2 /* libPods-Birthday Countdown.a */,
 				4FC0940CD2F7440D0CF73EE8 /* Pods_Its_Almost_My_Birthday.framework */,
 				35017CB2B3FDDA0C5B905C1A /* Pods_Es_casi_mi_cumplea_os.framework */,
+				3F8E181666201AC1D804BFF5 /* Pods_Its_Almost_Christmas.framework */,
+				D2CF357A98D690F231AE27DD /* Pods_Its_Almost_Halloween.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -683,7 +689,6 @@
 				279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */,
 				271E43BA1F85CFC0000005A5 /* minutes.png in Resources */,
 				27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */,
-				27AC20271F802A2800D94BE2 /* Assets.xcassets in Resources */,
 				271E43B51F85CFC0000005A5 /* Yes.png in Resources */,
 				27AC20281F802A2800D94BE2 /* ClockTick.wav in Resources */,
 				271E43B71F85CFC0000005A5 /* days.png in Resources */,
@@ -700,7 +705,6 @@
 				27C716261F92B6B7003DA19F /* Its Almost My Birthday copy-Info.plist in Resources */,
 				271E43CA1F85DD7C000005A5 /* presents.png in Resources */,
 				27AC202B1F802A2800D94BE2 /* BirthdayCountdown.storyboard in Resources */,
-				271E43C81F85DD79000005A5 /* AppIcon.png in Resources */,
 				27AC202C1F802A2800D94BE2 /* Mute.png in Resources */,
 				275CE82B1F8338F20011F6F8 /* horn.png in Resources */,
 				271E43B61F85CFC0000005A5 /* only.png in Resources */,
@@ -714,7 +718,6 @@
 			files = (
 				27A842791F92ECB700E11D49 /* ItsHalloween.png in Resources */,
 				27C7158C1F92B3B7003DA19F /* BirthdaySong.mp3 in Resources */,
-				27C7158D1F92B3B7003DA19F /* AppIcon.png in Resources */,
 				2744FA2A1F93BCA700F412DE /* BloodLust.ttf in Resources */,
 				27C7158E1F92B3B7003DA19F /* ItsMyBirthday.jpg in Resources */,
 				27C7158F1F92B3B7003DA19F /* UnMute.png in Resources */,
@@ -729,7 +732,6 @@
 				27A842591F92D22600E11D49 /* Event.storyboard in Resources */,
 				2744FA2D1F93BE6F00F412DE /* MountainsofChristmas.ttf in Resources */,
 				27C715941F92B3B7003DA19F /* minutes.png in Resources */,
-				27C715951F92B3B7003DA19F /* Assets.xcassets in Resources */,
 				27C715961F92B3B7003DA19F /* present.png in Resources */,
 				27C715971F92B3B7003DA19F /* ClockTick.wav in Resources */,
 				27C715981F92B3B7003DA19F /* Thisismybirthday.png in Resources */,
@@ -746,6 +748,7 @@
 				27C715A21F92B3B7003DA19F /* hats.png in Resources */,
 				27C716281F92B6BB003DA19F /* Its Almost Halloween-Info.plist in Resources */,
 				27C715A31F92B3B7003DA19F /* presents.png in Resources */,
+				27B2D7261F943FC200FD038F /* AppIcon.png in Resources */,
 				27C715A41F92B3B7003DA19F /* Mute.png in Resources */,
 				27C715A51F92B3B7003DA19F /* Untilmybday.png in Resources */,
 				27C715A61F92B3B7003DA19F /* days.png in Resources */,
@@ -759,7 +762,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */,
-				27C715F71F92B429003DA19F /* AppIcon.png in Resources */,
 				27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */,
 				27C715F91F92B429003DA19F /* UnMute.png in Resources */,
 				27C716291F92B6BD003DA19F /* Its Almost Christmas-Info.plist in Resources */,
@@ -771,9 +773,9 @@
 				27A8425A1F92D22600E11D49 /* Event.storyboard in Resources */,
 				27C715FD1F92B429003DA19F /* LaunchScreen.storyboard in Resources */,
 				27C715FE1F92B429003DA19F /* minutes.png in Resources */,
-				27C715FF1F92B429003DA19F /* Assets.xcassets in Resources */,
 				27A842761F92ECB100E11D49 /* ItsChristmas.jpg in Resources */,
 				27C716001F92B429003DA19F /* present.png in Resources */,
+				27B2D7291F94415E00FD038F /* AppIcon.png in Resources */,
 				27C716011F92B429003DA19F /* ClockTick.wav in Resources */,
 				27A8427B1F92ECB700E11D49 /* ItsHalloween.png in Resources */,
 				27A842651F92DE6900E11D49 /* JingleBells.mp3 in Resources */,
@@ -784,6 +786,7 @@
 				27C716051F92B429003DA19F /* datepick.storyboard in Resources */,
 				27C716061F92B429003DA19F /* Whenisthebigday.png in Resources */,
 				27C716071F92B429003DA19F /* BallonBackground.jpg in Resources */,
+				27B2D72A1F94423F00FD038F /* C.xcassets in Resources */,
 				27A8427A1F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */,
 				27C716081F92B429003DA19F /* Birthday.storyboard in Resources */,
 				27C716091F92B429003DA19F /* only.png in Resources */,
@@ -816,7 +819,6 @@
 				275CE8281F8338F10011F6F8 /* horn.png in Resources */,
 				9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */,
 				2706FE781F8327D7002AD9B1 /* minutes.png in Resources */,
-				9525E0181F35447D008E6815 /* Assets.xcassets in Resources */,
 				275CE8291F8338F10011F6F8 /* present.png in Resources */,
 				27E924931F579C2800739DE7 /* ClockTick.wav in Resources */,
 				2706FE7A1F8327D7002AD9B1 /* Thisismybirthday.png in Resources */,
@@ -935,7 +937,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Its Almost My Birthday-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Its Almost Halloween-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -948,7 +950,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
 			);
@@ -959,7 +961,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27C715AA1F92B3B7003DA19F /* [CP] Copy Pods Resources */ = {
@@ -974,7 +976,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27C715AB1F92B3B7003DA19F /* ShellScript */ = {
@@ -1001,7 +1003,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Its Almost My Birthday-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Its Almost Christmas-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1014,7 +1016,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb-iOS10.0/nanopb.framework",
 			);
@@ -1025,7 +1027,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27C716141F92B429003DA19F /* [CP] Copy Pods Resources */ = {
@@ -1040,7 +1042,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27C716151F92B429003DA19F /* ShellScript */ = {
@@ -1113,7 +1115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AC201B1F802A2800D94BE2 /* birthdayCountdownViewController.swift in Sources */,
 				27AC201C1F802A2800D94BE2 /* BirthdayCountdownViewModel.swift in Sources */,
 				27A8426F1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				271E43BC1F85D115000005A5 /* ViewExtensions.swift in Sources */,
@@ -1130,7 +1131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C7157F1F92B3B7003DA19F /* birthdayCountdownViewController.swift in Sources */,
 				27A8425C1F92D26100E11D49 /* EventViewController.swift in Sources */,
 				27A842701F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				27C715801F92B3B7003DA19F /* BirthdayCountdownViewModel.swift in Sources */,
@@ -1149,7 +1149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C715E91F92B429003DA19F /* birthdayCountdownViewController.swift in Sources */,
 				27A8425D1F92D26100E11D49 /* EventViewController.swift in Sources */,
 				27A842711F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				27C715EA1F92B429003DA19F /* BirthdayCountdownViewModel.swift in Sources */,
@@ -1168,7 +1167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9525E0291F3548DC008E6815 /* birthdayCountdownViewController.swift in Sources */,
 				95F9BFC31F36DDE3003444E3 /* BirthdayCountdownViewModel.swift in Sources */,
 				27A8426E1F92E77E00E11D49 /* UILabelExtensions.swift in Sources */,
 				27AC20491F80303600D94BE2 /* ViewExtensions.swift in Sources */,
@@ -1238,9 +1236,9 @@
 		};
 		27C715AD1F92B3B7003DA19F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			baseConfigurationReference = 5845BB529A07F27EF272565B /* Pods-Its Almost Halloween.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = HalloweenIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
@@ -1258,9 +1256,9 @@
 		};
 		27C715AE1F92B3B7003DA19F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			baseConfigurationReference = A386D822B2553F06451FA5C5 /* Pods-Its Almost Halloween.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = HalloweenIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
@@ -1278,9 +1276,9 @@
 		};
 		27C716171F92B429003DA19F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F304B8AA1FC09E0BB78E817 /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			baseConfigurationReference = A88CC7D6F077D5754AB1394D /* Pods-Its Almost Christmas.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ChristmasIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;
@@ -1298,9 +1296,9 @@
 		};
 		27C716181F92B429003DA19F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3E973CA54B017ABB65C012 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			baseConfigurationReference = 4A75F5BE39C01433421C8D8F /* Pods-Its Almost Christmas.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ChristmasIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 363P6K3ZSX;

@@ -14,6 +14,14 @@ target 'Its Almost My Birthday' do
 	shared_pods
 end
 
+target 'Its Almost Christmas' do
+    shared_pods
+end
+
+target 'Its Almost Halloween' do
+    shared_pods
+end
+
 target 'Es casi mi cumpleaños' do
 	shared_pods
 end

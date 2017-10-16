@@ -23,9 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         Fabric.with([Crashlytics.self])
         // Override point for customization after application launch.
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
+        
         
         #if BIRTHDAY
+            GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
             let userDefaults = UserDefaults.standard
             if let date = userDefaults.object(forKey: "Date") as? Date {
                 var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
@@ -42,10 +43,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.window?.rootViewController = storyboard.instantiateInitialViewController()
             }
         #elseif HALLOWEEN
-            var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
+            GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1234077007")
+            let storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
         #elseif CHRISTMAS
-            var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
+            GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~3017453033")
+            let storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
         #endif
         return true

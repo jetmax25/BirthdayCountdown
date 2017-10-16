@@ -8,31 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		02BBEB47FEDFFE5428F0810EA4625162 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F07E1DA7C9078A9BCBFD932F64835AE /* Pods-Its Almost My Birthday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81513DD304F2CBEFB8A209ADB691FBDA /* Pods-Its Almost My Birthday-dummy.m */; };
+		0F07E1DA7C9078A9BCBFD932F64835AE /* Pods-Its Almost My Birthday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */; };
 		10C0E8C7FE6E1FF0FD16C0802BD3A5C2 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		16B6FC71C92A977904A8E348477D2C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1D20C6C76C02B3A44165B56AFBF2568C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		205D70E6BBB3304BEAC13C241171CBD9 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		246C7CC040592C8B40143F68DF30CACF /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		470B3B3E5750302B32176FF550270923 /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BB4ED402EA4969238412FE363A4B2A /* Pods-Es casi mi cumpleaños-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470B3B3E5750302B32176FF550270923 /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB57596AB8484AAD33E9B14C649A455 /* Pods-Its Almost Christmas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */; };
 		4ED7EC92C83F90B142F0C856C1B26FEB /* GoogleToolboxForMac-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA5B63025E80F544A616CD50784CA22 /* GoogleToolboxForMac-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56EF18F0BE6222D4B32E5738CBFF25C3 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE966355B948CA240D96232EC766819 /* Pods-Its Almost Halloween-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D3D4171EA496F0B5F2EDE0C13739CF7 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 6737167A49673CB86A0CF773D0B20091 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64078872F8604701723D53F7AC522E23 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		64C30023F2E262C7BFA5649F13D38063 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A794C5F1CF740DA382B62D7BAB9780 /* Pods-Es casi mi cumpleaños-dummy.m */; };
+		64C30023F2E262C7BFA5649F13D38063 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */; };
 		654524CE85A35423C733B29D8E9B1A5A /* nanopb-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF060E078BDF6CC8E66B19E1FB11B4 /* nanopb-iOS10.3-dummy.m */; };
 		6B3F541A1FC915824DF954ACFB45F584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6C67FC3156E2412A06248592CFDA49E2 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E74A78477F07BCC691569FE41C2C756 /* Pods-Its Almost Halloween-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */; };
 		7012E864C7DF2564715FBC85E59348F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		787F0FFA28D3F4E5D5EEE14137D13F98 /* nanopb-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F4722891F90D322390D0992C31C4F4 /* nanopb-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78BB5C45E01043BB705739B076389955 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		7C900A56661CD3F2E068EA7F5DA19CFC /* GoogleToolboxForMac-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C564210870203E23FC531F0931F0306B /* GoogleToolboxForMac-iOS10.3-dummy.m */; };
 		82A35923001F630DF983BE54BBABCED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8BBBCEEE907F5D3BD370241BFA141C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8CFD69EAE190B79247D40FF6EAB2ADAA /* Pods-Its Almost Christmas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9008F2F8A0BBAAE1A2CBB1AC6F887575 /* GoogleToolboxForMac-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8467F78957C3EF91FA9EB9486890D02E /* GoogleToolboxForMac-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9206ED5654E16EF6A9437BBF205D7AD2 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 6737167A49673CB86A0CF773D0B20091 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9853C5DD2420DFBCE2862889760E4540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C54890CD4CB5C8C59A73C79F3A02F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9DCF98AC7DECA25D2A8097C4A91D124A /* nanopb-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F613D3D979E42B20751C49CF044C9F /* nanopb-iOS10.0-dummy.m */; };
-		A4F0D31EDEEB5710B920DF5D99DF21C7 /* Pods-Its Almost My Birthday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EAC4232B3AFDE918CBD54FA9515B1D /* Pods-Its Almost My Birthday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F0D31EDEEB5710B920DF5D99DF21C7 /* Pods-Its Almost My Birthday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A67400D9B7A184BC4069587B43355F3A /* nanopb-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D5C9DDF085DB200B244072C18ECB3A /* nanopb-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A99E227A64484FBE0CDAA24E720D3A6F /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAE182B987FADAD55F7779E93DF16A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -55,7 +61,21 @@
 			remoteGlobalIDString = 58039CFF73133A377E627F1F2D8FB60E;
 			remoteInfo = "nanopb-iOS10.3";
 		};
+		35060839AE29BC1216507E477292091C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
+			remoteInfo = "nanopb-iOS10.0";
+		};
 		62574672473896CB071863D488EF63F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
+			remoteInfo = "nanopb-iOS10.0";
+		};
+		889DCEE3F65D8D9DA9F1CE92CE0C4E42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -69,6 +89,20 @@
 			remoteGlobalIDString = 0502D5ECF27891C29CE18AAE7C444166;
 			remoteInfo = "GoogleToolboxForMac-iOS10.3";
 		};
+		EE1FD37EEE7B5B5367332122E9E20BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
+			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+		};
+		F32D0513026CA3214FCC3F801B2815AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
+			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+		};
 		FA2F9945C55C262C484734663FEE5A97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -79,85 +113,107 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Es casi mi cumpleaños-dummy.m"; sourceTree = "<group>"; };
 		01403791AD115656C301C74A5253A6E2 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		084A35593A80DCDF6943591EE130ACB9 /* GoogleToolboxForMac-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GoogleToolboxForMac-iOS10.0.modulemap"; sourceTree = "<group>"; };
 		0D77503E33D6ED34C9346459DA1651D9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		10C977D7EC85E7E347543B85A413645A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GoogleToolboxForMac-iOS10.3/Info.plist"; sourceTree = "<group>"; };
+		11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost Christmas-dummy.m"; sourceTree = "<group>"; };
 		11DFCD8FC31A7F88A6C7D8C6BCC4E25D /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost Christmas-umbrella.h"; sourceTree = "<group>"; };
 		1A8C30B25473B17881E1D8030685D13C /* nanopb-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "nanopb-iOS10.0.xcconfig"; sourceTree = "<group>"; };
 		1ACF060E078BDF6CC8E66B19E1FB11B4 /* nanopb-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "nanopb-iOS10.3-dummy.m"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-dummy.m"; sourceTree = "<group>"; };
 		1BA5B63025E80F544A616CD50784CA22 /* GoogleToolboxForMac-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		1E34A62D94442DE30E6B315954EE150E /* Pods-Es casi mi cumpleaños-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Es casi mi cumpleaños-acknowledgements.markdown"; sourceTree = "<group>"; };
+		202877BC47A2EF42CCCF41F2462247B4 /* Pods-Es casi mi cumpleaños-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Es casi mi cumpleaños-acknowledgements.plist"; sourceTree = "<group>"; };
+		210F61ADA56C743BB986B1DDC57E54D0 /* Pods-Its Almost My Birthday.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost My Birthday.modulemap"; sourceTree = "<group>"; };
+		23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost Halloween-dummy.m"; sourceTree = "<group>"; };
+		24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Es casi mi cumpleaños-umbrella.h"; sourceTree = "<group>"; };
 		24F613D3D979E42B20751C49CF044C9F /* nanopb-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.debug.xcconfig"; sourceTree = "<group>"; };
 		272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		27F9F26A9AC002E0A65A80A54B625C15 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EAC4232B3AFDE918CBD54FA9515B1D /* Pods-Its Almost My Birthday-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost My Birthday-umbrella.h"; sourceTree = "<group>"; };
 		2C95DB7655078C892A3ECD5957CE442A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../nanopb-iOS10.3/Info.plist"; sourceTree = "<group>"; };
-		2DEBB0612211E129B7E9B9F261EC2EF6 /* Pods-Its Almost My Birthday-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost My Birthday-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A648CCB70DF2000F70D2CBC8718D5E /* Pods-Its Almost Christmas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Christmas-frameworks.sh"; sourceTree = "<group>"; };
+		37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B437E5ED93355F3179E49DB755BF895 /* Pods-Its Almost Christmas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost Christmas-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C4B7E0DCBBC54805AED8E27261BA593 /* Pods-Its Almost Halloween.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Halloween.debug.xcconfig"; sourceTree = "<group>"; };
 		3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
-		4339C43CD6D7420BF3E2C9E4401B92A9 /* Pods-Its Almost My Birthday-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost My Birthday-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F6651AD2D23695B9991C4DF553B24A0 /* Pods-Its Almost Christmas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost Christmas.modulemap"; sourceTree = "<group>"; };
 		433FB2AD8EDF332FEF3D9A6DD33B93C9 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		44C193A2F0FD5FA6038C73A32930698C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BB6E12EA858C8E1BF12CD1A6B076BFB /* Pods-Es casi mi cumpleaños-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Es casi mi cumpleaños-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47EFC5894F214494CFA20FA31178A435 /* Pods-Es casi mi cumpleaños-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-resources.sh"; sourceTree = "<group>"; };
+		4ABA682485E8C227233A07BA9803851F /* Pods-Its Almost Halloween.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Halloween.release.xcconfig"; sourceTree = "<group>"; };
 		4D7FC8AD51C22954991DA7D578E6BB38 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
 		4EF4FB8476B99FB62D72FDA43DE3499C /* GoogleToolboxForMac-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GoogleToolboxForMac-iOS10.3.xcconfig"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		5100944A7F10D35C3325FD2BBD998252 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D5C9DDF085DB200B244072C18ECB3A /* nanopb-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
 		53566EB3EAEB1932EC0A727FB4FDFAC2 /* nanopb-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "nanopb-iOS10.3.modulemap"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.modulemap"; sourceTree = "<group>"; };
 		54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
 		5748B1555A60765202C2663210633D74 /* GoogleToolboxForMac-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-prefix.pch"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
 		57F87A881633DFD216C2C20797614190 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		59B3EE68984D63DE27F3E4BC4916E168 /* Pods-Its Almost My Birthday.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost My Birthday.modulemap"; sourceTree = "<group>"; };
-		5C2F06456FE717A24013FDC003815DD7 /* Pods-Es casi mi cumpleaños-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-resources.sh"; sourceTree = "<group>"; };
-		5E1EE1BE6CE47AE6A8C2B1EAFA4FA511 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64183BAD564783186AF5C271285CDBA2 /* Pods-Es casi mi cumpleaños-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-frameworks.sh"; sourceTree = "<group>"; };
-		65BC6F5E6F959AF34F54BD46CD6566A7 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6737167A49673CB86A0CF773D0B20091 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Christmas.framework; path = "Pods-Its Almost Christmas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
-		72B65596A777C47BD128D5837D986B9B /* Pods-Es casi mi cumpleaños.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Es casi mi cumpleaños.modulemap"; sourceTree = "<group>"; };
-		77966B98B59C72FC7A5DFC06C4DFB995 /* Pods-Its Almost My Birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.release.xcconfig"; sourceTree = "<group>"; };
-		79921C49CA53A85B51FB86ED69B4556A /* Pods-Its Almost My Birthday-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-frameworks.sh"; sourceTree = "<group>"; };
+		7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Christmas.release.xcconfig"; sourceTree = "<group>"; };
+		7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost Halloween-umbrella.h"; sourceTree = "<group>"; };
+		7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.release.xcconfig"; sourceTree = "<group>"; };
 		7E387F782E449067FDAFF2A61A34BA36 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		81513DD304F2CBEFB8A209ADB691FBDA /* Pods-Its Almost My Birthday-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost My Birthday-dummy.m"; sourceTree = "<group>"; };
 		8310EDD0246E4E535D3AF31C5814D166 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		83CA5DAC720F57B10C8F3CC1FA913B43 /* Pods-Es casi mi cumpleaños.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.release.xcconfig"; sourceTree = "<group>"; };
-		8457970E733759691E7620E6D3DEA7BD /* Pods-Its Almost My Birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.debug.xcconfig"; sourceTree = "<group>"; };
 		8467F78957C3EF91FA9EB9486890D02E /* GoogleToolboxForMac-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-umbrella.h"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
-		853AB51C757B13232558290AACE517C2 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8C3E182B2ECB2AE8F5F8A53AD49232 /* Pods-Its Almost Halloween-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Halloween-resources.sh"; sourceTree = "<group>"; };
 		8DBBCDAE98CFCF30ED59BD7DF4ABAE35 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
-		8E8D2C9C5818F0242EC73B4C5D242799 /* Pods-Es casi mi cumpleaños-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Es casi mi cumpleaños-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FB670EE0073767FC8BD8A9DC3B53484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		90ED6C0871F6415590146F73054620D7 /* GoogleToolboxForMac-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GoogleToolboxForMac-iOS10.3.modulemap"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap"; sourceTree = "<group>"; };
+		910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost My Birthday-dummy.m"; sourceTree = "<group>"; };
+		912F22F3B47196205311AEE304824BFE /* Pods-Its Almost Christmas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost Christmas-acknowledgements.plist"; sourceTree = "<group>"; };
+		91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Es_casi_mi_cumplea_os.framework; path = "Pods-Es casi mi cumpleaños.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9182D272754868F239E115622BFF84B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918E3C7F97C4B6B50C82EDA7C81F28DA /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Halloween.framework; path = "Pods-Its Almost Halloween.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		999AB19D0715E7D2CF0FE263BD593CA9 /* Pods-Es casi mi cumpleaños-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-frameworks.sh"; sourceTree = "<group>"; };
 		A1EE72D4D92EF09FABCAD415440527DD /* nanopb-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-prefix.pch"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
-		A1F70B979D7D0D052ED14DE1853A9A4D /* Pods-Es casi mi cumpleaños.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.debug.xcconfig"; sourceTree = "<group>"; };
+		A38FE105A17FB34910D394EAAC035268 /* Pods-Es casi mi cumpleaños.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Es casi mi cumpleaños.modulemap"; sourceTree = "<group>"; };
+		A5A75DBBAC3BAB54B8C0230C96C17DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A920841E33948A7BDF286A29B02A1400 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		ABD0E27602F66CC81F3A9502C9FBBE22 /* GoogleToolboxForMac-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleToolboxForMac-iOS10.0.xcconfig"; sourceTree = "<group>"; };
-		ADBF504AAB9FA6EC117C095F88D8398C /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_My_Birthday.framework; path = "Pods-Its Almost My Birthday.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost My Birthday-umbrella.h"; sourceTree = "<group>"; };
 		ADE8A24D10E4D86CDF7DC30FDFB1141B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		AE1B117FE8890E382D4344E705550753 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		B8160383A55CAB4479FFEC9F59477C8D /* Pods-Its Almost My Birthday-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-frameworks.sh"; sourceTree = "<group>"; };
+		B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD3F660671B846A5FA94FF34505A107 /* Pods-Its Almost Halloween-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Halloween-frameworks.sh"; sourceTree = "<group>"; };
+		BE5478F1CEBF76C42D3AA61EB2644669 /* Pods-Its Almost Christmas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Christmas-resources.sh"; sourceTree = "<group>"; };
 		BEA604AB058083998B875CB152F9E5DF /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.release.xcconfig"; sourceTree = "<group>"; };
 		C409CBC5381A4793E65A68DCE6D50097 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		C4A794C5F1CF740DA382B62D7BAB9780 /* Pods-Es casi mi cumpleaños-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Es casi mi cumpleaños-dummy.m"; sourceTree = "<group>"; };
 		C4C00DA1B6ABB694CFCB46570FDEC472 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		C564210870203E23FC531F0931F0306B /* GoogleToolboxForMac-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GoogleToolboxForMac-iOS10.3-dummy.m"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-dummy.m"; sourceTree = "<group>"; };
 		C5BAC2B2362B5163FE443FC73EAD2A26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6BB4ED402EA4969238412FE363A4B2A /* Pods-Es casi mi cumpleaños-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Es casi mi cumpleaños-umbrella.h"; sourceTree = "<group>"; };
 		C6F4722891F90D322390D0992C31C4F4 /* nanopb-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-umbrella.h"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
 		CCC0CBEC308A6CAE13F01E26F67C42B1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		D28CABA123F67D1B21051D5A596D4B5F /* Pods-Its Almost Halloween-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost Halloween-acknowledgements.plist"; sourceTree = "<group>"; };
 		D419011BAF7082EAFA1346C80E4EE0A2 /* GoogleToolboxForMac-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
-		D50204CE3F3DEE0FB99882DB191A59E0 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		D9D24FF46E28BFF938C1537DB6267D87 /* Pods-Its Almost My Birthday-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost My Birthday-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB07C811E5908F053EE3DFF671F787E5 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		DC27880CEE2452803CFE673BE2D743DB /* Pods-Es casi mi cumpleaños.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.debug.xcconfig"; sourceTree = "<group>"; };
 		DE9D73FA27B72902F5ED6815CE5B64D9 /* GoogleToolboxForMac-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-iOS10.0-dummy.m"; sourceTree = "<group>"; };
-		E1CA71885B113C156394DAC2BE4693A7 /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Es_casi_mi_cumplea_os.framework; path = "Pods-Es casi mi cumpleaños.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3B22C07F533F1A6A6871537A9F25ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27CE69DA0E43FA66C8AA43EDD893FEC /* Pods-Its Almost Halloween.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost Halloween.modulemap"; sourceTree = "<group>"; };
 		EB987C070F9070CE517623BD48C96147 /* nanopb-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "nanopb-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_My_Birthday.framework; path = "Pods-Its Almost My Birthday.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA5A50EE2226C0DA1AE4084B7ABF561 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
-		F225BACE0DF7833639C755CD54E6ACA1 /* Pods-Its Almost My Birthday-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-resources.sh"; sourceTree = "<group>"; };
+		F0A923FF5878946D64C3829183924B37 /* Pods-Its Almost Christmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Christmas.debug.xcconfig"; sourceTree = "<group>"; };
+		F4773ACEA58A8B49D4DA682E362934E6 /* Pods-Its Almost My Birthday-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-resources.sh"; sourceTree = "<group>"; };
+		F6CC77FA4EE4CB9C5A71AED603842640 /* Pods-Its Almost Halloween-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost Halloween-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6EFF23E92849F1A2E94598679C901D2 /* nanopb-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		F9F39C6769AE5B6BB5537A949F19B3B6 /* Pods-Its Almost My Birthday-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost My Birthday-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA3BDF2B9CD3E19CE427F7D36C246517 /* nanopb-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "nanopb-iOS10.3.xcconfig"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51851629407432E4BC37AAC7F0C3E314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B6FC71C92A977904A8E348477D2C81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A6C46A20B1B32FEF46FD54C6CD6DF94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,6 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9853C5DD2420DFBCE2862889760E4540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1B7D07A3F42D38477D767D6F0786E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C54890CD4CB5C8C59A73C79F3A02F18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,24 +285,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FAFA2C1AB9AADE1C478645B2C66D0FC /* Pods-Its Almost My Birthday */ = {
-			isa = PBXGroup;
-			children = (
-				5E1EE1BE6CE47AE6A8C2B1EAFA4FA511 /* Info.plist */,
-				59B3EE68984D63DE27F3E4BC4916E168 /* Pods-Its Almost My Birthday.modulemap */,
-				2DEBB0612211E129B7E9B9F261EC2EF6 /* Pods-Its Almost My Birthday-acknowledgements.markdown */,
-				4339C43CD6D7420BF3E2C9E4401B92A9 /* Pods-Its Almost My Birthday-acknowledgements.plist */,
-				81513DD304F2CBEFB8A209ADB691FBDA /* Pods-Its Almost My Birthday-dummy.m */,
-				79921C49CA53A85B51FB86ED69B4556A /* Pods-Its Almost My Birthday-frameworks.sh */,
-				F225BACE0DF7833639C755CD54E6ACA1 /* Pods-Its Almost My Birthday-resources.sh */,
-				29EAC4232B3AFDE918CBD54FA9515B1D /* Pods-Its Almost My Birthday-umbrella.h */,
-				8457970E733759691E7620E6D3DEA7BD /* Pods-Its Almost My Birthday.debug.xcconfig */,
-				77966B98B59C72FC7A5DFC06C4DFB995 /* Pods-Its Almost My Birthday.release.xcconfig */,
-			);
-			name = "Pods-Its Almost My Birthday";
-			path = "Target Support Files/Pods-Its Almost My Birthday";
-			sourceTree = "<group>";
-		};
 		2EC756AC294296FF2AC64731EB3EE7AB /* encode */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,24 +308,6 @@
 			);
 			name = nanopb;
 			path = nanopb;
-			sourceTree = "<group>";
-		};
-		38FA3479EB06273E821D57A6438B9177 /* Pods-Es casi mi cumpleaños */ = {
-			isa = PBXGroup;
-			children = (
-				E3B22C07F533F1A6A6871537A9F25ABF /* Info.plist */,
-				72B65596A777C47BD128D5837D986B9B /* Pods-Es casi mi cumpleaños.modulemap */,
-				4BB6E12EA858C8E1BF12CD1A6B076BFB /* Pods-Es casi mi cumpleaños-acknowledgements.markdown */,
-				8E8D2C9C5818F0242EC73B4C5D242799 /* Pods-Es casi mi cumpleaños-acknowledgements.plist */,
-				C4A794C5F1CF740DA382B62D7BAB9780 /* Pods-Es casi mi cumpleaños-dummy.m */,
-				64183BAD564783186AF5C271285CDBA2 /* Pods-Es casi mi cumpleaños-frameworks.sh */,
-				5C2F06456FE717A24013FDC003815DD7 /* Pods-Es casi mi cumpleaños-resources.sh */,
-				C6BB4ED402EA4969238412FE363A4B2A /* Pods-Es casi mi cumpleaños-umbrella.h */,
-				A1F70B979D7D0D052ED14DE1853A9A4D /* Pods-Es casi mi cumpleaños.debug.xcconfig */,
-				83CA5DAC720F57B10C8F3CC1FA913B43 /* Pods-Es casi mi cumpleaños.release.xcconfig */,
-			);
-			name = "Pods-Es casi mi cumpleaños";
-			path = "Target Support Files/Pods-Es casi mi cumpleaños";
 			sourceTree = "<group>";
 		};
 		3C956B347680188020219B3307CB738A /* Support Files */ = {
@@ -335,6 +371,39 @@
 			path = Crashlytics;
 			sourceTree = "<group>";
 		};
+		5313FBBCAD46E27DD8B5677AF06257A7 /* Pods-Es casi mi cumpleaños */ = {
+			isa = PBXGroup;
+			children = (
+				A5A75DBBAC3BAB54B8C0230C96C17DDD /* Info.plist */,
+				A38FE105A17FB34910D394EAAC035268 /* Pods-Es casi mi cumpleaños.modulemap */,
+				1E34A62D94442DE30E6B315954EE150E /* Pods-Es casi mi cumpleaños-acknowledgements.markdown */,
+				202877BC47A2EF42CCCF41F2462247B4 /* Pods-Es casi mi cumpleaños-acknowledgements.plist */,
+				013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */,
+				999AB19D0715E7D2CF0FE263BD593CA9 /* Pods-Es casi mi cumpleaños-frameworks.sh */,
+				47EFC5894F214494CFA20FA31178A435 /* Pods-Es casi mi cumpleaños-resources.sh */,
+				2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */,
+				DC27880CEE2452803CFE673BE2D743DB /* Pods-Es casi mi cumpleaños.debug.xcconfig */,
+				7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */,
+			);
+			name = "Pods-Es casi mi cumpleaños";
+			path = "Target Support Files/Pods-Es casi mi cumpleaños";
+			sourceTree = "<group>";
+		};
+		5816D240256555770588230C2349C95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */,
+				24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */,
+				37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */,
+				B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */,
+				91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */,
+				6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */,
+				9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */,
+				ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		58EF440D2F1EC753CEA1C91C9C46F2B5 /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,8 +448,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E0303AC91BA63B8B9D548CFFC7DAF5DE /* Pods */,
-				F7D90A72E98D1A9E80DA3022C299F446 /* Products */,
-				BF28C6C53DC0C3D2296560EC65C4070A /* Targets Support Files */,
+				5816D240256555770588230C2349C95D /* Products */,
+				96ABF740204C1339D12ED9A113E12898 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -400,6 +469,17 @@
 				ADE8A24D10E4D86CDF7DC30FDFB1141B /* Crashlytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96ABF740204C1339D12ED9A113E12898 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5313FBBCAD46E27DD8B5677AF06257A7 /* Pods-Es casi mi cumpleaños */,
+				C0B3EB583D00FE95E87BD71584DB82DE /* Pods-Its Almost Christmas */,
+				F8BC45590AB083A7C791BFBF61DD6899 /* Pods-Its Almost Halloween */,
+				D4A4892A12E79D5A44D2D9AAAA9A62EA /* Pods-Its Almost My Birthday */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A2511368477EAB17BE10EBF7E080B8DF /* decode */ = {
@@ -456,13 +536,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF28C6C53DC0C3D2296560EC65C4070A /* Targets Support Files */ = {
+		C0B3EB583D00FE95E87BD71584DB82DE /* Pods-Its Almost Christmas */ = {
 			isa = PBXGroup;
 			children = (
-				38FA3479EB06273E821D57A6438B9177 /* Pods-Es casi mi cumpleaños */,
-				0FAFA2C1AB9AADE1C478645B2C66D0FC /* Pods-Its Almost My Birthday */,
+				8FB670EE0073767FC8BD8A9DC3B53484 /* Info.plist */,
+				3F6651AD2D23695B9991C4DF553B24A0 /* Pods-Its Almost Christmas.modulemap */,
+				3B437E5ED93355F3179E49DB755BF895 /* Pods-Its Almost Christmas-acknowledgements.markdown */,
+				912F22F3B47196205311AEE304824BFE /* Pods-Its Almost Christmas-acknowledgements.plist */,
+				11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */,
+				35A648CCB70DF2000F70D2CBC8718D5E /* Pods-Its Almost Christmas-frameworks.sh */,
+				BE5478F1CEBF76C42D3AA61EB2644669 /* Pods-Its Almost Christmas-resources.sh */,
+				15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */,
+				F0A923FF5878946D64C3829183924B37 /* Pods-Its Almost Christmas.debug.xcconfig */,
+				7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Its Almost Christmas";
+			path = "Target Support Files/Pods-Its Almost Christmas";
 			sourceTree = "<group>";
 		};
 		C235B6C5787C457840D1866A47981FE2 /* Frameworks */ = {
@@ -488,6 +577,24 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4A4892A12E79D5A44D2D9AAAA9A62EA /* Pods-Its Almost My Birthday */ = {
+			isa = PBXGroup;
+			children = (
+				5100944A7F10D35C3325FD2BBD998252 /* Info.plist */,
+				210F61ADA56C743BB986B1DDC57E54D0 /* Pods-Its Almost My Birthday.modulemap */,
+				F9F39C6769AE5B6BB5537A949F19B3B6 /* Pods-Its Almost My Birthday-acknowledgements.markdown */,
+				D9D24FF46E28BFF938C1537DB6267D87 /* Pods-Its Almost My Birthday-acknowledgements.plist */,
+				910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */,
+				B8160383A55CAB4479FFEC9F59477C8D /* Pods-Its Almost My Birthday-frameworks.sh */,
+				F4773ACEA58A8B49D4DA682E362934E6 /* Pods-Its Almost My Birthday-resources.sh */,
+				ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */,
+				2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */,
+				C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */,
+			);
+			name = "Pods-Its Almost My Birthday";
+			path = "Target Support Files/Pods-Its Almost My Birthday";
 			sourceTree = "<group>";
 		};
 		E0303AC91BA63B8B9D548CFFC7DAF5DE /* Pods */ = {
@@ -531,17 +638,22 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F7D90A72E98D1A9E80DA3022C299F446 /* Products */ = {
+		F8BC45590AB083A7C791BFBF61DD6899 /* Pods-Its Almost Halloween */ = {
 			isa = PBXGroup;
 			children = (
-				853AB51C757B13232558290AACE517C2 /* GoogleToolboxForMac.framework */,
-				27F9F26A9AC002E0A65A80A54B625C15 /* GoogleToolboxForMac.framework */,
-				D50204CE3F3DEE0FB99882DB191A59E0 /* nanopb.framework */,
-				65BC6F5E6F959AF34F54BD46CD6566A7 /* nanopb.framework */,
-				E1CA71885B113C156394DAC2BE4693A7 /* Pods_Es_casi_mi_cumplea_os.framework */,
-				ADBF504AAB9FA6EC117C095F88D8398C /* Pods_Its_Almost_My_Birthday.framework */,
+				9182D272754868F239E115622BFF84B5 /* Info.plist */,
+				E27CE69DA0E43FA66C8AA43EDD893FEC /* Pods-Its Almost Halloween.modulemap */,
+				F6CC77FA4EE4CB9C5A71AED603842640 /* Pods-Its Almost Halloween-acknowledgements.markdown */,
+				D28CABA123F67D1B21051D5A596D4B5F /* Pods-Its Almost Halloween-acknowledgements.plist */,
+				23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */,
+				BAD3F660671B846A5FA94FF34505A107 /* Pods-Its Almost Halloween-frameworks.sh */,
+				8A8C3E182B2ECB2AE8F5F8A53AD49232 /* Pods-Its Almost Halloween-resources.sh */,
+				7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */,
+				3C4B7E0DCBBC54805AED8E27261BA593 /* Pods-Its Almost Halloween.debug.xcconfig */,
+				4ABA682485E8C227233A07BA9803851F /* Pods-Its Almost Halloween.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Its Almost Halloween";
+			path = "Target Support Files/Pods-Its Almost Halloween";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,6 +697,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A33A541A84DA63232B0F745151226D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFD69EAE190B79247D40FF6EAB2ADAA /* Pods-Its Almost Christmas-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ED194613510B039E0AE70BA8872896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE966355B948CA240D96232EC766819 /* Pods-Its Almost Halloween-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79DC125A572043A929BBE38C5870C3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,7 +752,26 @@
 			);
 			name = "GoogleToolboxForMac-iOS10.3";
 			productName = "GoogleToolboxForMac-iOS10.3";
-			productReference = 27F9F26A9AC002E0A65A80A54B625C15 /* GoogleToolboxForMac.framework */;
+			productReference = 24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2430E336EE6F6E6E03B99DDB35347E74 /* Pods-Its Almost Halloween */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A526886604E6F66DCB69F8E96F2EC14A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */;
+			buildPhases = (
+				3DDDBC1AE99995C4A3A8C83CE3890855 /* Sources */,
+				51851629407432E4BC37AAC7F0C3E314 /* Frameworks */,
+				83ED194613510B039E0AE70BA8872896 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B2C3AC24F7D96B83BA430CBF5D70B5 /* PBXTargetDependency */,
+				756E73A6F14263EA631EDEA9DDAF154E /* PBXTargetDependency */,
+			);
+			name = "Pods-Its Almost Halloween";
+			productName = "Pods-Its Almost Halloween";
+			productReference = 9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */ = {
@@ -641,7 +788,7 @@
 			);
 			name = "GoogleToolboxForMac-iOS10.0";
 			productName = "GoogleToolboxForMac-iOS10.0";
-			productReference = 853AB51C757B13232558290AACE517C2 /* GoogleToolboxForMac.framework */;
+			productReference = DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */ = {
@@ -658,7 +805,7 @@
 			);
 			name = "nanopb-iOS10.3";
 			productName = "nanopb-iOS10.3";
-			productReference = 65BC6F5E6F959AF34F54BD46CD6566A7 /* nanopb.framework */;
+			productReference = B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D8F70E8C670E93044E05FCF0C152714 /* Pods-Its Almost My Birthday */ = {
@@ -677,7 +824,7 @@
 			);
 			name = "Pods-Its Almost My Birthday";
 			productName = "Pods-Its Almost My Birthday";
-			productReference = ADBF504AAB9FA6EC117C095F88D8398C /* Pods_Its_Almost_My_Birthday.framework */;
+			productReference = ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F3DE6B379A5D6F371967B8D6B7B22D3 /* Pods-Es casi mi cumpleaños */ = {
@@ -696,7 +843,7 @@
 			);
 			name = "Pods-Es casi mi cumpleaños";
 			productName = "Pods-Es casi mi cumpleaños";
-			productReference = E1CA71885B113C156394DAC2BE4693A7 /* Pods_Es_casi_mi_cumplea_os.framework */;
+			productReference = 91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */ = {
@@ -713,7 +860,26 @@
 			);
 			name = "nanopb-iOS10.0";
 			productName = "nanopb-iOS10.0";
-			productReference = D50204CE3F3DEE0FB99882DB191A59E0 /* nanopb.framework */;
+			productReference = 37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B09EF962A5F853214A86AEBB14B50C62 /* Pods-Its Almost Christmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59464EEBFBB5FA7355447BCF6CD70AD6 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */;
+			buildPhases = (
+				14D6F0867130719762F1D687CC392735 /* Sources */,
+				8B1B7D07A3F42D38477D767D6F0786E7 /* Frameworks */,
+				5A33A541A84DA63232B0F745151226D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E57F378291150B2134A5544A7BE438C /* PBXTargetDependency */,
+				24C77B48C5CEF432FD4B10FD68C92944 /* PBXTargetDependency */,
+			);
+			name = "Pods-Its Almost Christmas";
+			productName = "Pods-Its Almost Christmas";
+			productReference = 6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -733,7 +899,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F7D90A72E98D1A9E80DA3022C299F446 /* Products */;
+			productRefGroup = 5816D240256555770588230C2349C95D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -742,17 +908,35 @@
 				A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */,
 				58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */,
 				8F3DE6B379A5D6F371967B8D6B7B22D3 /* Pods-Es casi mi cumpleaños */,
+				B09EF962A5F853214A86AEBB14B50C62 /* Pods-Its Almost Christmas */,
+				2430E336EE6F6E6E03B99DDB35347E74 /* Pods-Its Almost Halloween */,
 				5D8F70E8C670E93044E05FCF0C152714 /* Pods-Its Almost My Birthday */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14D6F0867130719762F1D687CC392735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB57596AB8484AAD33E9B14C649A455 /* Pods-Its Almost Christmas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A6D3BEEBD3ECE1A9EAD2F92DA91B8F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				64C30023F2E262C7BFA5649F13D38063 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDDBC1AE99995C4A3A8C83CE3890855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E74A78477F07BCC691569FE41C2C756 /* Pods-Its Almost Halloween-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,6 +997,12 @@
 			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
 			targetProxy = 62574672473896CB071863D488EF63F2 /* PBXContainerItemProxy */;
 		};
+		24C77B48C5CEF432FD4B10FD68C92944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanopb-iOS10.0";
+			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
+			targetProxy = 35060839AE29BC1216507E477292091C /* PBXContainerItemProxy */;
+		};
 		43AC1E8590213761B494F51537C48994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-iOS10.3";
@@ -825,11 +1015,29 @@
 			target = 58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */;
 			targetProxy = 1CDC5FAD1463C1A5F9804CF1A602282C /* PBXContainerItemProxy */;
 		};
+		756E73A6F14263EA631EDEA9DDAF154E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanopb-iOS10.0";
+			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
+			targetProxy = 889DCEE3F65D8D9DA9F1CE92CE0C4E42 /* PBXContainerItemProxy */;
+		};
+		8E57F378291150B2134A5544A7BE438C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleToolboxForMac-iOS10.0";
+			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
+			targetProxy = EE1FD37EEE7B5B5367332122E9E20BB7 /* PBXContainerItemProxy */;
+		};
 		CAB70775967655CCFCA5FF7752846E41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-iOS10.0";
 			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
 			targetProxy = FA2F9945C55C262C484734663FEE5A97 /* PBXContainerItemProxy */;
+		};
+		E6B2C3AC24F7D96B83BA430CBF5D70B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleToolboxForMac-iOS10.0";
+			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
+			targetProxy = F32D0513026CA3214FCC3F801B2815AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -972,7 +1180,7 @@
 		};
 		8FBE0D5B4C7A4C54B76A300E0D456640 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83CA5DAC720F57B10C8F3CC1FA913B43 /* Pods-Es casi mi cumpleaños.release.xcconfig */;
+			baseConfigurationReference = 7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1008,7 +1216,7 @@
 		};
 		937623E3F0E480C8244D8C6D946A8FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1F70B979D7D0D052ED14DE1853A9A4D /* Pods-Es casi mi cumpleaños.debug.xcconfig */;
+			baseConfigurationReference = DC27880CEE2452803CFE673BE2D743DB /* Pods-Es casi mi cumpleaños.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1090,6 +1298,42 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		A545D9B01213A94A5915452E404DDD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABA682485E8C227233A07BA9803851F /* Pods-Its Almost Halloween.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Halloween/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_Halloween;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C03B8870130C98D1B02B59D003687524 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1205,7 +1449,7 @@
 		};
 		C8376F60F0738D8734AA06571ADB3E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8457970E733759691E7620E6D3DEA7BD /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			baseConfigurationReference = 2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1241,7 +1485,7 @@
 		};
 		CB24F0FDFE0BDD4BA009C0BC8C5AA1BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77966B98B59C72FC7A5DFC06C4DFB995 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			baseConfigurationReference = C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1267,6 +1511,78 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Its_Almost_My_Birthday;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF6E4B608AF07E1C8C47633438C50E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A923FF5878946D64C3829183924B37 /* Pods-Its Almost Christmas.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Christmas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_Christmas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D71544C87F88BE851E5E97269D9AF16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Christmas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_Christmas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1343,6 +1659,42 @@
 			};
 			name = Debug;
 		};
+		F367752130088F50A85C624070B76BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4B7E0DCBBC54805AED8E27261BA593 /* Pods-Its Almost Halloween.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Halloween/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_Halloween;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1382,6 +1734,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		59464EEBFBB5FA7355447BCF6CD70AD6 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6E4B608AF07E1C8C47633438C50E9D /* Debug */,
+				D71544C87F88BE851E5E97269D9AF16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		669A18C77510E9BEDC96698A72886017 /* Build configuration list for PBXNativeTarget "Pods-Its Almost My Birthday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1396,6 +1757,15 @@
 			buildConfigurations = (
 				C3DE7113DDCE79F3D1C9640AE3B95D64 /* Debug */,
 				EB701957BCCEA6EEB9D849FBDB68645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A526886604E6F66DCB69F8E96F2EC14A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F367752130088F50A85C624070B76BD5 /* Debug */,
+				A545D9B01213A94A5915452E404DDD3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

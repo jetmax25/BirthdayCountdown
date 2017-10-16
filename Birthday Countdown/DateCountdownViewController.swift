@@ -26,7 +26,11 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-5594325776314197/4976965253"
+        #if HALLOWEEN
+        bannerView.adUnitID = "ca-app-pub-5594325776314197/5773099570"
+            #elseif CHRISTMAS
+            bannerView.adUnitID = "ca-app-pub-5594325776314197/1812182577"
+            #endif
         bannerView.rootViewController = self
         bannerView.delegate = self
         let request = GADRequest()

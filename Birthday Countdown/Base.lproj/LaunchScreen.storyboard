@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppIcon.png" width="1024" height="1024"/>
+        <image name="AppIcon.png" width="500" height="500"/>
     </resources>
 </document>
