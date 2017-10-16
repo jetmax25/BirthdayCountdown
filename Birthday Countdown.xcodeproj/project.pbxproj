@@ -30,7 +30,7 @@
 		271E43BC1F85D115000005A5 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
 		271E43BD1F85D12B000005A5 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
 		271E43C41F85DBAE000005A5 /* ItsMyBirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43C31F85DB78000005A5 /* ItsMyBirthday.png */; };
-		271E43C71F85DD78000005A5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* AppIcon.png */; };
+		271E43C71F85DD78000005A5 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 271E43A61F85C35E000005A5 /* Splash.png */; };
 		271E43C91F85DD7B000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
 		271E43CA1F85DD7C000005A5 /* presents.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE6A1F8324B3002AD9B1 /* presents.png */; };
 		2744FA2A1F93BCA700F412DE /* BloodLust.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2744FA271F93BC8F00F412DE /* BloodLust.ttf */; };
@@ -50,6 +50,13 @@
 		279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
 		279042261F92AD3900079B5E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9525E01C1F35447D008E6815 /* Info.plist */; };
 		279042281F92AEA600079B5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279042271F92AEA400079B5E /* GoogleService-Info.plist */; };
+		279942E71F9455EE001DCEA5 /* Its Almost Christmas-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279942E51F9455EA001DCEA5 /* Its Almost Christmas-Info.plist */; };
+		279942E81F9455F0001DCEA5 /* Its Almost Halloween-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279942E61F9455EA001DCEA5 /* Its Almost Halloween-Info.plist */; };
+		279942E91F9455F3001DCEA5 /* Its Almost My Birthday copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279942E41F9455DE001DCEA5 /* Its Almost My Birthday copy-Info.plist */; };
+		279942EC1F94566A001DCEA5 /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
+		279942ED1F945674001DCEA5 /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
+		279942EE1F945675001DCEA5 /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
+		279942EF1F945675001DCEA5 /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
 		27A842521F92BF8A00E11D49 /* DateCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161C1F92B654003DA19F /* DateCountdown.storyboard */; };
 		27A842531F92BF8B00E11D49 /* DateCountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161C1F92B654003DA19F /* DateCountdown.storyboard */; };
 		27A842591F92D22600E11D49 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A842581F92D22600E11D49 /* Event.storyboard */; };
@@ -91,9 +98,8 @@
 		27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */; };
 		27AC204D1F803B5B00D94BE2 /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
-		27B2D7261F943FC200FD038F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7251F943FBE00FD038F /* AppIcon.png */; };
-		27B2D7291F94415E00FD038F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7281F94414D00FD038F /* AppIcon.png */; };
-		27B2D72A1F94423F00FD038F /* C.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525E0171F35447D008E6815 /* C.xcassets */; };
+		27B2D7261F943FC200FD038F /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7251F943FBE00FD038F /* Splash.png */; };
+		27B2D7291F94415E00FD038F /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B2D7281F94414D00FD038F /* Splash.png */; };
 		27C715801F92B3B7003DA19F /* BirthdayCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BFC21F36DDE3003444E3 /* BirthdayCountdownViewModel.swift */; };
 		27C715811F92B3B7003DA19F /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC20481F80303600D94BE2 /* ViewExtensions.swift */; };
 		27C715821F92B3B7003DA19F /* TimeIncrements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */; };
@@ -168,9 +174,6 @@
 		27C716201F92B665003DA19F /* DateCountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */; };
 		27C716221F92B677003DA19F /* DateCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C716211F92B677003DA19F /* DateCountdownViewModel.swift */; };
 		27C716231F92B677003DA19F /* DateCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C716211F92B677003DA19F /* DateCountdownViewModel.swift */; };
-		27C716261F92B6B7003DA19F /* Its Almost My Birthday copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */; };
-		27C716281F92B6BB003DA19F /* Its Almost Halloween-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */; };
-		27C716291F92B6BD003DA19F /* Its Almost Christmas-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */; };
 		27E924931F579C2800739DE7 /* ClockTick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27E924921F579C2800739DE7 /* ClockTick.wav */; };
 		27E924971F57A5D800739DE7 /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924961F57A5D800739DE7 /* Mute.png */; };
 		27E924991F57A5F800739DE7 /* UnMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E924981F57A5F800739DE7 /* UnMute.png */; };
@@ -204,7 +207,7 @@
 		2706FE711F8324DA002AD9B1 /* only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = only.png; sourceTree = "<group>"; };
 		2706FE721F8325E4002AD9B1 /* seconds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seconds.png; sourceTree = "<group>"; };
 		2706FE7B1F832AB4002AD9B1 /* BallonBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BallonBackground.jpg; sourceTree = "<group>"; };
-		271E43A61F85C35E000005A5 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		271E43A61F85C35E000005A5 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		271E43A71F85CFA7000005A5 /* Whenisthebigday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whenisthebigday.png; sourceTree = "<group>"; };
 		271E43A81F85CFA7000005A5 /* Yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yes.png; sourceTree = "<group>"; };
 		271E43A91F85CFA7000005A5 /* Thisismybirthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thisismybirthday.png; sourceTree = "<group>"; };
@@ -221,6 +224,9 @@
 		2744FA301F93C06200F412DE /* PWHappyChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWHappyChristmas.ttf; sourceTree = "<group>"; };
 		279042201F92AA6A00079B5E /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
 		279042271F92AEA400079B5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		279942E41F9455DE001DCEA5 /* Its Almost My Birthday copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Its Almost My Birthday copy-Info.plist"; sourceTree = "<group>"; };
+		279942E51F9455EA001DCEA5 /* Its Almost Christmas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Its Almost Christmas-Info.plist"; sourceTree = "<group>"; };
+		279942E61F9455EA001DCEA5 /* Its Almost Halloween-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Its Almost Halloween-Info.plist"; sourceTree = "<group>"; };
 		27A842581F92D22600E11D49 /* Event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
 		27A8425B1F92D26100E11D49 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		27A842601F92D77000E11D49 /* JingleBells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JingleBells.mp3; sourceTree = "<group>"; };
@@ -241,13 +247,10 @@
 		27AC20431F802DD500D94BE2 /* BirthdayBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BirthdayBackground.jpg; sourceTree = "<group>"; };
 		27AC20481F80303600D94BE2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		27AC204C1F803B5B00D94BE2 /* TimeIncrements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIncrements.swift; sourceTree = "<group>"; };
-		27B2D7251F943FBE00FD038F /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
-		27B2D7281F94414D00FD038F /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		27B2D7251F943FBE00FD038F /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		27B2D7281F94414D00FD038F /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		27C715AF1F92B3B7003DA19F /* Its Almost Halloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost Halloween.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost My Birthday copy-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost My Birthday copy-Info.plist"; sourceTree = "<absolute>"; };
-		27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost Halloween-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost Halloween-Info.plist"; sourceTree = "<absolute>"; };
 		27C716191F92B429003DA19F /* Its Almost Christmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Its Almost Christmas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Its Almost Christmas-Info.plist"; path = "/Users/mike/Documents/Personal Projects/Its Almost Christmas-Info.plist"; sourceTree = "<absolute>"; };
 		27C7161C1F92B654003DA19F /* DateCountdown.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DateCountdown.storyboard; sourceTree = "<group>"; };
 		27C7161E1F92B665003DA19F /* DateCountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCountdownViewController.swift; sourceTree = "<group>"; };
 		27C716211F92B677003DA19F /* DateCountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCountdownViewModel.swift; sourceTree = "<group>"; };
@@ -332,7 +335,7 @@
 		27A8425F1F92D75400E11D49 /* Christmas Assets */ = {
 			isa = PBXGroup;
 			children = (
-				27B2D7281F94414D00FD038F /* AppIcon.png */,
+				27B2D7281F94414D00FD038F /* Splash.png */,
 				27A842741F92ECA000E11D49 /* ItsChristmas.jpg */,
 				27A842751F92ECA900E11D49 /* AlmostChristmas.jpg */,
 				27A842691F92E04600E11D49 /* chime.wav */,
@@ -345,7 +348,7 @@
 		27A842621F92DA1400E11D49 /* Halloween Assets */ = {
 			isa = PBXGroup;
 			children = (
-				27B2D7251F943FBE00FD038F /* AppIcon.png */,
+				27B2D7251F943FBE00FD038F /* Splash.png */,
 				27A842731F92EC8B00E11D49 /* AlmostHalloween.jpg */,
 				27A842721F92EC8000E11D49 /* ItsHalloween.png */,
 				27A8426B1F92E0C700E11D49 /* HorrorTick.wav */,
@@ -358,7 +361,7 @@
 		27AC20051F8027D900D94BE2 /* English Assets */ = {
 			isa = PBXGroup;
 			children = (
-				271E43A61F85C35E000005A5 /* AppIcon.png */,
+				271E43A61F85C35E000005A5 /* Splash.png */,
 				2706FE6C1F8324D9002AD9B1 /* Whenisthebigday.png */,
 				2706FE721F8325E4002AD9B1 /* seconds.png */,
 				2706FE6B1F8324D8002AD9B1 /* Untilmybday.png */,
@@ -459,6 +462,9 @@
 		9525E0041F35447D008E6815 = {
 			isa = PBXGroup;
 			children = (
+				279942E41F9455DE001DCEA5 /* Its Almost My Birthday copy-Info.plist */,
+				279942E51F9455EA001DCEA5 /* Its Almost Christmas-Info.plist */,
+				279942E61F9455EA001DCEA5 /* Its Almost Halloween-Info.plist */,
 				27B7AA381F93B775001F3538 /* Fonts */,
 				279042271F92AEA400079B5E /* GoogleService-Info.plist */,
 				27E924911F579BCA00739DE7 /* Assets */,
@@ -466,9 +472,6 @@
 				9525E00E1F35447D008E6815 /* Products */,
 				514F5FB08DA5D280DDA9FA20 /* Pods */,
 				D2C818F37701DBDEB2F6AC30 /* Frameworks */,
-				27C715B01F92B3B7003DA19F /* Its Almost My Birthday copy-Info.plist */,
-				27C715E51F92B417003DA19F /* Its Almost Halloween-Info.plist */,
-				27C7161A1F92B429003DA19F /* Its Almost Christmas-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -687,6 +690,7 @@
 				27AC20251F802A2800D94BE2 /* UnMute.png in Resources */,
 				271E43C41F85DBAE000005A5 /* ItsMyBirthday.png in Resources */,
 				279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */,
+				279942E91F9455F3001DCEA5 /* Its Almost My Birthday copy-Info.plist in Resources */,
 				271E43BA1F85CFC0000005A5 /* minutes.png in Resources */,
 				27AC20261F802A2800D94BE2 /* LaunchScreen.storyboard in Resources */,
 				271E43B51F85CFC0000005A5 /* Yes.png in Resources */,
@@ -694,6 +698,7 @@
 				271E43B71F85CFC0000005A5 /* days.png in Resources */,
 				271E43B21F85CFC0000005A5 /* Whenisthebigday.png in Resources */,
 				271E43B81F85CFC0000005A5 /* Thisismybirthday.png in Resources */,
+				279942EF1F945675001DCEA5 /* C.xcassets in Resources */,
 				271E43B41F85CFC0000005A5 /* 2x1---hastamycumpleanos.png in Resources */,
 				27AC20291F802A2800D94BE2 /* datepick.storyboard in Resources */,
 				275CE82C1F8338F20011F6F8 /* present.png in Resources */,
@@ -702,7 +707,6 @@
 				275CE82E1F8338F60011F6F8 /* PartyHat.jpg in Resources */,
 				27AC204B1F8031CD00D94BE2 /* BirthdayBackground.jpg in Resources */,
 				275CE82A1F8338F20011F6F8 /* hats.png in Resources */,
-				27C716261F92B6B7003DA19F /* Its Almost My Birthday copy-Info.plist in Resources */,
 				271E43CA1F85DD7C000005A5 /* presents.png in Resources */,
 				27AC202B1F802A2800D94BE2 /* BirthdayCountdown.storyboard in Resources */,
 				27AC202C1F802A2800D94BE2 /* Mute.png in Resources */,
@@ -746,13 +750,14 @@
 				27C715A01F92B3B7003DA19F /* BirthdayCountdown.storyboard in Resources */,
 				27C715A11F92B3B7003DA19F /* Info.plist in Resources */,
 				27C715A21F92B3B7003DA19F /* hats.png in Resources */,
-				27C716281F92B6BB003DA19F /* Its Almost Halloween-Info.plist in Resources */,
 				27C715A31F92B3B7003DA19F /* presents.png in Resources */,
-				27B2D7261F943FC200FD038F /* AppIcon.png in Resources */,
+				27B2D7261F943FC200FD038F /* Splash.png in Resources */,
 				27C715A41F92B3B7003DA19F /* Mute.png in Resources */,
+				279942E81F9455F0001DCEA5 /* Its Almost Halloween-Info.plist in Resources */,
 				27C715A51F92B3B7003DA19F /* Untilmybday.png in Resources */,
 				27C715A61F92B3B7003DA19F /* days.png in Resources */,
 				27C715A71F92B3B7003DA19F /* BirthdayBackground.jpg in Resources */,
+				279942ED1F945674001DCEA5 /* C.xcassets in Resources */,
 				27C715A81F92B3B7003DA19F /* Yes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,8 +769,8 @@
 				27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */,
 				27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */,
 				27C715F91F92B429003DA19F /* UnMute.png in Resources */,
-				27C716291F92B6BD003DA19F /* Its Almost Christmas-Info.plist in Resources */,
 				2744FA2C1F93BE6D00F412DE /* MountainsofChristmas.ttf in Resources */,
+				279942E71F9455EE001DCEA5 /* Its Almost Christmas-Info.plist in Resources */,
 				27C715FA1F92B429003DA19F /* GoogleService-Info.plist in Resources */,
 				27C715FB1F92B429003DA19F /* PartyHat.jpg in Resources */,
 				27C715FC1F92B429003DA19F /* horn.png in Resources */,
@@ -775,7 +780,7 @@
 				27C715FE1F92B429003DA19F /* minutes.png in Resources */,
 				27A842761F92ECB100E11D49 /* ItsChristmas.jpg in Resources */,
 				27C716001F92B429003DA19F /* present.png in Resources */,
-				27B2D7291F94415E00FD038F /* AppIcon.png in Resources */,
+				27B2D7291F94415E00FD038F /* Splash.png in Resources */,
 				27C716011F92B429003DA19F /* ClockTick.wav in Resources */,
 				27A8427B1F92ECB700E11D49 /* ItsHalloween.png in Resources */,
 				27A842651F92DE6900E11D49 /* JingleBells.mp3 in Resources */,
@@ -786,7 +791,7 @@
 				27C716051F92B429003DA19F /* datepick.storyboard in Resources */,
 				27C716061F92B429003DA19F /* Whenisthebigday.png in Resources */,
 				27C716071F92B429003DA19F /* BallonBackground.jpg in Resources */,
-				27B2D72A1F94423F00FD038F /* C.xcassets in Resources */,
+				279942EE1F945675001DCEA5 /* C.xcassets in Resources */,
 				27A8427A1F92ECB700E11D49 /* AlmostHalloween.jpg in Resources */,
 				27C716081F92B429003DA19F /* Birthday.storyboard in Resources */,
 				27C716091F92B429003DA19F /* only.png in Resources */,
@@ -811,13 +816,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				279042211F92AA7200079B5E /* BirthdaySong.mp3 in Resources */,
-				271E43C71F85DD78000005A5 /* AppIcon.png in Resources */,
+				271E43C71F85DD78000005A5 /* Splash.png in Resources */,
 				27AC20361F802C7F00D94BE2 /* ItsMyBirthday.jpg in Resources */,
 				27E924991F57A5F800739DE7 /* UnMute.png in Resources */,
 				279042281F92AEA600079B5E /* GoogleService-Info.plist in Resources */,
 				275CE82D1F8338F60011F6F8 /* PartyHat.jpg in Resources */,
 				275CE8281F8338F10011F6F8 /* horn.png in Resources */,
 				9525E01B1F35447D008E6815 /* LaunchScreen.storyboard in Resources */,
+				279942EC1F94566A001DCEA5 /* C.xcassets in Resources */,
 				2706FE781F8327D7002AD9B1 /* minutes.png in Resources */,
 				275CE8291F8338F10011F6F8 /* present.png in Resources */,
 				27E924931F579C2800739DE7 /* ClockTick.wav in Resources */,
