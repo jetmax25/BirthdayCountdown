@@ -27,7 +27,7 @@ extension UIView {
         backgroundImage.contentMode = .scaleAspectFill
         let blurImage = UIView()
         blurImage.tag = 124
-        blurImage.frame = CGRect(x: 0, y: 0, width: 1000, height: 1000)
+        blurImage.frame = CGRect(x: 0, y: 0, width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)
         blurImage.backgroundColor = .white
         blurImage.alpha = alpha ?? 0.6
         self.addSubview(backgroundImage)

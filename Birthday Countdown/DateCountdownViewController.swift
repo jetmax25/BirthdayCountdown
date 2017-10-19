@@ -22,6 +22,7 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     var bannerView: GADBannerView!
     var viewModel : DateCountdownViewModel?
     var timeChangeTimer : Timer?
+    var backgroundImage : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,17 +45,20 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
         changeTime(timeIncrement: .days, getTime: viewModel!.getDays, nextAction: 3600)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         setUpFontsAndBackground()
-        
-         #if HALLOWEEN
-        self.view.setUpBlurryBackgroundImage(imageName: "AlmostHalloween.jpg", withAlpha : 0.35)
-        #elseif CHRISTMAS
-            self.view.setUpBlurryBackgroundImage(imageName: "AlmostChristmas.jpg", withAlpha: 0.2)
-        #endif
     }
     
     func setUpFontsAndBackground() {
+        
+        let userDefaults = UserDefaults.standard
+        if let image = userDefaults.object(forKey: "backgroundImage") as? String {
+            self.backgroundImage = image + ".jpg"
+        } else {
+            self.performSegue(withIdentifier: "chooseWallpaper", sender: nil)
+            return
+        }
+        
         #if HALLOWEEN
             self.EventLabel.text = "HALLOWEEN"
             self.EventLabel.textColor = .orange
@@ -65,7 +69,7 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             self.timeCountLabel.font = UIFont(name: "BloodLust", size: 200)
             self.onlyLabel.textColor = .orange
             self.onlyLabel.font = UIFont(name: "BloodLust", size: 200)
-            self.view.setUpBlurryBackgroundImage(imageName: "AlmostHalloween.jpg", withAlpha : 0.35)
+            self.view.setUpBlurryBackgroundImage(imageName: self.backgroundImage!, withAlpha :0.25)
         
         #elseif CHRISTMAS
             
@@ -81,7 +85,7 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             
             self.onlyLabel.font = UIFont(name: "PWJoyeuxNoel", size: 200)
             self.onlyLabel.textColor = UIColor(red: 54/255, green: 170/255, blue: 5/255, alpha: 1)
-            self.view.setUpBlurryBackgroundImage(imageName: "AlmostChristmas.jpg", withAlpha: 0.2)
+            self.view.setUpBlurryBackgroundImage(imageName: "AlmostChristmas.jpg", withAlpha: 0.35)
         #endif
         
         self.EventLabel.adjustFontToFitHeight()

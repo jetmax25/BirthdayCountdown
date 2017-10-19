@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -36,31 +37,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HoU-st-KqA">
-                                <rect key="frame" x="16" y="50" width="343" height="123.5"/>
+                                <rect key="frame" x="16" y="75" width="343" height="118.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-f2-2CK">
-                                        <rect key="frame" x="0.0" y="0.0" width="86" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="118.5"/>
                                         <state key="normal" image="days.png"/>
                                         <connections>
                                             <action selector="viewDays:" destination="UQH-GV-qEC" eventType="touchUpInside" id="N8w-4A-VMl"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SA-Mt-edB">
-                                        <rect key="frame" x="86" y="0.0" width="85.5" height="123.5"/>
+                                        <rect key="frame" x="86" y="0.0" width="85.5" height="118.5"/>
                                         <state key="normal" image="hours.png"/>
                                         <connections>
                                             <action selector="viewHours:" destination="UQH-GV-qEC" eventType="touchUpInside" id="a9D-th-h98"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-MX-T0X">
-                                        <rect key="frame" x="171.5" y="0.0" width="86" height="123.5"/>
+                                        <rect key="frame" x="171.5" y="0.0" width="86" height="118.5"/>
                                         <state key="normal" image="minutes.png"/>
                                         <connections>
                                             <action selector="viewMinutes:" destination="UQH-GV-qEC" eventType="touchUpInside" id="EAl-5J-maf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-1E-iz5">
-                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="123.5"/>
+                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="118.5"/>
                                         <state key="normal" image="seconds.png"/>
                                         <connections>
                                             <action selector="viewSeconds:" destination="UQH-GV-qEC" eventType="touchUpInside" id="9bW-MB-Nyw"/>
@@ -70,31 +71,39 @@
                                 <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Na-8R-pdt">
-                                <rect key="frame" x="16" y="173.5" width="343" height="493.5"/>
+                                <rect key="frame" x="16" y="193.5" width="343" height="473.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pnb-Xo-tsc">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="118.5"/>
                                         <fontDescription key="fontDescription" name="BloodLust" family="Blood Lust" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-IK-B2q">
-                                        <rect key="frame" x="0.0" y="123.5" width="343" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="118.5" width="343" height="118.5"/>
                                         <fontDescription key="fontDescription" name="PWJoyeuxNoel" family="PWJoyeuxNoel" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-xW-CBC">
-                                        <rect key="frame" x="0.0" y="247" width="343" height="123"/>
+                                        <rect key="frame" x="0.0" y="237" width="343" height="118"/>
                                         <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-SH-Gu3">
-                                        <rect key="frame" x="0.0" y="370" width="343" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="355" width="343" height="118.5"/>
                                         <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                 </subviews>
                             </stackView>
@@ -105,15 +114,28 @@
                                     <constraint firstAttribute="height" constant="50" id="D2g-7c-Z4I"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKB-VD-9G6">
+                                <rect key="frame" x="342" y="50" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oKB-VD-9G6" secondAttribute="height" id="6SU-tQ-AfV"/>
+                                    <constraint firstAttribute="height" constant="25" id="rsS-v4-vDO"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="settings.png"/>
+                                <connections>
+                                    <segue destination="TBi-va-CUz" kind="presentation" identifier="chooseWallpaper" id="ZBM-Xq-mcz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="zXg-ki-dko" firstAttribute="top" secondItem="qGh-My-U2e" secondAttribute="top" id="0Ab-Pj-gm5"/>
-                            <constraint firstItem="HoU-st-KqA" firstAttribute="top" secondItem="zXg-ki-dko" secondAttribute="bottom" id="2q3-Vc-PQl"/>
+                            <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="oKB-VD-9G6" secondAttribute="trailing" constant="8" id="0Lo-qk-aJ3"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="height" secondItem="HoU-st-KqA" secondAttribute="height" multiplier="4" id="8vU-30-pxI"/>
                             <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="zXg-ki-dko" secondAttribute="trailing" id="CWI-WV-o1T"/>
                             <constraint firstItem="zXg-ki-dko" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="EuK-O2-n5n"/>
+                            <constraint firstItem="oKB-VD-9G6" firstAttribute="top" secondItem="zXg-ki-dko" secondAttribute="bottom" id="IyV-9d-u2C"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="leading" secondItem="HoU-st-KqA" secondAttribute="leading" id="Rm3-E0-25t"/>
+                            <constraint firstItem="HoU-st-KqA" firstAttribute="top" secondItem="oKB-VD-9G6" secondAttribute="bottom" id="UgZ-ed-rTe"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="trailing" secondItem="HoU-st-KqA" secondAttribute="trailing" id="W3J-4T-SfP"/>
                             <constraint firstItem="OdX-N6-1Cw" firstAttribute="top" secondItem="0Na-8R-pdt" secondAttribute="bottom" id="ZTI-sY-5va"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leadingMargin" id="eRC-rp-6rj"/>
@@ -134,11 +156,64 @@
             </objects>
             <point key="canvasLocation" x="101.59999999999999" y="34.632683658170919"/>
         </scene>
+        <!--Background Chooser View Controller-->
+        <scene sceneID="7A2-Fs-n8j">
+            <objects>
+                <collectionViewController id="TBi-va-CUz" customClass="BackgroundChooserViewController" customModule="Its_Almost_Christmas" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ueG-TW-AuP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fhM-0D-RRG">
+                            <size key="itemSize" width="200" height="200"/>
+                            <size key="headerReferenceSize" width="50" height="70"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCell" id="iIo-DY-noT">
+                                <rect key="frame" x="87.5" y="70" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="headerCell" id="KHg-ok-HkH">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Background" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gog-eG-x7c">
+                                    <rect key="frame" x="0.0" y="8" width="375" height="54"/>
+                                    <fontDescription key="fontDescription" name="BloodLust" family="Blood Lust" pointSize="49"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="gog-eG-x7c" firstAttribute="top" secondItem="KHg-ok-HkH" secondAttribute="top" constant="8" id="3LA-5h-61t"/>
+                                <constraint firstItem="gog-eG-x7c" firstAttribute="centerX" secondItem="KHg-ok-HkH" secondAttribute="centerX" id="HZv-7U-Vvr"/>
+                                <constraint firstItem="gog-eG-x7c" firstAttribute="centerY" secondItem="KHg-ok-HkH" secondAttribute="centerY" id="fvb-nR-bDA"/>
+                                <constraint firstItem="gog-eG-x7c" firstAttribute="leading" secondItem="KHg-ok-HkH" secondAttribute="leadingMargin" id="tOI-Hc-5u8"/>
+                            </constraints>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="TBi-va-CUz" id="MCJ-nq-7kZ"/>
+                            <outlet property="delegate" destination="TBi-va-CUz" id="V72-yg-Ux4"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Msk-r2-piA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.60000000000002" y="34.632683658170919"/>
+        </scene>
     </scenes>
     <resources>
         <image name="days.png" width="500" height="250"/>
         <image name="hours.png" width="500" height="250"/>
         <image name="minutes.png" width="500" height="250"/>
         <image name="seconds.png" width="500" height="250"/>
+        <image name="settings.png" width="128" height="128"/>
     </resources>
 </document>
