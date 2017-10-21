@@ -8,6 +8,7 @@
 
 import Foundation
 import AVFoundation
+import UIKit
 
 struct DateCountdownViewModel {
     let chosenDate : Date
@@ -83,5 +84,54 @@ struct DateCountdownViewModel {
     
     func stopMusic() {
         self.musicPlayer?.stop()
+    }
+    
+    var fileUrl: URL {
+        let url =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let fileName = "SavedImage"
+        return url.appendingPathComponent(fileName)
+    }
+    
+    func setStoredPhoto( imageInt : Int ){
+        let fileManager = FileManager.default
+        try? fileManager.removeItem(at: fileUrl)
+        
+        let userDefaults = UserDefaults.standard
+        let imageName = BackgroundImages.getImageName(imageInt)
+        userDefaults.set(imageName, forKey: "backgroundImage")
+    }
+    
+    func setPhotoAsBackground(image : UIImage) {
+        if let imageData = UIImageJPEGRepresentation(image, 1.0) {
+            try? imageData.write(to: fileUrl, options: .atomic)
+        }
+    }
+    
+    private func loadBackgroundImage() -> UIImage? {
+        do {
+            let imageData = try Data(contentsOf: fileUrl)
+            return UIImage(data: imageData)
+        } catch {
+            print("Error loading image : \(error)")
+        }
+        return nil
+    }
+    
+    private func loadStoredImage() -> UIImage? {
+        let userDefaults = UserDefaults.standard
+        if let imageName = userDefaults.object(forKey: "backgroundImage") as? String, let image = UIImage(named: imageName + ".jpg") {
+            return image
+        }
+        return nil
+    }
+    
+    var backgroundImage : UIImage? {
+        if let userImage = loadBackgroundImage() {
+            return userImage
+        }
+        if let storedImage = loadStoredImage() {
+            return storedImage
+        }
+        return nil
     }
 }

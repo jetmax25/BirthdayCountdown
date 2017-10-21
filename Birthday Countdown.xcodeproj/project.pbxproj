@@ -61,6 +61,10 @@
 		275CE82C1F8338F20011F6F8 /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706FE671F8324B3002AD9B1 /* present.png */; };
 		275CE82D1F8338F60011F6F8 /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
 		275CE82E1F8338F60011F6F8 /* PartyHat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AC20091F8028C900D94BE2 /* PartyHat.jpg */; };
+		27812F1B1F9AEB9B00AF483A /* photoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27812F1A1F9AEB9800AF483A /* photoIcon.png */; };
+		27812F1C1F9AEB9B00AF483A /* photoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27812F1A1F9AEB9800AF483A /* photoIcon.png */; };
+		27812F1D1F9AEB9C00AF483A /* photoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27812F1A1F9AEB9800AF483A /* photoIcon.png */; };
+		27812F1E1F9AEB9C00AF483A /* photoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27812F1A1F9AEB9800AF483A /* photoIcon.png */; };
 		279042211F92AA7200079B5E /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
 		279042221F92AA7200079B5E /* BirthdaySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279042201F92AA6A00079B5E /* BirthdaySong.mp3 */; };
 		279042261F92AD3900079B5E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9525E01C1F35447D008E6815 /* Info.plist */; };
@@ -242,6 +246,7 @@
 		2744FA2B1F93BE6A00F412DE /* MountainsofChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MountainsofChristmas.ttf; sourceTree = "<group>"; };
 		2744FA2E1F93BF3E00F412DE /* CartoonChristmas.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CartoonChristmas.otf; sourceTree = "<group>"; };
 		2744FA301F93C06200F412DE /* PWHappyChristmas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PWHappyChristmas.ttf; sourceTree = "<group>"; };
+		27812F1A1F9AEB9800AF483A /* photoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoIcon.png; sourceTree = "<group>"; };
 		279042201F92AA6A00079B5E /* BirthdaySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BirthdaySong.mp3; sourceTree = "<group>"; };
 		279042271F92AEA400079B5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		279942E41F9455DE001DCEA5 /* Its Almost My Birthday copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Its Almost My Birthday copy-Info.plist"; sourceTree = "<group>"; };
@@ -424,6 +429,7 @@
 		27AC20081F80284400D94BE2 /* General Assets */ = {
 			isa = PBXGroup;
 			children = (
+				27812F1A1F9AEB9800AF483A /* photoIcon.png */,
 				272203471F96BE0E007C00A6 /* settings.png */,
 				279042201F92AA6A00079B5E /* BirthdaySong.mp3 */,
 				2706FE6A1F8324B3002AD9B1 /* presents.png */,
@@ -746,6 +752,7 @@
 				275CE82B1F8338F20011F6F8 /* horn.png in Resources */,
 				271E43B61F85CFC0000005A5 /* only.png in Resources */,
 				2706FE7D1F832ABB002AD9B1 /* BallonBackground.jpg in Resources */,
+				27812F1C1F9AEB9B00AF483A /* photoIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +789,7 @@
 				27C7159D1F92B3B7003DA19F /* BallonBackground.jpg in Resources */,
 				27C7159E1F92B3B7003DA19F /* Birthday.storyboard in Resources */,
 				27C7159F1F92B3B7003DA19F /* only.png in Resources */,
+				27812F1D1F9AEB9C00AF483A /* photoIcon.png in Resources */,
 				27A8426C1F92E0C900E11D49 /* HorrorTick.wav in Resources */,
 				27C715A01F92B3B7003DA19F /* BirthdayCountdown.storyboard in Resources */,
 				27C715A11F92B3B7003DA19F /* Info.plist in Resources */,
@@ -805,6 +813,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27812F1E1F9AEB9C00AF483A /* photoIcon.png in Resources */,
 				27C715F61F92B429003DA19F /* BirthdaySong.mp3 in Resources */,
 				27C715F81F92B429003DA19F /* ItsMyBirthday.jpg in Resources */,
 				27C715F91F92B429003DA19F /* UnMute.png in Resources */,
@@ -883,6 +892,7 @@
 				2706FE751F8327CC002AD9B1 /* Untilmybday.png in Resources */,
 				2706FE761F8327CF002AD9B1 /* days.png in Resources */,
 				27AC204A1F8031CB00D94BE2 /* BirthdayBackground.jpg in Resources */,
+				27812F1B1F9AEB9B00AF483A /* photoIcon.png in Resources */,
 				27AC20411F802C7F00D94BE2 /* Yes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -51,9 +51,8 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     
     func setUpFontsAndBackground() {
         
-        let userDefaults = UserDefaults.standard
-        if let image = userDefaults.object(forKey: "backgroundImage") as? String {
-            self.backgroundImage = image + ".jpg"
+        if let backgroundImage = viewModel?.backgroundImage {
+            self.view.setUpBlurryBackgroundImage(image: backgroundImage, withAlpha :0.35)
         } else {
             self.performSegue(withIdentifier: "chooseWallpaper", sender: nil)
             return
@@ -69,8 +68,6 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             self.timeCountLabel.font = UIFont(name: "BloodLust", size: 200)
             self.onlyLabel.textColor = .orange
             self.onlyLabel.font = UIFont(name: "BloodLust", size: 200)
-            self.view.setUpBlurryBackgroundImage(imageName: self.backgroundImage!, withAlpha :0.25)
-        
         #elseif CHRISTMAS
             
             self.EventLabel.text = "CHRISTMAS"
@@ -149,5 +146,10 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             let controller = storyboard.instantiateInitialViewController()
             self.present(controller!, animated: true, completion: nil)
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! BackgroundChooserViewController
+        vc.viewModel = self.viewModel
     }
 }
