@@ -14,7 +14,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
     let imagePicker = UIImagePickerController()
     var viewModel : DateCountdownViewModel?
     
-    fileprivate let itemsPerRow: CGFloat = 1
+    fileprivate let itemsPerRow: CGFloat = 2
     fileprivate let sectionInsets = UIEdgeInsets(top: 0, left: 20.0, bottom: 50.0, right: 20.0)
     
     override func viewDidLoad() {
@@ -31,15 +31,20 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
     
     //2
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return section == 0 ? 1 : BackgroundImages.count()
+        return section == 0 ? 2 : BackgroundImages.count()
     }
     
     //3
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
-                                                      for: indexPath)
-        let image = indexPath.section == 0 ? UIImage(named : "photoIcon.png") : BackgroundImages.getImage(indexPath.row)
-        let imageView = UIImageView.init(image: image)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        
+        var image : UIImage?
+        if indexPath.section == 0 {
+            image = indexPath.row == 0 ? UIImage(named : "cameraIcon.png") : UIImage(named : "photoIcon.png")
+        } else {
+            image = BackgroundImages.getImage(indexPath.row)
+        }
+        let imageView = UIImageView.init(image: image!)
         imageView.frame = cell.bounds
 
         cell.addSubview(imageView)
@@ -86,7 +91,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.section == 0 {
             imagePicker.allowsEditing = false
-            imagePicker.sourceType = .photoLibrary
+            imagePicker.sourceType = indexPath.row == 0 ? .camera : .photoLibrary
             present(imagePicker, animated: true, completion: nil)
         } else {
             viewModel?.setStoredPhoto(imageInt: indexPath.row)

@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import Social
 
 class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
 
@@ -17,6 +18,8 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet var EventLabel: UILabel!
     @IBOutlet weak var onlyLabel: UILabel!
     @IBOutlet weak var adView: UIView!
+    @IBOutlet weak var timeIntervalStack: UIStackView!
+    @IBOutlet weak var shareStack: UIStackView!
     
     
     var bannerView: GADBannerView!
@@ -51,11 +54,13 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     
     func setUpFontsAndBackground() {
         
-        if let backgroundImage = viewModel?.backgroundImage {
-            self.view.setUpBlurryBackgroundImage(image: backgroundImage, withAlpha :0.35)
-        } else {
-            self.performSegue(withIdentifier: "chooseWallpaper", sender: nil)
-            return
+        OperationQueue.main.addOperation {
+            if let backgroundImage = self.viewModel?.backgroundImage {
+                self.view.setUpBlurryBackgroundImage(image: backgroundImage, withAlpha :0.35)
+            } else {
+                self.performSegue(withIdentifier: "chooseWallpaper", sender: nil)
+                return
+            }
         }
         
         #if HALLOWEEN
@@ -148,6 +153,40 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
+    private func getShareImage() -> UIImage {
+        let startingY = self.timeIntervalStack.frame.maxY
+        let endingY = self.shareStack.frame.minY
+        
+        let rect : CGRect = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height)
+        UIGraphicsBeginImageContext(rect.size)
+        let context : CGContext = UIGraphicsGetCurrentContext()!
+        self.view.layer.render(in: context)
+        let img : UIImage  = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        let newRect: CGRect = CGRect(x: 0, y: startingY, width: self.view.bounds.width, height: endingY - startingY)
+        // Create bitmap image from context using the rect
+        let imageRef: CGImage = img.cgImage!.cropping(to: newRect)!
+        
+        let newImg = UIImage(cgImage: imageRef)
+        return newImg
+    }
+    @IBAction func shareOnFacebook(_ sender: Any) {
+        if let vc = SLComposeViewController(forServiceType:SLServiceTypeFacebook) {
+            let image = getShareImage()
+            vc.add(image)
+            vc.setInitialText("soon")
+            self.present(vc, animated: true, completion: nil)
+        }
+    }
+    
+    @IBAction func shareOnTwitter(_ sender: Any) {
+        if let vc = SLComposeViewController(forServiceType:SLServiceTypeTwitter) {
+            vc.add(getShareImage())
+            vc.setInitialText("Soon")
+            self.present(vc, animated: true, completion: nil)
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! BackgroundChooserViewController
         vc.viewModel = self.viewModel
