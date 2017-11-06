@@ -20,6 +20,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.collectionView?.setUpBlurryBackgroundImage(image: UIImage(named : "ItsChristmas.jpg")!)
         imagePicker.delegate = self
         self.collectionView?.delegate = self
         self.collectionView?.dataSource = self
@@ -42,7 +43,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
         if indexPath.section == 0 {
             image = indexPath.row == 0 ? UIImage(named : "cameraIcon.png") : UIImage(named : "photoIcon.png")
         } else {
-            image = BackgroundImages.getImage(indexPath.row)
+            image = BackgroundImages.getImage(atIndex: indexPath.row)
         }
         let imageView = UIImageView.init(image: image!)
         imageView.frame = cell.bounds
@@ -79,6 +80,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerCell", for: indexPath) as UICollectionReusableView
             
             let label = headerView.viewWithTag(12) as! UILabel
+            label.numberOfLines = 0
             label.text = indexPath.section == 0 ? "Choose one of your photos to use" : "Or Choose One Of Ours"
             return headerView
         default:
@@ -94,7 +96,7 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
             imagePicker.sourceType = indexPath.row == 0 ? .camera : .photoLibrary
             present(imagePicker, animated: true, completion: nil)
         } else {
-            viewModel?.setStoredPhoto(imageInt: indexPath.row)
+            viewModel?.setStoredPhoto(fromIndex: indexPath.row)
             self.dismiss(animated: true, completion: nil)
         }
     }

@@ -20,10 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        
+        print(Bundle.main.bundlePath)
         FirebaseApp.configure()
         Fabric.with([Crashlytics.self])
         // Override point for customization after application launch.
         
+        
+        guard let path = Bundle.main.path(forResource: "Config", ofType: "plist"), let configDict = NSDictionary(contentsOfFile: path) else  {
+            return false
+        }
         
         #if BIRTHDAY
             GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
@@ -42,15 +48,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
                 self.window?.rootViewController = storyboard.instantiateInitialViewController()
             }
-        #elseif HALLOWEEN
-            GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1234077007")
+            #endif 
+            let applicationId = configDict["AppId"] as! String
+            GADMobileAds.configure(withApplicationID: applicationId)
             let storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
             self.window?.rootViewController = storyboard.instantiateInitialViewController()
-        #elseif CHRISTMAS
-            GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~3017453033")
-            let storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
-            self.window?.rootViewController = storyboard.instantiateInitialViewController()
-        #endif
+
         return true
     }
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountdownMusic</key>
+	<string>JingleBells</string>
+	<key>TickSound</key>
+	<string>chime</string>
+	<key>AppId</key>
+	<string>ca-app-pub-5594325776314197~3017453033</string>
+	<key>BannerAdId</key>
+	<string>ca-app-pub-5594325776314197/1812182577</string>
+	<key>Photos</key>
+	<array>
+		<string>livingRoom.jpeg</string>
+		<string>miniature.jpg</string>
+		<string>ornament.jpeg</string>
+		<string>owl.jpeg</string>
+		<string>santa.jpeg</string>
+		<string>Splash.png</string>
+		<string>presents.jpeg</string>
+		<string>moose.png</string>
+		<string>serialkillers.jpg</string>
+	</array>
+	<key>Font</key>
+	<dict>
+		<key>Name</key>
+		<string>PWJoyeuxNoel</string>
+		<key>Color</key>
+		<string>FF0000</string>
+	</dict>
+	<key>Name</key>
+	<string>Christmas</string>
+	<key>Date</key>
+	<date>2017-12-25T05:00:00Z</date>
+</dict>
+</plist>

@@ -19,7 +19,7 @@ extension UILabel {
         while (minFontSize <= maxFontSize) {
             fontSizeAverage = minFontSize + (maxFontSize - minFontSize) / 2
             
-            if let labelText: NSString = self.text as! NSString {
+            if let labelText: NSString = self.text as? NSString {
                 let labelHeight = frame.size.height
                 
                 let testStringHeight = labelText.size(

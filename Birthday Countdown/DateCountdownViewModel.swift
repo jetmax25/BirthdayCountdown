@@ -11,52 +11,66 @@ import AVFoundation
 import UIKit
 
 struct DateCountdownViewModel {
-    let chosenDate : Date
     var tickPlayer : AVAudioPlayer?
-    let tickSound : URL?
     var musicPlayer : AVAudioPlayer?
-    let backgroundMusic : URL?
     let calendar = Calendar.current
     let dateFormatter = DateFormatter()
     
     init() {
-        var month : Int?
-        var day : Int?
-        
-        #if HALLOWEEN
-            month = 10
-            day = 31
-            tickSound = Bundle.main.url(forResource: "HorrorTick", withExtension: "wav")!
-            backgroundMusic = Bundle.main.url(forResource: "AlmostHalloween", withExtension: "mp3")!
-        #elseif CHRISTMAS
-            month = 12
-            day = 25
-            tickSound = Bundle.main.url(forResource: "chime", withExtension: "wav")!
-            backgroundMusic = Bundle.main.url(forResource: "JingleBells", withExtension: "mp3")!
-        #endif
-        
-        dateFormatter.dateFormat = "YYYY-MM-dd"
-        let currentComponents = calendar.dateComponents([.year, .month, .day], from: Date())
-        
-        var year = currentComponents.year!
-        if currentComponents.month! > month! || (currentComponents.day! > day! && currentComponents.month! == month!)
-        {
-            year = year + 1
-        }
-        
-        let dateString = "\(year)-\(month!)-\(day!)"
-        self.chosenDate = dateFormatter.date(from: dateString)!
         
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)
-            tickPlayer = try AVAudioPlayer(contentsOf: tickSound!)
-            musicPlayer = try AVAudioPlayer(contentsOf: backgroundMusic!)
+            tickPlayer = try AVAudioPlayer(contentsOf: tickSound)
+            musicPlayer = try AVAudioPlayer(contentsOf: countdownMusic)
             musicPlayer?.numberOfLoops = -1
             musicPlayer?.play()
         } catch let error {
             print(error.localizedDescription)
         }
+    }
+    
+    var configDict : NSDictionary {
+        let path = Bundle.main.path(forResource: "Config", ofType: "plist")
+        return NSDictionary(contentsOfFile: path!)!
+    }
+    
+    var bannerAdId : String {
+        return configDict["BannerAdId"] as! String
+    }
+    
+    var font : UIFont {
+        let font = configDict["Font"] as! NSDictionary
+        let fontName = font["Name"] as! String
+        return UIFont(name: fontName, size: 200)!
+    }
+    
+    var fontColor : UIColor {
+        let font = configDict["Font"] as! NSDictionary
+        let fontCode = font["Color"] as! String
+        return UIColor(hexColor : fontCode)
+    }
+    
+    var eventDate : Date {
+        return configDict["Date"] as! Date
+    }
+    
+    var eventName : String {
+        return configDict["Name"] as! String
+    }
+    
+    var chosenDate : Date {
+        return configDict["Date"] as! Date
+    }
+    
+    var tickSound : URL {
+        let soundName = configDict["TickSound"] as! String
+        return Bundle.main.url(forResource: soundName, withExtension: "wav")!
+    }
+    
+    var countdownMusic : URL {
+        let soundName = configDict["CountdownMusic"] as! String
+        return Bundle.main.url(forResource: soundName, withExtension: "mp3")!
     }
     
     func getDays() -> Int {
@@ -77,7 +91,11 @@ struct DateCountdownViewModel {
     
     private func getTimeDifference( component : Calendar.Component) -> DateComponents
     {
-        let currentTime = Date()
+        var currentTime = Date()
+        if component == .day {
+            currentTime = NSCalendar.current.startOfDay(for: currentTime)
+        }
+        
         tickPlayer?.play()
         return calendar.dateComponents([component], from: currentTime, to: chosenDate)
     }
@@ -92,13 +110,12 @@ struct DateCountdownViewModel {
         return url.appendingPathComponent(fileName)
     }
     
-    func setStoredPhoto( imageInt : Int ){
+    func setStoredPhoto( fromIndex index : Int ){
         let fileManager = FileManager.default
         try? fileManager.removeItem(at: fileUrl)
         
         let userDefaults = UserDefaults.standard
-        let imageName = BackgroundImages.getImageName(imageInt)
-        userDefaults.set(imageName, forKey: "backgroundImage")
+        userDefaults.set(index, forKey: "backgroundImageIndex")
     }
     
     func setPhotoAsBackground(image : UIImage) {
@@ -119,7 +136,7 @@ struct DateCountdownViewModel {
     
     private func loadStoredImage() -> UIImage? {
         let userDefaults = UserDefaults.standard
-        if let imageName = userDefaults.object(forKey: "backgroundImage") as? String, let image = UIImage(named: imageName + ".jpg") {
+        if let imageIndex = userDefaults.object(forKey: "backgroundImageIndex") as? Int, let image = BackgroundImages.getImage(atIndex: imageIndex) {
             return image
         }
         return nil

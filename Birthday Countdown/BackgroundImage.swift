@@ -9,29 +9,16 @@
 import UIKit
 
 struct BackgroundImages {
-    static let images : [String : UIImage] = [
-        "castle" : UIImage(named: "castle.jpg")!,
-        "doot" : UIImage(named: "doot.jpg")!,
-        "harvest" : UIImage(named: "harvest.jpg")!,
-        "jack" : UIImage(named: "jack.jpg")!,
-        "jacks" : UIImage(named: "jacks.jpg")!,
-        "candles" : UIImage(named: "candles.jpg")!
-    ]
-    
-    static func getImage( key : String) -> UIImage
-    {
-        return images[key]!
+    static var images : [String] {
+        let path = Bundle.main.path(forResource: "Config", ofType: "plist")
+        let configDict =  NSDictionary(contentsOfFile: path!)!
+        return configDict["Photos"] as! [String]
     }
     
-    static func getImage(_ n : Int) -> UIImage
+    static func getImage(atIndex index : Int) -> UIImage?
     {
-        let key = Array(images.keys)[n]
-        return images[key]!
-    }
-    
-    static func getImageName(_ n : Int) -> String
-    {
-        return Array(images.keys)[n]
+        let imageName = images[index]
+        return UIImage(named : imageName)
     }
     
     static func count() -> Int {

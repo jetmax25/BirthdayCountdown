@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountdownMusic</key>
+	<string>AlmostHalloween</string>
+	<key>TickSound</key>
+	<string>HorrorTick</string>
+	<key>AppId</key>
+	<string>ca-app-pub-5594325776314197~1234077007</string>
+	<key>BannerAdId</key>
+	<string>ca-app-pub-5594325776314197/5773099570</string>
+	<key>Photos</key>
+	<array>
+		<string>candles.jpg</string>
+		<string>jacks.jpg</string>
+		<string>jack.jpg</string>
+		<string>doot.jpg</string>
+		<string>harvest.jpg</string>
+		<string>castle.jpg</string>
+	</array>
+	<key>Font</key>
+	<dict>
+		<key>Name</key>
+		<string>BloodLust</string>
+		<key>Color</key>
+		<string>#FF8C00</string>
+	</dict>
+	<key>Name</key>
+	<string>Halloween</string>
+	<key>Date</key>
+	<date>2018-10-31T04:00:00Z</date>
+</dict>
+</plist>

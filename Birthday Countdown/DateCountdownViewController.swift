@@ -20,6 +20,11 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var adView: UIView!
     @IBOutlet weak var timeIntervalStack: UIStackView!
     @IBOutlet weak var shareStack: UIStackView!
+    @IBOutlet weak var shareText: UILabel!
+    @IBOutlet weak var daysButton: UIButton!
+    @IBOutlet weak var hoursButton: UIButton!
+    @IBOutlet weak var minutesButton: UIButton!
+    @IBOutlet weak var SecondsButton: UIButton!
     
     
     var bannerView: GADBannerView!
@@ -29,12 +34,9 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel = DateCountdownViewModel()
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
-        #if HALLOWEEN
-        bannerView.adUnitID = "ca-app-pub-5594325776314197/5773099570"
-            #elseif CHRISTMAS
-            bannerView.adUnitID = "ca-app-pub-5594325776314197/1812182577"
-            #endif
+        bannerView.adUnitID = viewModel?.bannerAdId
         bannerView.rootViewController = self
         bannerView.delegate = self
         let request = GADRequest()
@@ -44,12 +46,24 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
         bannerView.load(request)
         self.view.addSubview(bannerView)
         
-        viewModel = DateCountdownViewModel()
         changeTime(timeIncrement: .days, getTime: viewModel!.getDays, nextAction: 3600)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         setUpFontsAndBackground()
+    }
+    
+    private func setCustomText(label: UILabel, text: String? = nil, fontSize : CGFloat? = nil) {
+        if let text = text {
+            label.text = text
+        }
+
+        label.font = viewModel?.font
+        
+        if let fontSize = fontSize {
+            label.font = label.font.withSize(fontSize)
+        }
+        label.textColor = viewModel?.fontColor
     }
     
     func setUpFontsAndBackground() {
@@ -62,33 +76,13 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
                 return
             }
         }
-        
-        #if HALLOWEEN
-            self.EventLabel.text = "HALLOWEEN"
-            self.EventLabel.textColor = .orange
-            self.EventLabel.font = UIFont(name: "BloodLust", size: 200)
-            self.TimeDurationLabel.textColor = .orange
-            self.TimeDurationLabel.font = UIFont(name: "BloodLust", size: 200)
-            self.timeCountLabel.textColor = .orange
-            self.timeCountLabel.font = UIFont(name: "BloodLust", size: 200)
-            self.onlyLabel.textColor = .orange
-            self.onlyLabel.font = UIFont(name: "BloodLust", size: 200)
-        #elseif CHRISTMAS
-            
-            self.EventLabel.text = "CHRISTMAS"
-            self.EventLabel.font = UIFont(name: "PWJoyeuxNoel", size: 200)
-            self.EventLabel.textColor = .red
-            
-            self.timeCountLabel.textColor = .red
-            self.timeCountLabel.font = UIFont(name: "PWJoyeuxNoel", size: 200)
-            
-            self.TimeDurationLabel.textColor = UIColor(red: 54/255, green: 170/255, blue: 5/255, alpha: 1)
-            self.TimeDurationLabel.font = UIFont(name: "PWJoyeuxNoel", size: 200)
-            
-            self.onlyLabel.font = UIFont(name: "PWJoyeuxNoel", size: 200)
-            self.onlyLabel.textColor = UIColor(red: 54/255, green: 170/255, blue: 5/255, alpha: 1)
-            self.view.setUpBlurryBackgroundImage(imageName: "AlmostChristmas.jpg", withAlpha: 0.35)
-        #endif
+
+        self.setCustomText(label: self.EventLabel, text: viewModel?.eventName)
+        self.setCustomText(label: self.TimeDurationLabel)
+        self.setCustomText(label: timeCountLabel)
+        self.setCustomText(label: onlyLabel)
+        self.setCustomText(label: shareText, text: "Share Your Countdown", fontSize : 16)
+        self.shareText.adjustsFontSizeToFitWidth = true
         
         self.EventLabel.adjustFontToFitHeight()
         self.timeCountLabel.adjustFontToFitHeight()
