@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
             let userDefaults = UserDefaults.standard
             if let date = userDefaults.object(forKey: "Date") as? Date {
-                var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
+                var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
                 let diff = Calendar.current.dateComponents([.day], from: Date(), to: date )
 
                 if diff.day! < 0 {
@@ -47,6 +47,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     storyboard = UIStoryboard(name: "Birthday", bundle: nil)
                 }
                 self.window?.rootViewController = storyboard.instantiateInitialViewController()
+            } else {
+                return true
             }
             #endif 
             let applicationId = configDict["AppId"] as! String

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TickSound</key>
+	<string>ClockTick</string>
+	<key>AppId</key>
+	<string>ca-app-pub-5594325776314197~1097607605</string>
+	<key>BannerAdId</key>
+	<string>ca-app-pub-5594325776314197/4976965253</string>
+	<key>Photos</key>
+	<array>
+		<string>animals.jpeg</string>
+		<string>ballons.jpeg</string>
+		<string>Candles.jpeg</string>
+		<string>cookies.jpeg</string>
+		<string>cupcakes.jpeg</string>
+	</array>
+	<key>Font</key>
+	<dict>
+		<key>Color2</key>
+		<string>1AACAB</string>
+		<key>Name</key>
+		<string>Chalkduster</string>
+		<key>Color</key>
+		<string>FF0000</string>
+	</dict>
+	<key>Name</key>
+	<string>BIRTHDAY!</string>
+</dict>
+</plist>

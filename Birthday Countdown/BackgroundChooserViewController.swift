@@ -19,8 +19,6 @@ class BackgroundChooserViewController: UICollectionViewController, UINavigationC
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.collectionView?.setUpBlurryBackgroundImage(image: UIImage(named : "ItsChristmas.jpg")!)
         imagePicker.delegate = self
         self.collectionView?.delegate = self
         self.collectionView?.dataSource = self

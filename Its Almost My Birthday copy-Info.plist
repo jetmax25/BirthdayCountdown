@@ -20,6 +20,10 @@
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
 	<string>6</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow Custom Background From Camera.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow Custom Background From Photos</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>

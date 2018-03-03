@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Birthday Countdown/DateCountdownViewController.swift"
-            timestampString = "531407043.503171"
+            timestampString = "531715447.524179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "getShareImage()"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "ShowEvent()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Birthday Countdown/DateCountdownViewController.swift"
-            timestampString = "531407043.503947"
+            timestampString = "531715447.524298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "getShareImage()"
             landmarkType = "7">
          </BreakpointContent>
@@ -41,29 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Birthday Countdown/DateCountdownViewController.swift"
-            timestampString = "531407043.504493"
+            filePath = "Birthday Countdown/BackgroundImage.swift"
+            timestampString = "541802505.308798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "changeTime(timeIncrement:getTime:nextAction:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Birthday Countdown/AppDelegate.swift"
-            timestampString = "531679837.398519"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getImage(atIndex:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -16,14 +16,17 @@
         <array key="BloodLust.ttf">
             <string>BloodLust</string>
         </array>
+        <array key="Chalkduster.ttf">
+            <string>Chalkduster</string>
+        </array>
         <array key="Georgia.ttf">
             <string>Georgia</string>
         </array>
         <array key="MountainsofChristmas.ttf">
             <string>MountainsofChristmas-Regular</string>
         </array>
-        <array key="PWHappyChristmas.ttf">
-            <string>PWJoyeuxNoel</string>
+        <array key="PartyLET.ttf">
+            <string>PartyLetPlain</string>
         </array>
     </customFonts>
     <scenes>
@@ -40,37 +43,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HoU-st-KqA">
-                                <rect key="frame" x="16" y="75" width="343" height="109"/>
+                                <rect key="frame" x="0.0" y="75" width="375" height="43"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-f2-2CK">
-                                        <rect key="frame" x="0.0" y="0.0" width="86" height="109"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-f2-2CK">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="43"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
                                         <color key="tintColor" red="1" green="0.41492355180000001" blue="0.77574982889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="titleShadowOffset" width="1" height="1"/>
-                                        <state key="normal" image="days.png">
-                                            <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="DAYS">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <action selector="viewDays:" destination="UQH-GV-qEC" eventType="touchUpInside" id="N8w-4A-VMl"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SA-Mt-edB">
-                                        <rect key="frame" x="86" y="0.0" width="85.5" height="109"/>
-                                        <state key="normal" image="hours.png"/>
+                                        <rect key="frame" x="94" y="0.0" width="93.5" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="HOURS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="viewHours:" destination="UQH-GV-qEC" eventType="touchUpInside" id="a9D-th-h98"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-MX-T0X">
-                                        <rect key="frame" x="171.5" y="0.0" width="86" height="109"/>
-                                        <state key="normal" image="minutes.png"/>
+                                        <rect key="frame" x="187.5" y="0.0" width="94" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="MINS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="viewMinutes:" destination="UQH-GV-qEC" eventType="touchUpInside" id="EAl-5J-maf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-1E-iz5">
-                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="109"/>
-                                        <state key="normal" image="seconds.png"/>
+                                        <rect key="frame" x="281.5" y="0.0" width="93.5" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="SECS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="viewSeconds:" destination="UQH-GV-qEC" eventType="touchUpInside" id="9bW-MB-Nyw"/>
                                         </connections>
@@ -79,10 +92,10 @@
                                 <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Na-8R-pdt">
-                                <rect key="frame" x="16" y="184" width="343" height="437"/>
+                                <rect key="frame" x="0.0" y="118" width="375" height="503"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pnb-Xo-tsc">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
                                         <fontDescription key="fontDescription" name="BloodLust" family="Blood Lust" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -90,23 +103,23 @@
                                         <size key="shadowOffset" width="2" height="2"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-IK-B2q">
-                                        <rect key="frame" x="0.0" y="55" width="343" height="164"/>
-                                        <fontDescription key="fontDescription" name="PWJoyeuxNoel" family="PWJoyeuxNoel" pointSize="200"/>
+                                        <rect key="frame" x="73.5" y="63.5" width="228" height="188.5"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="170"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-xW-CBC">
-                                        <rect key="frame" x="0.0" y="219" width="343" height="109"/>
-                                        <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
+                                        <rect key="frame" x="0.0" y="252" width="375" height="125.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-SH-Gu3">
-                                        <rect key="frame" x="0.0" y="328" width="343" height="109"/>
+                                        <rect key="frame" x="0.0" y="377.5" width="375" height="125.5"/>
                                         <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -180,19 +193,18 @@
                         <constraints>
                             <constraint firstItem="zXg-ki-dko" firstAttribute="top" secondItem="qGh-My-U2e" secondAttribute="top" id="0Ab-Pj-gm5"/>
                             <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="oKB-VD-9G6" secondAttribute="trailing" constant="8" id="0Lo-qk-aJ3"/>
-                            <constraint firstItem="0Na-8R-pdt" firstAttribute="height" secondItem="HoU-st-KqA" secondAttribute="height" multiplier="4" id="8vU-30-pxI"/>
                             <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="zXg-ki-dko" secondAttribute="trailing" id="CWI-WV-o1T"/>
                             <constraint firstItem="ySw-De-q6f" firstAttribute="top" secondItem="0Na-8R-pdt" secondAttribute="bottom" constant="8" id="Ded-KV-phS"/>
                             <constraint firstItem="zXg-ki-dko" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="EuK-O2-n5n"/>
                             <constraint firstItem="OdX-N6-1Cw" firstAttribute="top" secondItem="ySw-De-q6f" secondAttribute="bottom" constant="8" id="Fm8-aa-g4b"/>
                             <constraint firstItem="oKB-VD-9G6" firstAttribute="top" secondItem="zXg-ki-dko" secondAttribute="bottom" id="IyV-9d-u2C"/>
-                            <constraint firstItem="0Na-8R-pdt" firstAttribute="leading" secondItem="HoU-st-KqA" secondAttribute="leading" id="Rm3-E0-25t"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="Obh-UF-tAB"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="top" secondItem="oKB-VD-9G6" secondAttribute="bottom" id="UgZ-ed-rTe"/>
-                            <constraint firstItem="0Na-8R-pdt" firstAttribute="trailing" secondItem="HoU-st-KqA" secondAttribute="trailing" id="W3J-4T-SfP"/>
                             <constraint firstItem="ySw-De-q6f" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="XDh-Nn-e3q"/>
-                            <constraint firstItem="HoU-st-KqA" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leadingMargin" id="eRC-rp-6rj"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="jDp-l0-1a9"/>
+                            <constraint firstItem="HoU-st-KqA" firstAttribute="leading" secondItem="0Na-8R-pdt" secondAttribute="leading" id="l8J-9w-p80"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="top" secondItem="HoU-st-KqA" secondAttribute="bottom" id="mYh-lD-BHd"/>
+                            <constraint firstItem="0Na-8R-pdt" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="ozy-m8-BYb"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ySw-De-q6f" secondAttribute="trailing" constant="8" id="ujY-m9-RZZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cbo-iG-9oV"/>
@@ -272,10 +284,6 @@
     <resources>
         <image name="FacebookShare.png" width="250" height="250"/>
         <image name="TwitterShare.png" width="400" height="400"/>
-        <image name="days.png" width="500" height="250"/>
-        <image name="hours.png" width="500" height="250"/>
-        <image name="minutes.png" width="500" height="250"/>
-        <image name="seconds.png" width="500" height="250"/>
         <image name="settings.png" width="128" height="128"/>
     </resources>
 </document>

@@ -58,8 +58,8 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         let userDefaults = UserDefaults.standard
         userDefaults.set(viewModel.chosenDate, forKey: "Date")
         
-        var storyboard = UIStoryboard(name: "BirthdayCountdown", bundle: nil)
-        let diff = Calendar.current.dateComponents([.day], from: Date(), to: viewModel.chosenDate)
+        var storyboard = UIStoryboard(name: "DateCountdown", bundle: nil)
+        let diff = Calendar.current.dateComponents([.day], from:  NSCalendar.current.startOfDay(for: Date()), to: viewModel.chosenDate)
         if diff.day == 0 {
             storyboard = UIStoryboard(name: "Birthday", bundle: nil)
         }

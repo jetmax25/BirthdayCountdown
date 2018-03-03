@@ -9,12 +9,14 @@
 import Foundation
 import AVFoundation
 import UIKit
+import StoreKit
 
 struct DateCountdownViewModel {
     var tickPlayer : AVAudioPlayer?
     var musicPlayer : AVAudioPlayer?
     let calendar = Calendar.current
     let dateFormatter = DateFormatter()
+    var requestedReview = false
     
     init() {
         
@@ -22,9 +24,11 @@ struct DateCountdownViewModel {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)
             tickPlayer = try AVAudioPlayer(contentsOf: tickSound)
+            #if !BIRTHDAY
             musicPlayer = try AVAudioPlayer(contentsOf: countdownMusic)
             musicPlayer?.numberOfLoops = -1
             musicPlayer?.play()
+            #endif
         } catch let error {
             print(error.localizedDescription)
         }
@@ -51,7 +55,17 @@ struct DateCountdownViewModel {
         return UIColor(hexColor : fontCode)
     }
     
+    var altFontColor : UIColor {
+        let font = configDict["Font"] as! NSDictionary
+        let fontCode = font["Color2"] as! String
+        return UIColor(hexColor : fontCode)
+    }
+    
     var eventDate : Date {
+        #if BIRTHDAY
+            return birthDate
+        #endif
+        
         return configDict["Date"] as! Date
     }
     
@@ -59,8 +73,10 @@ struct DateCountdownViewModel {
         return configDict["Name"] as! String
     }
     
-    var chosenDate : Date {
-        return configDict["Date"] as! Date
+    var birthDate : Date {
+        let userDefaults = UserDefaults.standard
+        let date = userDefaults.object(forKey: "Date") as! Date
+        return date
     }
     
     var tickSound : URL {
@@ -97,7 +113,7 @@ struct DateCountdownViewModel {
         }
         
         tickPlayer?.play()
-        return calendar.dateComponents([component], from: currentTime, to: chosenDate)
+        return calendar.dateComponents([component], from: currentTime, to: eventDate)
     }
     
     func stopMusic() {
