@@ -9,8 +9,10 @@
 import UIKit
 import GoogleMobileAds
 import Social
+import Fabric
+import Firebase
 
-class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
+class DateCountdownViewController: UIViewController, GADBannerViewDelegate, GADInterstitialDelegate {
 
     @IBOutlet weak var topOfButtonsConstraint: NSLayoutConstraint!
     @IBOutlet weak var timeCountLabel: UILabel!
@@ -26,32 +28,80 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var minutesButton: UIButton!
     @IBOutlet weak var SecondsButton: UIButton!
     
+    @IBOutlet weak var removeAdsButton: UIButton!
     
     var bannerView: GADBannerView!
     var viewModel : DateCountdownViewModel?
     var timeChangeTimer : Timer?
     var backgroundImage : String?
+    var adPlayed = false
     
     override func viewDidLoad() {
+        NotificationCenter.default.addObserver(self, selector: #selector(removeAd), name: .removeAd, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(purchaseFailed), name: .failedPurchase, object: nil)
+        AppDelegate.interstitial?.delegate = self
         super.viewDidLoad()
         viewModel = DateCountdownViewModel()
-        bannerView = GADBannerView(adSize: kGADAdSizeBanner)
-        bannerView.adUnitID = viewModel?.bannerAdId
-        bannerView.rootViewController = self
-        bannerView.delegate = self
-        let request = GADRequest()
-        request.tag(forChildDirectedTreatment: true)
-        request.testDevices = [kGADSimulatorID]
-        bannerView.frame = adView.frame
-        bannerView.load(request)
-        self.view.addSubview(bannerView)
+        self.setActiveButton(self.SecondsButton)
+        changeTime(timeIncrement: .days, getTime: viewModel!.getSeconds, nextAction: 1)
         
-        changeTime(timeIncrement: .days, getTime: viewModel!.getDays, nextAction: 3600)
+        if !viewModel!.requestedReview || AppDelegate.adFree {
+            adPlayed = true
+        }
+    }
+    
+    func setAds() {
+        
+        if !AppDelegate.adFree {
+            bannerView = GADBannerView(adSize: kGADAdSizeBanner)
+            bannerView.adUnitID = viewModel?.bannerAdId
+            bannerView.rootViewController = self
+            bannerView.delegate = self
+            let request = GADRequest()
+            request.tag(forChildDirectedTreatment: true)
+            request.testDevices = [kGADSimulatorID]
+            bannerView.frame = adView.frame
+            bannerView.load(request)
+            self.view.addSubview(bannerView)
+        } else {
+            self.bannerView.removeFromSuperview()
+            self.removeAdsButton.removeFromSuperview()
+        }
+    }
+
+    
+    override func viewDidAppear(_ animated: Bool) {
+        presentAd(location: "View Did Appear")
+        super.viewDidAppear(animated)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         setUpFontsAndBackground()
+        self.setAds()
     }
+    
+    func presentAd( location : String ) {
+        if AppDelegate.adFree, self.adPlayed {
+            return
+        }
+        if viewModel!.requestedReview {
+            if AppDelegate.interstitial?.isReady ?? false {
+                Answers.logCustomEvent(withName: "Presenting Ad", customAttributes: [ "Location" : location ])
+                AppDelegate.interstitial?.present(fromRootViewController: self)
+                self.adPlayed = true
+            } else {
+                Answers.logCustomEvent(withName: "Failed To Present Ad", customAttributes: [ "Location" : location])
+            }
+        }
+    }
+//
+//    func loadAd() {
+//        numAds = numAds + 1
+//        Answers.logCustomEvent(withName: "New Ad Loaded", customAttributes: ["AdNum" : numAds ])
+//        AppDelegate.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5594325776314197/5058013154")
+//        let request = GADRequest()
+//        AppDelegate.interstitial?.load(request)
+//    }
     
     private func setCustomText(label: UILabel, isAltColor : Bool = false, text: String? = nil, fontSize : CGFloat? = nil) {
         if let text = text {
@@ -70,7 +120,7 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
         
         OperationQueue.main.addOperation {
             if let backgroundImage = self.viewModel?.backgroundImage {
-                self.view.setUpBlurryBackgroundImage(image: backgroundImage, withAlpha :0.35)
+                self.view.setUpBlurryBackgroundImage(image: backgroundImage, withAlpha :0.25)
             } else {
                 self.performSegue(withIdentifier: "chooseWallpaper", sender: nil)
                 return
@@ -174,15 +224,19 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             self.changeTime(timeIncrement: timeIncrement, getTime: getTime, nextAction: nextAction)
         })
         
-        if (viewModel!.getDays() == 1 && !viewModel!.requestedReview) {
+        if !viewModel!.requestedReview {
+            self.adPlayed = true
             if #available(iOS 10.3, *) {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
                     if !self.viewModel!.requestedReview {
                         self.viewModel!.requestedReview = true
                         SKStoreReviewController.requestReview()
+                        UserDefaults.standard.set(true, forKey: "AskedReview")
                     }
                 })
             }
+        } else {
+            presentAd(location: "Change Time")
         }
     }
     
@@ -222,6 +276,7 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
         let newImg = UIImage(cgImage: imageRef)
         return newImg
     }
+    
     @IBAction func shareOnFacebook(_ sender: Any) {
         if let vc = SLComposeViewController(forServiceType:SLServiceTypeFacebook) {
             let image = getShareImage()
@@ -229,6 +284,22 @@ class DateCountdownViewController: UIViewController, GADBannerViewDelegate {
             vc.setInitialText("soon")
             self.present(vc, animated: true, completion: nil)
         }
+    }
+
+    @IBAction func removeAds(_ sender: Any) {
+        self.removeAdsButton.isEnabled = false
+        PurchaseHelper.purchase()
+    }
+    
+    @objc func removeAd() {
+        self.bannerView?.removeFromSuperview()
+        self.removeAdsButton?.removeFromSuperview()
+        AppDelegate.adFree = true
+        UserDefaults.standard.set(true, forKey: "AdFree")
+    }
+    
+    @objc func purchaseFailed() {
+        self.removeAdsButton?.isEnabled = true
     }
     
     @IBAction func shareOnTwitter(_ sender: Any) {

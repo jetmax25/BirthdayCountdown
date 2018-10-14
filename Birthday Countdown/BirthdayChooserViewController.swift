@@ -79,7 +79,7 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
     }
-    
+
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
         var pickerLabel = view as? UILabel;
         
@@ -89,6 +89,8 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
             
             pickerLabel?.font = UIFont.boldSystemFont(ofSize: 36)
             pickerLabel?.textColor = .red
+            pickerLabel?.shadowColor = .black
+            pickerLabel?.shadowOffset = CGSize(width: 2, height: 2)
             pickerLabel?.textAlignment = NSTextAlignment.center
         }
         
@@ -110,5 +112,9 @@ class BirthdayChooserViewController: UIViewController, UIPickerViewDelegate {
         } else {
             viewModel.setDay(day: row + 1)
         }
+    }
+    
+    @IBAction func restorePurchases(_ sender: Any) {
+        PurchaseHelper.restorePurchases()
     }
 }

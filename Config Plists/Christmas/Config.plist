@@ -24,6 +24,8 @@
 	</array>
 	<key>Font</key>
 	<dict>
+		<key>Color2</key>
+		<string>3C8D0D</string>
 		<key>Name</key>
 		<string>PWJoyeuxNoel</string>
 		<key>Color</key>
@@ -32,6 +34,6 @@
 	<key>Name</key>
 	<string>Christmas</string>
 	<key>Date</key>
-	<date>2017-12-25T05:00:00Z</date>
+	<date>2018-12-25T05:00:00Z</date>
 </dict>
 </plist>

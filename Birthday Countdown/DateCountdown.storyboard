@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQH-GV-qEC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQH-GV-qEC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -16,24 +15,15 @@
         <array key="BloodLust.ttf">
             <string>BloodLust</string>
         </array>
-        <array key="Chalkduster.ttf">
-            <string>Chalkduster</string>
-        </array>
-        <array key="Georgia.ttf">
-            <string>Georgia</string>
-        </array>
         <array key="MountainsofChristmas.ttf">
             <string>MountainsofChristmas-Regular</string>
-        </array>
-        <array key="PartyLET.ttf">
-            <string>PartyLetPlain</string>
         </array>
     </customFonts>
     <scenes>
         <!--DateCountdown-->
         <scene sceneID="Ptz-td-rTu">
             <objects>
-                <viewController storyboardIdentifier="DateCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UQH-GV-qEC" userLabel="DateCountdown" customClass="DateCountdownViewController" customModule="Its_Almost_Christmas" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DateCountdown" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UQH-GV-qEC" userLabel="DateCountdown" customClass="DateCountdownViewController" customModule="Es_casi_mi_cumpleaños" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g5R-TY-P22"/>
                         <viewControllerLayoutGuide type="bottom" id="OdX-N6-1Cw"/>
@@ -43,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HoU-st-KqA">
-                                <rect key="frame" x="0.0" y="75" width="375" height="43"/>
+                                <rect key="frame" x="0.0" y="95" width="375" height="43"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibe-f2-2CK">
                                         <rect key="frame" x="0.0" y="0.0" width="94" height="43"/>
@@ -92,10 +82,10 @@
                                 <color key="backgroundColor" red="0.76352007769999997" green="0.48884229130000001" blue="0.1851644684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Na-8R-pdt">
-                                <rect key="frame" x="0.0" y="118" width="375" height="503"/>
+                                <rect key="frame" x="0.0" y="138" width="375" height="441"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pnb-Xo-tsc">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
+                                        <rect key="frame" x="12.5" y="0.0" width="350" height="55.5"/>
                                         <fontDescription key="fontDescription" name="BloodLust" family="Blood Lust" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -103,7 +93,7 @@
                                         <size key="shadowOffset" width="2" height="2"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-IK-B2q">
-                                        <rect key="frame" x="73.5" y="63.5" width="228" height="188.5"/>
+                                        <rect key="frame" x="73.5" y="55.5" width="228" height="165"/>
                                         <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="170"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -111,7 +101,7 @@
                                         <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-xW-CBC">
-                                        <rect key="frame" x="0.0" y="252" width="375" height="125.5"/>
+                                        <rect key="frame" x="0.0" y="220.5" width="375" height="110.5"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -119,7 +109,7 @@
                                         <size key="shadowOffset" width="3" height="3"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-SH-Gu3">
-                                        <rect key="frame" x="0.0" y="377.5" width="375" height="125.5"/>
+                                        <rect key="frame" x="0.0" y="331" width="375" height="110"/>
                                         <fontDescription key="fontDescription" name="MountainsofChristmas-Regular" family="Mountains of Christmas" pointSize="200"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -134,14 +124,14 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXg-ki-dko">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="D2g-7c-Z4I"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKB-VD-9G6">
-                                <rect key="frame" x="342" y="50" width="25" height="25"/>
+                                <rect key="frame" x="342" y="70" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oKB-VD-9G6" secondAttribute="height" id="6SU-tQ-AfV"/>
                                     <constraint firstAttribute="height" constant="25" id="rsS-v4-vDO"/>
@@ -152,18 +142,18 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ySw-De-q6f">
-                                <rect key="frame" x="39" y="629" width="297.5" height="30"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share Your Countdown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="45Q-wt-o0u">
-                                        <rect key="frame" x="0.0" y="0.0" width="177.5" height="30"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="255" height="30"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <size key="shadowOffset" width="2" height="2"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cF-6n-0ut">
-                                        <rect key="frame" x="207.5" y="0.0" width="30" height="30"/>
+                                        <rect key="frame" x="285" y="0.0" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="6cF-6n-0ut" secondAttribute="height" id="eQh-Xe-jCx"/>
                                         </constraints>
@@ -174,7 +164,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoF-Lr-Old">
-                                        <rect key="frame" x="267.5" y="0.0" width="30" height="30"/>
+                                        <rect key="frame" x="345" y="0.0" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ZoF-Lr-Old" secondAttribute="height" id="08A-rx-tPa"/>
                                         </constraints>
@@ -188,24 +178,43 @@
                                     <constraint firstAttribute="height" constant="30" id="4G9-b7-gbg"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KG-i7-oOn">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="c9z-Pd-LD0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="32"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" title="Remove Ads Forever">
+                                    <color key="titleShadowColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeAds:" destination="UQH-GV-qEC" eventType="touchUpInside" id="9Pq-kf-68b"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zXg-ki-dko" firstAttribute="top" secondItem="qGh-My-U2e" secondAttribute="top" id="0Ab-Pj-gm5"/>
                             <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="oKB-VD-9G6" secondAttribute="trailing" constant="8" id="0Lo-qk-aJ3"/>
+                            <constraint firstItem="3KG-i7-oOn" firstAttribute="top" secondItem="ySw-De-q6f" secondAttribute="bottom" id="3TH-O8-8S2"/>
+                            <constraint firstItem="3KG-i7-oOn" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="6gJ-ss-fOh"/>
                             <constraint firstItem="cbo-iG-9oV" firstAttribute="trailing" secondItem="zXg-ki-dko" secondAttribute="trailing" id="CWI-WV-o1T"/>
                             <constraint firstItem="ySw-De-q6f" firstAttribute="top" secondItem="0Na-8R-pdt" secondAttribute="bottom" constant="8" id="Ded-KV-phS"/>
                             <constraint firstItem="zXg-ki-dko" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="EuK-O2-n5n"/>
-                            <constraint firstItem="OdX-N6-1Cw" firstAttribute="top" secondItem="ySw-De-q6f" secondAttribute="bottom" constant="8" id="Fm8-aa-g4b"/>
                             <constraint firstItem="oKB-VD-9G6" firstAttribute="top" secondItem="zXg-ki-dko" secondAttribute="bottom" id="IyV-9d-u2C"/>
+                            <constraint firstItem="ySw-De-q6f" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="NKg-j0-GBj"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="Obh-UF-tAB"/>
+                            <constraint firstItem="OdX-N6-1Cw" firstAttribute="top" secondItem="3KG-i7-oOn" secondAttribute="bottom" id="PQz-bO-fGK"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="top" secondItem="oKB-VD-9G6" secondAttribute="bottom" id="UgZ-ed-rTe"/>
-                            <constraint firstItem="ySw-De-q6f" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="XDh-Nn-e3q"/>
+                            <constraint firstItem="3KG-i7-oOn" firstAttribute="leading" secondItem="cbo-iG-9oV" secondAttribute="leading" id="fhX-Rn-IjP"/>
+                            <constraint firstItem="zXg-ki-dko" firstAttribute="top" secondItem="cbo-iG-9oV" secondAttribute="top" id="hMB-hz-Esl"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="centerX" secondItem="qGh-My-U2e" secondAttribute="centerX" id="jDp-l0-1a9"/>
+                            <constraint firstItem="cbo-iG-9oV" firstAttribute="bottom" secondItem="ySw-De-q6f" secondAttribute="bottom" priority="750" id="kvc-Ma-DPF"/>
                             <constraint firstItem="HoU-st-KqA" firstAttribute="leading" secondItem="0Na-8R-pdt" secondAttribute="leading" id="l8J-9w-p80"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="top" secondItem="HoU-st-KqA" secondAttribute="bottom" id="mYh-lD-BHd"/>
                             <constraint firstItem="0Na-8R-pdt" firstAttribute="leading" secondItem="qGh-My-U2e" secondAttribute="leading" id="ozy-m8-BYb"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ySw-De-q6f" secondAttribute="trailing" constant="8" id="ujY-m9-RZZ"/>
+                            <constraint firstItem="ySw-De-q6f" firstAttribute="leading" secondItem="cbo-iG-9oV" secondAttribute="leading" id="pYq-v6-p1v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cbo-iG-9oV"/>
                     </view>
@@ -218,6 +227,7 @@
                         <outlet property="hoursButton" destination="6SA-Mt-edB" id="Vv6-f8-UXt"/>
                         <outlet property="minutesButton" destination="ySF-MX-T0X" id="4ge-3T-aVV"/>
                         <outlet property="onlyLabel" destination="pnb-Xo-tsc" id="SGj-Mk-DhJ"/>
+                        <outlet property="removeAdsButton" destination="3KG-i7-oOn" id="49Y-e5-uD3"/>
                         <outlet property="shareStack" destination="ySw-De-q6f" id="ZF8-ma-MBm"/>
                         <outlet property="shareText" destination="45Q-wt-o0u" id="p5K-0T-tp4"/>
                         <outlet property="timeCountLabel" destination="7Ft-IK-B2q" id="WtW-fC-P3L"/>
@@ -231,7 +241,7 @@
         <!--Background Chooser View Controller-->
         <scene sceneID="7A2-Fs-n8j">
             <objects>
-                <collectionViewController id="TBi-va-CUz" customClass="BackgroundChooserViewController" customModule="Its_Almost_Christmas" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="TBi-va-CUz" customClass="BackgroundChooserViewController" customModule="Es_casi_mi_cumpleaños" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ueG-TW-AuP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

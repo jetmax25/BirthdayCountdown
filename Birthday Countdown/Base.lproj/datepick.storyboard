@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +13,7 @@
         <!--Birthday Chooser View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="BirthdayChooser" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="BirthdayChooserViewController" customModule="Its_Almost_My_Birthday" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BirthdayChooser" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="BirthdayChooserViewController" customModule="Es_casi_mi_cumpleaños" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piI-9y-ljZ">
-                                <rect key="frame" x="24" y="520.5" width="328" height="126.5"/>
+                                <rect key="frame" x="24" y="520.5" width="327" height="111.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" image="Thisismybirthday.png"/>
                                 <connections>
@@ -51,22 +51,36 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Whenisthebigday.png" translatesAutoresizingMaskIntoConstraints="NO" id="cTs-f7-uqm">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="253"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="223"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8b-wO-yf6">
+                                <rect key="frame" x="16" y="642" width="343" height="25"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="cpr-MQ-iei"/>
+                                </constraints>
+                                <state key="normal" title="Restore Purcahses"/>
+                                <connections>
+                                    <action selector="restorePurchases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7D-tv-LLa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="f8b-wO-yf6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Vp-XU-7nH"/>
                             <constraint firstItem="wQs-io-aNO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bl6-Lq-tx6"/>
                             <constraint firstItem="wQs-io-aNO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="CpN-Ie-zS0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f8b-wO-yf6" secondAttribute="bottom" id="G1Q-mo-3xE"/>
                             <constraint firstItem="cTs-f7-uqm" firstAttribute="height" secondItem="piI-9y-ljZ" secondAttribute="height" multiplier="2:1" id="Sex-dM-h9B"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="piI-9y-ljZ" secondAttribute="bottom" constant="20" id="b4J-MV-QMu"/>
                             <constraint firstItem="piI-9y-ljZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wQs-io-aNO" secondAttribute="bottom" constant="20" id="fof-8q-b9X"/>
                             <constraint firstItem="cTs-f7-uqm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kfC-HP-JoU"/>
                             <constraint firstItem="piI-9y-ljZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lI1-pk-S3G"/>
+                            <constraint firstItem="f8b-wO-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lkC-ms-fC6"/>
                             <constraint firstItem="piI-9y-ljZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="mTv-cf-DkI"/>
                             <constraint firstItem="cTs-f7-uqm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n96-3L-iKa"/>
                             <constraint firstItem="cTs-f7-uqm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ney-7k-mz6"/>
                             <constraint firstItem="wQs-io-aNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pAS-V3-to4"/>
+                            <constraint firstItem="f8b-wO-yf6" firstAttribute="top" secondItem="piI-9y-ljZ" secondAttribute="bottom" constant="10" id="rGr-QF-n57"/>
                             <constraint firstItem="wQs-io-aNO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wG2-QG-2ap"/>
                         </constraints>
                     </view>

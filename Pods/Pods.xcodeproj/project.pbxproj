@@ -7,214 +7,304 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02BBEB47FEDFFE5428F0810EA4625162 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F07E1DA7C9078A9BCBFD932F64835AE /* Pods-Its Almost My Birthday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */; };
-		10C0E8C7FE6E1FF0FD16C0802BD3A5C2 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
-		16B6FC71C92A977904A8E348477D2C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1D20C6C76C02B3A44165B56AFBF2568C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		205D70E6BBB3304BEAC13C241171CBD9 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		246C7CC040592C8B40143F68DF30CACF /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		470B3B3E5750302B32176FF550270923 /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BB57596AB8484AAD33E9B14C649A455 /* Pods-Its Almost Christmas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */; };
-		4ED7EC92C83F90B142F0C856C1B26FEB /* GoogleToolboxForMac-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA5B63025E80F544A616CD50784CA22 /* GoogleToolboxForMac-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56EF18F0BE6222D4B32E5738CBFF25C3 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BE966355B948CA240D96232EC766819 /* Pods-Its Almost Halloween-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D3D4171EA496F0B5F2EDE0C13739CF7 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 6737167A49673CB86A0CF773D0B20091 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64078872F8604701723D53F7AC522E23 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		64C30023F2E262C7BFA5649F13D38063 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */; };
-		654524CE85A35423C733B29D8E9B1A5A /* nanopb-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF060E078BDF6CC8E66B19E1FB11B4 /* nanopb-iOS10.3-dummy.m */; };
+		02BBEB47FEDFFE5428F0810EA4625162 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 001232D8671C335535AF7A04AE4DDD5F /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C6AC78B1A51E45DBA7EE932563B96FC /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC68645A4006D83BB6F3174D471A4 /* PaymentsController.swift */; };
+		0D73148AAFA19FF07F84781E36FCF35F /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104DC2CF1DE6D7DFD74E9DDD4F5D2CE6 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC68645A4006D83BB6F3174D471A4 /* PaymentsController.swift */; };
+		10C0E8C7FE6E1FF0FD16C0802BD3A5C2 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFE326A5EACE629D2D5F66392740A3 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		1D20C6C76C02B3A44165B56AFBF2568C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F91E0B0C233837C3699296AB4056AC /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		205D70E6BBB3304BEAC13C241171CBD9 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = CB3C4EBE718AC8EF7008794BD8B12811 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		231F313B97C80EECBA7012A0CD7EF661 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B8A9BF15565CBD1DC02DB5F873B44 /* SwiftyStoreKit+Types.swift */; };
+		246C7CC040592C8B40143F68DF30CACF /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA94711AAFF8B9EA47E24949DD592DA /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E41FCA9946A590BD89BF672E0839137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38D871B051D58A3C77EB8158AF08E2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A09550F0F41BC920BE525A1365FCE5D /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1239D0665F23EAFFE888A5237E1B3 /* ProductsInfoController.swift */; };
+		404EDA1850C28BF4766B8AE30985FA27 /* SwiftyStoreKit-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6A19BBDDAB04269610F9C59EC32C7B /* SwiftyStoreKit-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467264216B43BDC364262BDC4BB410FA /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1239D0665F23EAFFE888A5237E1B3 /* ProductsInfoController.swift */; };
+		4ECB9D30FA457DF42E3FE4FAE84F90F5 /* SwiftyStoreKit-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 719A460973F34424C25B8159151C94F4 /* SwiftyStoreKit-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ED7EC92C83F90B142F0C856C1B26FEB /* GoogleToolboxForMac-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D838186C4D9953EC4EBFE274903CA32 /* GoogleToolboxForMac-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B186AD3EE7B0E75F9D78932379A407 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCEC967FFE9D3D2D721029CD1E064 /* AppleReceiptValidator.swift */; };
+		56EF18F0BE6222D4B32E5738CBFF25C3 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A022C973DEC24B5168F696F4CDF4673 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584CFD175D01A2E014CA16FA35313362 /* SwiftyStoreKit-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F13E87F5BBEAC2A94623D4E22CFA8D /* SwiftyStoreKit-iOS10.3-dummy.m */; };
+		58F80D7698B2C194B0861E8704931247 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */; };
+		5D3D4171EA496F0B5F2EDE0C13739CF7 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 3211E0EC6497E6D7ECAB270CA48D8F57 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621D1B53C6A832BD31310BDA063EFC50 /* Pods-Its Almost Christmas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6266B5AABAC6D86A1CF5D7DAE0ADF9EA /* SwiftyStoreKit-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E519CE23394E31D04E09671981C62674 /* SwiftyStoreKit-iOS10.0-dummy.m */; };
+		64078872F8604701723D53F7AC522E23 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F91E0B0C233837C3699296AB4056AC /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		654524CE85A35423C733B29D8E9B1A5A /* nanopb-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9700A1E6DB1EAC14B4407018B4E0C795 /* nanopb-iOS10.3-dummy.m */; };
 		6B3F541A1FC915824DF954ACFB45F584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6C67FC3156E2412A06248592CFDA49E2 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E74A78477F07BCC691569FE41C2C756 /* Pods-Its Almost Halloween-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */; };
+		6C67FC3156E2412A06248592CFDA49E2 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3EC0478E839E09821824E719E68C0C /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D173AA55AEE420D47DEAFE40D6DFECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7012E864C7DF2564715FBC85E59348F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		787F0FFA28D3F4E5D5EEE14137D13F98 /* nanopb-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F4722891F90D322390D0992C31C4F4 /* nanopb-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BB5C45E01043BB705739B076389955 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		7C900A56661CD3F2E068EA7F5DA19CFC /* GoogleToolboxForMac-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C564210870203E23FC531F0931F0306B /* GoogleToolboxForMac-iOS10.3-dummy.m */; };
-		82A35923001F630DF983BE54BBABCED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74B60275AC5B2864B8FA301F288CCB8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		76885359C0FD84B47659C9B7A7914D97 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE09978A4A570B7AC969BF14B23A56E /* OS.swift */; };
+		7713AECA786DB308037258A0368E0528 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A73B57B44989D1B7C239FDE42BC035 /* InAppReceipt.swift */; };
+		778A0EAE180D19E92E0937380BB6ACFD /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCC1579768B02A946BAE241EDA27A3 /* SKProduct+LocalizedPrice.swift */; };
+		785EE33F06EFE8F7757DA04C328727C4 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCEC967FFE9D3D2D721029CD1E064 /* AppleReceiptValidator.swift */; };
+		787F0FFA28D3F4E5D5EEE14137D13F98 /* nanopb-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789D1475549B92BC15D66968629C7D41 /* nanopb-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BB5C45E01043BB705739B076389955 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 271A1764B747C66D2A00A2203014A47F /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		7C900A56661CD3F2E068EA7F5DA19CFC /* GoogleToolboxForMac-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4807F4C5010C26DFBD0311BB0EAFE81 /* GoogleToolboxForMac-iOS10.3-dummy.m */; };
 		8BBBCEEE907F5D3BD370241BFA141C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8CFD69EAE190B79247D40FF6EAB2ADAA /* Pods-Its Almost Christmas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9008F2F8A0BBAAE1A2CBB1AC6F887575 /* GoogleToolboxForMac-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8467F78957C3EF91FA9EB9486890D02E /* GoogleToolboxForMac-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9206ED5654E16EF6A9437BBF205D7AD2 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 6737167A49673CB86A0CF773D0B20091 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9853C5DD2420DFBCE2862889760E4540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9C54890CD4CB5C8C59A73C79F3A02F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9DCF98AC7DECA25D2A8097C4A91D124A /* nanopb-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F613D3D979E42B20751C49CF044C9F /* nanopb-iOS10.0-dummy.m */; };
-		A4F0D31EDEEB5710B920DF5D99DF21C7 /* Pods-Its Almost My Birthday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A67400D9B7A184BC4069587B43355F3A /* nanopb-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D5C9DDF085DB200B244072C18ECB3A /* nanopb-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A99E227A64484FBE0CDAA24E720D3A6F /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE749A94578D2F394D09E6D18890308 /* Pods-Its Almost My Birthday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */; };
+		9008F2F8A0BBAAE1A2CBB1AC6F887575 /* GoogleToolboxForMac-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7508A124452C9E8C15B9A5F817C8D7B0 /* GoogleToolboxForMac-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9206ED5654E16EF6A9437BBF205D7AD2 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 3211E0EC6497E6D7ECAB270CA48D8F57 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E5C94C1AF810DCDE7F712275A46773 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B8A9BF15565CBD1DC02DB5F873B44 /* SwiftyStoreKit+Types.swift */; };
+		96F17DEA8828A15A25CE4013995958E1 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FE9227F5C6F46F2DF0E0C3DBF5767 /* InAppReceiptRefreshRequest.swift */; };
+		97BF4DE026B8C667D8BDB665D126445A /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B71E6D4C8543C7A7335D29D3F5A21 /* InAppProductQueryRequest.swift */; };
+		9A0D3BB6E8F5C99B86D37774F46B4DBD /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE830B61FFCCEA1469C3818183805E2F /* InAppReceiptVerificator.swift */; };
+		9DCF98AC7DECA25D2A8097C4A91D124A /* nanopb-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F90841EE8ADE7269176C3729FDB91 /* nanopb-iOS10.0-dummy.m */; };
+		A1FC34EDC61147BF16A9DEE6E9149386 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCC1579768B02A946BAE241EDA27A3 /* SKProduct+LocalizedPrice.swift */; };
+		A4E5897F9F9FD190131021AC7E8D1BE4 /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73916D9C0AC49D61AB58D56E7015D805 /* RestorePurchasesController.swift */; };
+		A5D536C7196BC466C1007A53CDBE4193 /* Pods-Its Almost Halloween-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A657566D36D36FE8D8AFE2D2187D49FF /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73916D9C0AC49D61AB58D56E7015D805 /* RestorePurchasesController.swift */; };
+		A67400D9B7A184BC4069587B43355F3A /* nanopb-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF17BD3B5D5673F129CE2E9727A645A /* nanopb-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99E227A64484FBE0CDAA24E720D3A6F /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA94711AAFF8B9EA47E24949DD592DA /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAE182B987FADAD55F7779E93DF16A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B057EC725E727B860D88CAD84B91EFC4 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DFCD8FC31A7F88A6C7D8C6BCC4E25D /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B277DB257BDAE97EAAFC3C898D0EDC5A /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B28B178224A7F603AF7CD2403403015D /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DFCD8FC31A7F88A6C7D8C6BCC4E25D /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA2CB7BEDE2C562E1A9F9D7C1ABE0EF1 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46ED7C57E7B58858953D011A59BFE0C /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		E50A5FCF02CF3A9BD1DDDA49C2811467 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		EDF765FFB919C326660E25ED217D2864 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
-		F01FAE85EE1091462B85FA4149F0BA7B /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F94C695147F7D8A49498369ED0F80005 /* GoogleToolboxForMac-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9D73FA27B72902F5ED6815CE5B64D9 /* GoogleToolboxForMac-iOS10.0-dummy.m */; };
+		AB0F213710A9479E578B00190727A7FF /* Pods-Its Almost Christmas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */; };
+		B057EC725E727B860D88CAD84B91EFC4 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B4FDFBAC64608C299419708DC48FDF /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B277DB257BDAE97EAAFC3C898D0EDC5A /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 001232D8671C335535AF7A04AE4DDD5F /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28B178224A7F603AF7CD2403403015D /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B4FDFBAC64608C299419708DC48FDF /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D93C0DFB0E7CDF003162D07857A2AD /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5CCA5372430D192CEECA2F8D0A48A /* PaymentQueueController.swift */; };
+		B6E45C58897CDB7BFD716A1312F0336D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B8D678C72FAC0FB45EE278134A496799 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FE9227F5C6F46F2DF0E0C3DBF5767 /* InAppReceiptRefreshRequest.swift */; };
+		BA2CB7BEDE2C562E1A9F9D7C1ABE0EF1 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3EC0478E839E09821824E719E68C0C /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4674902B4D6CA6883C8AA16BC71897 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A73B57B44989D1B7C239FDE42BC035 /* InAppReceipt.swift */; };
+		C969BE8DD38587040B3144ABB6D86C10 /* Pods-Its Almost Halloween-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */; };
+		D089D9D8F81B874027D3E9015A3D7636 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0AA10879E125CD4CEA12DA2793E3D /* CompleteTransactionsController.swift */; };
+		D46ED7C57E7B58858953D011A59BFE0C /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 271A1764B747C66D2A00A2203014A47F /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		D74E1869D57D3CA498A85250886EC2D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF2DD56D248EBD3DEADD75D00FD1FF00 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0AA10879E125CD4CEA12DA2793E3D /* CompleteTransactionsController.swift */; };
+		E38811B9727BACA362492DAEECFAACCC /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B71E6D4C8543C7A7335D29D3F5A21 /* InAppProductQueryRequest.swift */; };
+		E50A5FCF02CF3A9BD1DDDA49C2811467 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = CB3C4EBE718AC8EF7008794BD8B12811 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		ED5FD164514F10F0F9FA0D7A37EDBB51 /* Pods-Its Almost My Birthday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF765FFB919C326660E25ED217D2864 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFE326A5EACE629D2D5F66392740A3 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		EF47000DA7D542B9BA69004D34AA9D94 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5CCA5372430D192CEECA2F8D0A48A /* PaymentQueueController.swift */; };
+		EF73B1B79E07EAA811CFE42E324BDD03 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BFB8F12049A5824B662D706EC4C3D /* SwiftyStoreKit.swift */; };
+		F01FAE85EE1091462B85FA4149F0BA7B /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A022C973DEC24B5168F696F4CDF4673 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23A51A630B49572979E3E5B4379AC26 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE830B61FFCCEA1469C3818183805E2F /* InAppReceiptVerificator.swift */; };
+		F57521905DBCCAE2197918B784AEEED5 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE09978A4A570B7AC969BF14B23A56E /* OS.swift */; };
+		F94C695147F7D8A49498369ED0F80005 /* GoogleToolboxForMac-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3575D3545F71C567B798DC3A97C8C4 /* GoogleToolboxForMac-iOS10.0-dummy.m */; };
+		FAC498BF7E83453951147CE9C6522AB9 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BFB8F12049A5824B662D706EC4C3D /* SwiftyStoreKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CDC5FAD1463C1A5F9804CF1A602282C /* PBXContainerItemProxy */ = {
+		05FD94EF502DA6BA2B7258E5DF5BF30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1AD220349480F6F982B6877AB16B4CB;
+			remoteInfo = "SwiftyStoreKit-iOS10.3";
+		};
+		31DDDF00ADF3475CF66F07CE98256E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2549FF75E73C6C035536CFBC66B64FCB;
+			remoteInfo = "SwiftyStoreKit-iOS10.0";
+		};
+		350EE5ED27B2DDB36D938EC7A01F2714 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58039CFF73133A377E627F1F2D8FB60E;
 			remoteInfo = "nanopb-iOS10.3";
 		};
-		35060839AE29BC1216507E477292091C /* PBXContainerItemProxy */ = {
+		3E5FA1E1D62261167F97BA4D7055ABA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
 			remoteInfo = "nanopb-iOS10.0";
 		};
-		62574672473896CB071863D488EF63F2 /* PBXContainerItemProxy */ = {
+		426AEE96FFC8074CA7D98B94BB52CAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2549FF75E73C6C035536CFBC66B64FCB;
+			remoteInfo = "SwiftyStoreKit-iOS10.0";
+		};
+		630D2831A91796D2CBBE5896CC45C9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
+			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+		};
+		874900782186D7427E08C7C9EE0D9803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2549FF75E73C6C035536CFBC66B64FCB;
+			remoteInfo = "SwiftyStoreKit-iOS10.0";
+		};
+		A031F5FA2DEE81B948E9B52A36BDC855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
+			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+		};
+		A1003D08547B24EC4E984C8975BC7F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
+			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+		};
+		A4E46584A76BFB2860F723D514DC13CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
 			remoteInfo = "nanopb-iOS10.0";
 		};
-		889DCEE3F65D8D9DA9F1CE92CE0C4E42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
-			remoteInfo = "nanopb-iOS10.0";
-		};
-		C82577BC03F1AEDB9E388FA77E5D957D /* PBXContainerItemProxy */ = {
+		B40E23EEB18F5C772A152A35382FF51C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0502D5ECF27891C29CE18AAE7C444166;
 			remoteInfo = "GoogleToolboxForMac-iOS10.3";
 		};
-		EE1FD37EEE7B5B5367332122E9E20BB7 /* PBXContainerItemProxy */ = {
+		C647ED1278EA1C969679B7497835A92E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
-			remoteInfo = "GoogleToolboxForMac-iOS10.0";
-		};
-		F32D0513026CA3214FCC3F801B2815AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
-			remoteInfo = "GoogleToolboxForMac-iOS10.0";
-		};
-		FA2F9945C55C262C484734663FEE5A97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C1F745463CF50466F748F50743F2314;
-			remoteInfo = "GoogleToolboxForMac-iOS10.0";
+			remoteGlobalIDString = A02CAD5A46A5A185E93745DAC12647AC;
+			remoteInfo = "nanopb-iOS10.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001232D8671C335535AF7A04AE4DDD5F /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		013EE9A5245F4C4FE0CDCF61EC274626 /* Pods-Es casi mi cumpleaños-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Es casi mi cumpleaños-dummy.m"; sourceTree = "<group>"; };
-		01403791AD115656C301C74A5253A6E2 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		084A35593A80DCDF6943591EE130ACB9 /* GoogleToolboxForMac-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GoogleToolboxForMac-iOS10.0.modulemap"; sourceTree = "<group>"; };
-		0D77503E33D6ED34C9346459DA1651D9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		10C977D7EC85E7E347543B85A413645A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GoogleToolboxForMac-iOS10.3/Info.plist"; sourceTree = "<group>"; };
+		065B4684BC65E000CDAFD76C6EEB92F2 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		07374E8DA2B16D38449DB614BFCE3941 /* SwiftyStoreKit-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftyStoreKit-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		0C6A19BBDDAB04269610F9C59EC32C7B /* SwiftyStoreKit-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyStoreKit-iOS10.3-umbrella.h"; path = "../SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
+		0D3DBC4A42F871B572C148EB4F77D046 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		11CD60BB4B4A2517BA28B165B2E5F046 /* Pods-Its Almost Christmas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost Christmas-dummy.m"; sourceTree = "<group>"; };
-		11DFCD8FC31A7F88A6C7D8C6BCC4E25D /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		12B4FDFBAC64608C299419708DC48FDF /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		15D51821966BF66FE6BE8E60453DF980 /* Pods-Its Almost Christmas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost Christmas-umbrella.h"; sourceTree = "<group>"; };
-		1A8C30B25473B17881E1D8030685D13C /* nanopb-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "nanopb-iOS10.0.xcconfig"; sourceTree = "<group>"; };
-		1ACF060E078BDF6CC8E66B19E1FB11B4 /* nanopb-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "nanopb-iOS10.3-dummy.m"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-dummy.m"; sourceTree = "<group>"; };
-		1BA5B63025E80F544A616CD50784CA22 /* GoogleToolboxForMac-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		16AA0C9AF86DFB7FCD66DEC74CACC85F /* GoogleToolboxForMac-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-prefix.pch"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
+		19BCC1579768B02A946BAE241EDA27A3 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+LocalizedPrice.swift"; path = "SwiftyStoreKit/SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
+		1A3575D3545F71C567B798DC3A97C8C4 /* GoogleToolboxForMac-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-iOS10.0-dummy.m"; sourceTree = "<group>"; };
 		1E34A62D94442DE30E6B315954EE150E /* Pods-Es casi mi cumpleaños-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Es casi mi cumpleaños-acknowledgements.markdown"; sourceTree = "<group>"; };
 		202877BC47A2EF42CCCF41F2462247B4 /* Pods-Es casi mi cumpleaños-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Es casi mi cumpleaños-acknowledgements.plist"; sourceTree = "<group>"; };
+		20E792B8F991FAA058B49D916169ADF3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		210F61ADA56C743BB986B1DDC57E54D0 /* Pods-Its Almost My Birthday.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost My Birthday.modulemap"; sourceTree = "<group>"; };
 		23E1AEF348EF9D8B460FEE227F4102B6 /* Pods-Its Almost Halloween-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost Halloween-dummy.m"; sourceTree = "<group>"; };
-		24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		245D489E3169FBD1B1E03DC78E368A30 /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStoreKit.framework; path = "SwiftyStoreKit-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2476BAAF4C3930D7694B88018BC29970 /* Pods-Es casi mi cumpleaños-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Es casi mi cumpleaños-umbrella.h"; sourceTree = "<group>"; };
-		24F613D3D979E42B20751C49CF044C9F /* nanopb-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-iOS10.0-dummy.m"; sourceTree = "<group>"; };
 		2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.debug.xcconfig"; sourceTree = "<group>"; };
-		272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		2C95DB7655078C892A3ECD5957CE442A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../nanopb-iOS10.3/Info.plist"; sourceTree = "<group>"; };
+		271A1764B747C66D2A00A2203014A47F /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		27776789A6F20CCC8A2B9E2F96BD3352 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2A022C973DEC24B5168F696F4CDF4673 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		2D838186C4D9953EC4EBFE274903CA32 /* GoogleToolboxForMac-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		2EE09978A4A570B7AC969BF14B23A56E /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
+		2FA94711AAFF8B9EA47E24949DD592DA /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		302133DD193143C74C9FF89D189F12C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3211E0EC6497E6D7ECAB270CA48D8F57 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		323F90841EE8ADE7269176C3729FDB91 /* nanopb-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		33A55CB19E4A8F8414DA2AEFCE794EE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3465CDB86060884D30F0954ACD9B7D10 /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Es_casi_mi_cumplea_os.framework; path = "Pods-Es casi mi cumpleaños.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A648CCB70DF2000F70D2CBC8718D5E /* Pods-Its Almost Christmas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Christmas-frameworks.sh"; sourceTree = "<group>"; };
-		37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AC93C2D3D2969E6FB155B236504357 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3777FFF1CFE6F94F5D0FB05DFDEADFBB /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		385066B724AA58FE8E37AF7ABA23461A /* nanopb-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "nanopb-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		399787C926034C74FFF3BBB1E94EDAAF /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		3B437E5ED93355F3179E49DB755BF895 /* Pods-Its Almost Christmas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost Christmas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C4B7E0DCBBC54805AED8E27261BA593 /* Pods-Its Almost Halloween.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Halloween.debug.xcconfig"; sourceTree = "<group>"; };
-		3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		3DBFE326A5EACE629D2D5F66392740A3 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		3F6651AD2D23695B9991C4DF553B24A0 /* Pods-Its Almost Christmas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost Christmas.modulemap"; sourceTree = "<group>"; };
-		433FB2AD8EDF332FEF3D9A6DD33B93C9 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		44C193A2F0FD5FA6038C73A32930698C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408D021D599AEBA704A518EC9056ABDD /* SwiftyStoreKit-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftyStoreKit-iOS10.3.xcconfig"; path = "../SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		45FF299D56274A415F39DC7802F0430B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GoogleToolboxForMac-iOS10.3/Info.plist"; sourceTree = "<group>"; };
 		47EFC5894F214494CFA20FA31178A435 /* Pods-Es casi mi cumpleaños-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-resources.sh"; sourceTree = "<group>"; };
+		48F91E0B0C233837C3699296AB4056AC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		4993BEE76F67501B33A6EE726CFFA247 /* GoogleToolboxForMac-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GoogleToolboxForMac-iOS10.3.xcconfig"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.xcconfig"; sourceTree = "<group>"; };
 		4ABA682485E8C227233A07BA9803851F /* Pods-Its Almost Halloween.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Halloween.release.xcconfig"; sourceTree = "<group>"; };
-		4D7FC8AD51C22954991DA7D578E6BB38 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		4EF4FB8476B99FB62D72FDA43DE3499C /* GoogleToolboxForMac-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GoogleToolboxForMac-iOS10.3.xcconfig"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		4B3AD8EE14F07BFBAA2F8DD14AC638FE /* nanopb-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-prefix.pch"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
 		5100944A7F10D35C3325FD2BBD998252 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52D5C9DDF085DB200B244072C18ECB3A /* nanopb-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
-		53566EB3EAEB1932EC0A727FB4FDFAC2 /* nanopb-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "nanopb-iOS10.3.modulemap"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.modulemap"; sourceTree = "<group>"; };
-		54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
-		5748B1555A60765202C2663210633D74 /* GoogleToolboxForMac-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-prefix.pch"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
-		57F87A881633DFD216C2C20797614190 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		584BFFF85A6E7ACB652E374535F36242 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		59A37B8F8D90F2514D1A573FE7A13E11 /* GoogleToolboxForMac-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleToolboxForMac-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		5D1BFB8F12049A5824B662D706EC4C3D /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyStoreKit.swift; path = SwiftyStoreKit/SwiftyStoreKit.swift; sourceTree = "<group>"; };
+		65D6C52850DAE810E82D544BECB17320 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		65FB71C8D70526BE08844DA5A8526FDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../nanopb-iOS10.3/Info.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6737167A49673CB86A0CF773D0B20091 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
-		6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Christmas.framework; path = "Pods-Its Almost Christmas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		66F13E87F5BBEAC2A94623D4E22CFA8D /* SwiftyStoreKit-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftyStoreKit-iOS10.3-dummy.m"; path = "../SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3-dummy.m"; sourceTree = "<group>"; };
+		68489A841876C9976AED1098E59C71B1 /* SwiftyStoreKit-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SwiftyStoreKit-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		696B5D59999397DDF346821EE2EDC6E8 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		6C890F74B22276FFE154AAF858A1AFF8 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDB6C69E36BE99E802FFF773502CAC9 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		6F3EC0478E839E09821824E719E68C0C /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		6FB0AA10879E125CD4CEA12DA2793E3D /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompleteTransactionsController.swift; path = SwiftyStoreKit/CompleteTransactionsController.swift; sourceTree = "<group>"; };
+		6FB36C130E9F95CE4440E78151432865 /* nanopb-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		70D1F06CCC49E4B0DB7005E423034BD1 /* SwiftyStoreKit-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		719A460973F34424C25B8159151C94F4 /* SwiftyStoreKit-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
 		7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Christmas.release.xcconfig"; sourceTree = "<group>"; };
+		7306C4E4E77C66E7EC2DA68D47871409 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		736E0D035F70B5CDEC82E82E5ABBC849 /* Pods_Its_Almost_Christmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Christmas.framework; path = "Pods-Its Almost Christmas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73916D9C0AC49D61AB58D56E7015D805 /* RestorePurchasesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestorePurchasesController.swift; path = SwiftyStoreKit/RestorePurchasesController.swift; sourceTree = "<group>"; };
+		7508A124452C9E8C15B9A5F817C8D7B0 /* GoogleToolboxForMac-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-umbrella.h"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
+		789D1475549B92BC15D66968629C7D41 /* nanopb-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-umbrella.h"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
 		7982B4237FEF02E497BF6069B56B9F9F /* Pods-Its Almost Halloween-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost Halloween-umbrella.h"; sourceTree = "<group>"; };
 		7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.release.xcconfig"; sourceTree = "<group>"; };
-		7E387F782E449067FDAFF2A61A34BA36 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		8310EDD0246E4E535D3AF31C5814D166 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		8467F78957C3EF91FA9EB9486890D02E /* GoogleToolboxForMac-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GoogleToolboxForMac-iOS10.3-umbrella.h"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
+		811565F45CB6AD9D84ACC05918C21ADF /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		84FAC68645A4006D83BB6F3174D471A4 /* PaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsController.swift; path = SwiftyStoreKit/PaymentsController.swift; sourceTree = "<group>"; };
+		87D204848D08CA71C16C8F7E4C780B45 /* GoogleToolboxForMac-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		881003FD24074688D84407F1A79B559A /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStoreKit.framework; path = "SwiftyStoreKit-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8C3E182B2ECB2AE8F5F8A53AD49232 /* Pods-Its Almost Halloween-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Halloween-resources.sh"; sourceTree = "<group>"; };
-		8DBBCDAE98CFCF30ED59BD7DF4ABAE35 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		8E70BE46FA7C68F0225362447D62F456 /* GoogleToolboxForMac-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GoogleToolboxForMac-iOS10.3.modulemap"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap"; sourceTree = "<group>"; };
 		8FB670EE0073767FC8BD8A9DC3B53484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
-		90ED6C0871F6415590146F73054620D7 /* GoogleToolboxForMac-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GoogleToolboxForMac-iOS10.3.modulemap"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap"; sourceTree = "<group>"; };
+		90539D2C0CC9AD942EE429ED98038725 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		910C47E0622ABDF44FB36605C479967A /* Pods-Its Almost My Birthday-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Its Almost My Birthday-dummy.m"; sourceTree = "<group>"; };
 		912F22F3B47196205311AEE304824BFE /* Pods-Its Almost Christmas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost Christmas-acknowledgements.plist"; sourceTree = "<group>"; };
-		91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Es_casi_mi_cumplea_os.framework; path = "Pods-Es casi mi cumpleaños.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9182D272754868F239E115622BFF84B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		918E3C7F97C4B6B50C82EDA7C81F28DA /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		937FE9227F5C6F46F2DF0E0C3DBF5767 /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptRefreshRequest.swift; path = SwiftyStoreKit/InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Halloween.framework; path = "Pods-Its Almost Halloween.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9700A1E6DB1EAC14B4407018B4E0C795 /* nanopb-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "nanopb-iOS10.3-dummy.m"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-dummy.m"; sourceTree = "<group>"; };
+		983715851E8500AF3C88F17E943464DE /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		999AB19D0715E7D2CF0FE263BD593CA9 /* Pods-Es casi mi cumpleaños-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Es casi mi cumpleaños-frameworks.sh"; sourceTree = "<group>"; };
-		A1EE72D4D92EF09FABCAD415440527DD /* nanopb-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-prefix.pch"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
 		A38FE105A17FB34910D394EAAC035268 /* Pods-Es casi mi cumpleaños.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Es casi mi cumpleaños.modulemap"; sourceTree = "<group>"; };
 		A5A75DBBAC3BAB54B8C0230C96C17DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A920841E33948A7BDF286A29B02A1400 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		ABD0E27602F66CC81F3A9502C9FBBE22 /* GoogleToolboxForMac-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleToolboxForMac-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		A68B8A9BF15565CBD1DC02DB5F873B44 /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyStoreKit+Types.swift"; path = "SwiftyStoreKit/SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
 		ABF7B6A0976543B90AA3A0135C9B1D91 /* Pods-Its Almost My Birthday-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Its Almost My Birthday-umbrella.h"; sourceTree = "<group>"; };
-		ADE8A24D10E4D86CDF7DC30FDFB1141B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		AE1B117FE8890E382D4344E705550753 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		AE830B61FFCCEA1469C3818183805E2F /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptVerificator.swift; path = SwiftyStoreKit/InAppReceiptVerificator.swift; sourceTree = "<group>"; };
+		AF69CF8212DD492C1EBC43B896303F94 /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_My_Birthday.framework; path = "Pods-Its Almost My Birthday.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A1239D0665F23EAFFE888A5237E1B3 /* ProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductsInfoController.swift; path = SwiftyStoreKit/ProductsInfoController.swift; sourceTree = "<group>"; };
+		B3201478122AA1BB8E6C51EFFA42958E /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		B615DF3C19AE794F65E59C2FFABD6297 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8160383A55CAB4479FFEC9F59477C8D /* Pods-Its Almost My Birthday-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-frameworks.sh"; sourceTree = "<group>"; };
-		B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = "nanopb-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E391086D346F59F902C481A79CD7AB /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		BAD3F660671B846A5FA94FF34505A107 /* Pods-Its Almost Halloween-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Halloween-frameworks.sh"; sourceTree = "<group>"; };
+		BCDB20C2FC884CC1B204A84FF8F19596 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		BE5478F1CEBF76C42D3AA61EB2644669 /* Pods-Its Almost Christmas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost Christmas-resources.sh"; sourceTree = "<group>"; };
-		BEA604AB058083998B875CB152F9E5DF /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		BFFAE9FB699BEA4C0827F34B47FD3812 /* SwiftyStoreKit-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "SwiftyStoreKit-iOS10.3.modulemap"; path = "../SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3.modulemap"; sourceTree = "<group>"; };
 		C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost My Birthday.release.xcconfig"; sourceTree = "<group>"; };
-		C409CBC5381A4793E65A68DCE6D50097 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		C4C00DA1B6ABB694CFCB46570FDEC472 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		C564210870203E23FC531F0931F0306B /* GoogleToolboxForMac-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GoogleToolboxForMac-iOS10.3-dummy.m"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-dummy.m"; sourceTree = "<group>"; };
-		C5BAC2B2362B5163FE443FC73EAD2A26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6F4722891F90D322390D0992C31C4F4 /* nanopb-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "nanopb-iOS10.3-umbrella.h"; path = "../nanopb-iOS10.3/nanopb-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
-		CCC0CBEC308A6CAE13F01E26F67C42B1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		C36F9700FBDBA22A2DA902823CD10EB0 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		CB3C4EBE718AC8EF7008794BD8B12811 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		D1A73B57B44989D1B7C239FDE42BC035 /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
+		D20AA2DE8F987D77FBAF7BDE95E2ECA6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		D28CABA123F67D1B21051D5A596D4B5F /* Pods-Its Almost Halloween-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost Halloween-acknowledgements.plist"; sourceTree = "<group>"; };
-		D419011BAF7082EAFA1346C80E4EE0A2 /* GoogleToolboxForMac-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
-		D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		D3D1AA56431C519CE299F28A6657645C /* Pods_Its_Almost_Halloween.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_Halloween.framework; path = "Pods-Its Almost Halloween.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D424AF39344200516EBEA4FD7B11896A /* nanopb-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "nanopb-iOS10.0.modulemap"; sourceTree = "<group>"; };
 		D9D24FF46E28BFF938C1537DB6267D87 /* Pods-Its Almost My Birthday-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Its Almost My Birthday-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB07C811E5908F053EE3DFF671F787E5 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		DB6375EC40E59EB3D8C7E90673F65472 /* nanopb-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "nanopb-iOS10.3.modulemap"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.modulemap"; sourceTree = "<group>"; };
+		DBBBCEC967FFE9D3D2D721029CD1E064 /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleReceiptValidator.swift; path = SwiftyStoreKit/AppleReceiptValidator.swift; sourceTree = "<group>"; };
 		DC27880CEE2452803CFE673BE2D743DB /* Pods-Es casi mi cumpleaños.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Es casi mi cumpleaños.debug.xcconfig"; sourceTree = "<group>"; };
-		DE9D73FA27B72902F5ED6815CE5B64D9 /* GoogleToolboxForMac-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		DE0B71E6D4C8543C7A7335D29D3F5A21 /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
+		E2446FA06565A749245FEA7C194FA4E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27CE69DA0E43FA66C8AA43EDD893FEC /* Pods-Its Almost Halloween.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Its Almost Halloween.modulemap"; sourceTree = "<group>"; };
-		EB987C070F9070CE517623BD48C96147 /* nanopb-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "nanopb-iOS10.0.modulemap"; sourceTree = "<group>"; };
-		ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Its_Almost_My_Birthday.framework; path = "Pods-Its Almost My Birthday.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFA5A50EE2226C0DA1AE4084B7ABF561 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		E2DCAD009A4B68BADA20811EDFE09F13 /* GoogleToolboxForMac-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GoogleToolboxForMac-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		E519CE23394E31D04E09671981C62674 /* SwiftyStoreKit-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		EFDAB60C2BAB120CAA967C4E622554F1 /* nanopb-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "nanopb-iOS10.3.xcconfig"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.xcconfig"; sourceTree = "<group>"; };
 		F0A923FF5878946D64C3829183924B37 /* Pods-Its Almost Christmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Its Almost Christmas.debug.xcconfig"; sourceTree = "<group>"; };
 		F4773ACEA58A8B49D4DA682E362934E6 /* Pods-Its Almost My Birthday-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Its Almost My Birthday-resources.sh"; sourceTree = "<group>"; };
+		F4807F4C5010C26DFBD0311BB0EAFE81 /* GoogleToolboxForMac-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GoogleToolboxForMac-iOS10.3-dummy.m"; path = "../GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-dummy.m"; sourceTree = "<group>"; };
+		F4F5CCA5372430D192CEECA2F8D0A48A /* PaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentQueueController.swift; path = SwiftyStoreKit/PaymentQueueController.swift; sourceTree = "<group>"; };
 		F6CC77FA4EE4CB9C5A71AED603842640 /* Pods-Its Almost Halloween-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost Halloween-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6EFF23E92849F1A2E94598679C901D2 /* nanopb-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
 		F9F39C6769AE5B6BB5537A949F19B3B6 /* Pods-Its Almost My Birthday-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Its Almost My Birthday-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA3BDF2B9CD3E19CE427F7D36C246517 /* nanopb-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "nanopb-iOS10.3.xcconfig"; path = "../nanopb-iOS10.3/nanopb-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		FDF17BD3B5D5673F129CE2E9727A645A /* nanopb-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		FE1D8305D91F66A8DDCA26D877E4A8DE /* SwiftyStoreKit-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyStoreKit-iOS10.3-prefix.pch"; path = "../SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
+		FECC6947FA8EDE010567C2393E0456BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SwiftyStoreKit-iOS10.3/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,19 +316,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CA70A27D7D2CCB0FF096A3B0748B504 /* Frameworks */ = {
+		39DFD7EEFAF43528DC0F9B3962D96DAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82A35923001F630DF983BE54BBABCED6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51851629407432E4BC37AAC7F0C3E314 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16B6FC71C92A977904A8E348477D2C81 /* Foundation.framework in Frameworks */,
+				2E41FCA9946A590BD89BF672E0839137 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,19 +332,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E386788BD250645E4BF48C5A59F02E5 /* Frameworks */ = {
+		7CD0384C9E701B7C7B6F2FDD4EFE9540 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9853C5DD2420DFBCE2862889760E4540 /* Foundation.framework in Frameworks */,
+				38D871B051D58A3C77EB8158AF08E2F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B1B7D07A3F42D38477D767D6F0786E7 /* Frameworks */ = {
+		BECCDE357B591A2E26C6D950BEA43A2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C54890CD4CB5C8C59A73C79F3A02F18 /* Foundation.framework in Frameworks */,
+				B6E45C58897CDB7BFD716A1312F0336D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E3AD0E6F5E67328CC5CED02DB1BBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D173AA55AEE420D47DEAFE40D6DFECE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,93 +372,103 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB90B3A8FF6543A7F26A3ED906A30A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74E1869D57D3CA498A85250886EC2D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2962CC5F7709DABCAE7B293C892414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B60275AC5B2864B8FA301F288CCB8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EC756AC294296FF2AC64731EB3EE7AB /* encode */ = {
+		0BA53ECEC958FB2C54DCB8EF91350904 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = encode;
-			sourceTree = "<group>";
-		};
-		301922A11A45664AA8F159D874C86D7C /* nanopb */ = {
-			isa = PBXGroup;
-			children = (
-				6737167A49673CB86A0CF773D0B20091 /* pb.h */,
-				9014B772879FDFEC61FEA6D18C65EE25 /* pb_common.c */,
-				120DA828C3090E4FBF40E41A9C753B3F /* pb_common.h */,
-				3CE8C27DA4B6C67C6E0B7BCD8695A09E /* pb_decode.c */,
-				6ECC512A9907F2B9F19E31A405D452FF /* pb_decode.h */,
-				54E9C965094C4C9456ECFE607699BE39 /* pb_encode.c */,
-				91F6E433D9AAFA048A7CF99AC43147F8 /* pb_encode.h */,
-				A2511368477EAB17BE10EBF7E080B8DF /* decode */,
-				2EC756AC294296FF2AC64731EB3EE7AB /* encode */,
-				3C956B347680188020219B3307CB738A /* Support Files */,
-			);
-			name = nanopb;
-			path = nanopb;
-			sourceTree = "<group>";
-		};
-		3C956B347680188020219B3307CB738A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C95DB7655078C892A3ECD5957CE442A /* Info.plist */,
-				44C193A2F0FD5FA6038C73A32930698C /* Info.plist */,
-				EB987C070F9070CE517623BD48C96147 /* nanopb-iOS10.0.modulemap */,
-				1A8C30B25473B17881E1D8030685D13C /* nanopb-iOS10.0.xcconfig */,
-				24F613D3D979E42B20751C49CF044C9F /* nanopb-iOS10.0-dummy.m */,
-				F6EFF23E92849F1A2E94598679C901D2 /* nanopb-iOS10.0-prefix.pch */,
-				52D5C9DDF085DB200B244072C18ECB3A /* nanopb-iOS10.0-umbrella.h */,
-				53566EB3EAEB1932EC0A727FB4FDFAC2 /* nanopb-iOS10.3.modulemap */,
-				FA3BDF2B9CD3E19CE427F7D36C246517 /* nanopb-iOS10.3.xcconfig */,
-				1ACF060E078BDF6CC8E66B19E1FB11B4 /* nanopb-iOS10.3-dummy.m */,
-				A1EE72D4D92EF09FABCAD415440527DD /* nanopb-iOS10.3-prefix.pch */,
-				C6F4722891F90D322390D0992C31C4F4 /* nanopb-iOS10.3-umbrella.h */,
+				302133DD193143C74C9FF89D189F12C9 /* Info.plist */,
+				65FB71C8D70526BE08844DA5A8526FDD /* Info.plist */,
+				D424AF39344200516EBEA4FD7B11896A /* nanopb-iOS10.0.modulemap */,
+				385066B724AA58FE8E37AF7ABA23461A /* nanopb-iOS10.0.xcconfig */,
+				323F90841EE8ADE7269176C3729FDB91 /* nanopb-iOS10.0-dummy.m */,
+				6FB36C130E9F95CE4440E78151432865 /* nanopb-iOS10.0-prefix.pch */,
+				FDF17BD3B5D5673F129CE2E9727A645A /* nanopb-iOS10.0-umbrella.h */,
+				DB6375EC40E59EB3D8C7E90673F65472 /* nanopb-iOS10.3.modulemap */,
+				EFDAB60C2BAB120CAA967C4E622554F1 /* nanopb-iOS10.3.xcconfig */,
+				9700A1E6DB1EAC14B4407018B4E0C795 /* nanopb-iOS10.3-dummy.m */,
+				4B3AD8EE14F07BFBAA2F8DD14AC638FE /* nanopb-iOS10.3-prefix.pch */,
+				789D1475549B92BC15D66968629C7D41 /* nanopb-iOS10.3-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/nanopb-iOS10.0";
 			sourceTree = "<group>";
 		};
-		3E9EC763E1605C03B6BB42CAE9B2C7CC /* Frameworks */ = {
+		0C46DCF26AC096E3653050A138EA5753 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				A920841E33948A7BDF286A29B02A1400 /* Fabric.framework */,
+				584BFFF85A6E7ACB652E374535F36242 /* FABAttributes.h */,
+				7306C4E4E77C66E7EC2DA68D47871409 /* Fabric.h */,
+				933AAC633931275E4A8AED7273492D5C /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
-		4027E9E56D88EA0BF3BA04273A95D73E /* FirebaseAnalytics */ = {
+		0DB91512CD6A51162F6E97D215AF6DCF /* Google-Mobile-Ads-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				4B13C4CF221F795848A931630CCE9CA7 /* Frameworks */,
+				AF9A09CD6CA00C75BBC67E942B0EE250 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		30412EEFA5AC86C6696A08AB8AC8CE8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCAD009A4B68BADA20811EDFE09F13 /* GoogleToolboxForMac-iOS10.0.modulemap */,
+				59A37B8F8D90F2514D1A573FE7A13E11 /* GoogleToolboxForMac-iOS10.0.xcconfig */,
+				1A3575D3545F71C567B798DC3A97C8C4 /* GoogleToolboxForMac-iOS10.0-dummy.m */,
+				87D204848D08CA71C16C8F7E4C780B45 /* GoogleToolboxForMac-iOS10.0-prefix.pch */,
+				2D838186C4D9953EC4EBFE274903CA32 /* GoogleToolboxForMac-iOS10.0-umbrella.h */,
+				8E70BE46FA7C68F0225362447D62F456 /* GoogleToolboxForMac-iOS10.3.modulemap */,
+				4993BEE76F67501B33A6EE726CFFA247 /* GoogleToolboxForMac-iOS10.3.xcconfig */,
+				F4807F4C5010C26DFBD0311BB0EAFE81 /* GoogleToolboxForMac-iOS10.3-dummy.m */,
+				16AA0C9AF86DFB7FCD66DEC74CACC85F /* GoogleToolboxForMac-iOS10.3-prefix.pch */,
+				7508A124452C9E8C15B9A5F817C8D7B0 /* GoogleToolboxForMac-iOS10.3-umbrella.h */,
+				45FF299D56274A415F39DC7802F0430B /* Info.plist */,
+				E2446FA06565A749245FEA7C194FA4E9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac-iOS10.0";
+			sourceTree = "<group>";
+		};
+		3822C6EA82E6A30F13C87F526D2D4EAA /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				BC11D8250955D50B73D4270C23B5CB89 /* Frameworks */,
 			);
 			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		4B13C4CF221F795848A931630CCE9CA7 /* Frameworks */ = {
+		4E940DBC177AC85725785D3DF743F4D3 /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
-				57F87A881633DFD216C2C20797614190 /* FirebaseAnalytics.framework */,
+				C0981BDCC4AE9E25825781FF2C0D8D20 /* Defines */,
+				DB5B1FDC46B00D33D5B5B337F985F647 /* NSData+zlib */,
+				30412EEFA5AC86C6696A08AB8AC8CE8B /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4FD32590E8DB2861A403F6A15CE08340 /* Crashlytics */ = {
-			isa = PBXGroup;
-			children = (
-				918E3C7F97C4B6B50C82EDA7C81F28DA /* ANSCompatibility.h */,
-				7E387F782E449067FDAFF2A61A34BA36 /* Answers.h */,
-				C409CBC5381A4793E65A68DCE6D50097 /* CLSAttributes.h */,
-				C4C00DA1B6ABB694CFCB46570FDEC472 /* CLSLogging.h */,
-				BEA604AB058083998B875CB152F9E5DF /* CLSReport.h */,
-				8310EDD0246E4E535D3AF31C5814D166 /* CLSStackFrame.h */,
-				4D7FC8AD51C22954991DA7D578E6BB38 /* Crashlytics.h */,
-				93232D627D1FEB80B19C1BBA54110FE6 /* Frameworks */,
-			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
 		5313FBBCAD46E27DD8B5677AF06257A7 /* Pods-Es casi mi cumpleaños */ = {
@@ -389,57 +489,21 @@
 			path = "Target Support Files/Pods-Es casi mi cumpleaños";
 			sourceTree = "<group>";
 		};
-		5816D240256555770588230C2349C95D /* Products */ = {
+		5BFE85F9E2E933160F496798087E35FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */,
-				24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */,
-				37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */,
-				B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */,
-				91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */,
-				6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */,
-				9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */,
-				ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */,
+				65D6C52850DAE810E82D544BECB17320 /* FirebaseCore.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		58EF440D2F1EC753CEA1C91C9C46F2B5 /* GoogleToolboxForMac */ = {
+		7303340A98A0399DBC7CA05E80965067 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				B4B1B3FFCCBD6F31EF3C22CBCFAE601E /* Defines */,
-				7AE893DCDD4D7CB081890EE5BC05ED8B /* NSData+zlib */,
-				A812A506BC5707CEA5824259D15755B0 /* Support Files */,
+				82E9FBBFB8A035608A6D6292491B5DEE /* Core */,
 			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
-			sourceTree = "<group>";
-		};
-		652F5F0B061FD8542713E34CE593C8D8 /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				8EEC85B2601003910EBF73D47A028458 /* Frameworks */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		6B3711F01BF904D6EF70D7B87A1F8A37 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				E9881E19EAC83A85C200EF4C05DE69C9 /* Frameworks */,
-			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		7AE893DCDD4D7CB081890EE5BC05ED8B /* NSData+zlib */ = {
-			isa = PBXGroup;
-			children = (
-				11DFCD8FC31A7F88A6C7D8C6BCC4E25D /* GTMNSData+zlib.h */,
-				D95B81CBB107CACAC216361D355D42BA /* GTMNSData+zlib.m */,
-			);
-			name = "NSData+zlib";
+			name = Firebase;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -447,26 +511,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E0303AC91BA63B8B9D548CFFC7DAF5DE /* Pods */,
-				5816D240256555770588230C2349C95D /* Products */,
+				FFBD01A810B3E77E848BBD4418B8ABE0 /* Pods */,
+				F5955D2640D53ABC09C8BC8F4FEA6FEA /* Products */,
 				96ABF740204C1339D12ED9A113E12898 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EEC85B2601003910EBF73D47A028458 /* Frameworks */ = {
+		82E9FBBFB8A035608A6D6292491B5DEE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CCC0CBEC308A6CAE13F01E26F67C42B1 /* FirebaseCore.framework */,
-				01403791AD115656C301C74A5253A6E2 /* FirebaseCoreDiagnostics.framework */,
-				AE1B117FE8890E382D4344E705550753 /* FirebaseNanoPB.framework */,
+				811565F45CB6AD9D84ACC05918C21ADF /* Firebase.h */,
 			);
-			name = Frameworks;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		93232D627D1FEB80B19C1BBA54110FE6 /* Frameworks */ = {
+		933AAC633931275E4A8AED7273492D5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADE8A24D10E4D86CDF7DC30FDFB1141B /* Crashlytics.framework */,
+				D20AA2DE8F987D77FBAF7BDE95E2ECA6 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -482,50 +544,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A2511368477EAB17BE10EBF7E080B8DF /* decode */ = {
+		A1EE0DBED626DE9A6B373BF2D02D62D4 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
+				E66EDD48E8BB636145DEB9F3EEAC5A8A /* Frameworks */,
 			);
-			name = decode;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		A812A506BC5707CEA5824259D15755B0 /* Support Files */ = {
+		AF9A09CD6CA00C75BBC67E942B0EE250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				084A35593A80DCDF6943591EE130ACB9 /* GoogleToolboxForMac-iOS10.0.modulemap */,
-				ABD0E27602F66CC81F3A9502C9FBBE22 /* GoogleToolboxForMac-iOS10.0.xcconfig */,
-				DE9D73FA27B72902F5ED6815CE5B64D9 /* GoogleToolboxForMac-iOS10.0-dummy.m */,
-				D419011BAF7082EAFA1346C80E4EE0A2 /* GoogleToolboxForMac-iOS10.0-prefix.pch */,
-				1BA5B63025E80F544A616CD50784CA22 /* GoogleToolboxForMac-iOS10.0-umbrella.h */,
-				90ED6C0871F6415590146F73054620D7 /* GoogleToolboxForMac-iOS10.3.modulemap */,
-				4EF4FB8476B99FB62D72FDA43DE3499C /* GoogleToolboxForMac-iOS10.3.xcconfig */,
-				C564210870203E23FC531F0931F0306B /* GoogleToolboxForMac-iOS10.3-dummy.m */,
-				5748B1555A60765202C2663210633D74 /* GoogleToolboxForMac-iOS10.3-prefix.pch */,
-				8467F78957C3EF91FA9EB9486890D02E /* GoogleToolboxForMac-iOS10.3-umbrella.h */,
-				C5BAC2B2362B5163FE443FC73EAD2A26 /* Info.plist */,
-				10C977D7EC85E7E347543B85A413645A /* Info.plist */,
+				0D3DBC4A42F871B572C148EB4F77D046 /* GoogleMobileAds.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac-iOS10.0";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4B1B3FFCCBD6F31EF3C22CBCFAE601E /* Defines */ = {
+		BC11D8250955D50B73D4270C23B5CB89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				272E5722517D6C8DB63B93A19229227D /* GTMDefines.h */,
+				BCDB20C2FC884CC1B204A84FF8F19596 /* FirebaseAnalytics.framework */,
+				20E792B8F991FAA058B49D916169ADF3 /* FirebaseCoreDiagnostics.framework */,
+				B8E391086D346F59F902C481A79CD7AB /* FirebaseNanoPB.framework */,
 			);
-			name = Defines;
-			sourceTree = "<group>";
-		};
-		B5CBF49D36ED8E8825DAF44E9564BC2A /* Fabric */ = {
-			isa = PBXGroup;
-			children = (
-				EFA5A50EE2226C0DA1AE4084B7ABF561 /* FABAttributes.h */,
-				8DBBCDAE98CFCF30ED59BD7DF4ABAE35 /* Fabric.h */,
-				3E9EC763E1605C03B6BB42CAE9B2C7CC /* Frameworks */,
-			);
-			name = Fabric;
-			path = Fabric;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -534,6 +577,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0981BDCC4AE9E25825781FF2C0D8D20 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				2A022C973DEC24B5168F696F4CDF4673 /* GTMDefines.h */,
+			);
+			name = Defines;
 			sourceTree = "<group>";
 		};
 		C0B3EB583D00FE95E87BD71584DB82DE /* Pods-Its Almost Christmas */ = {
@@ -554,21 +605,20 @@
 			path = "Target Support Files/Pods-Its Almost Christmas";
 			sourceTree = "<group>";
 		};
-		C235B6C5787C457840D1866A47981FE2 /* Frameworks */ = {
+		C4EC430823C9BF5CA641EC58C4FA4046 /* encode */ = {
 			isa = PBXGroup;
 			children = (
-				DB07C811E5908F053EE3DFF671F787E5 /* GoogleMobileAds.framework */,
 			);
-			name = Frameworks;
+			name = encode;
 			sourceTree = "<group>";
 		};
-		D241D6A005A24FB5CA5F46FB3FD9087B /* Google-Mobile-Ads-SDK */ = {
+		CBBE4801384305A8977E55261FE6EDC2 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				C235B6C5787C457840D1866A47981FE2 /* Frameworks */,
+				5BFE85F9E2E933160F496798087E35FA /* Frameworks */,
 			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -597,45 +647,130 @@
 			path = "Target Support Files/Pods-Its Almost My Birthday";
 			sourceTree = "<group>";
 		};
-		E0303AC91BA63B8B9D548CFFC7DAF5DE /* Pods */ = {
+		DB50936EACE8622B81D413EADDCEFA91 /* SwiftyStoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				4FD32590E8DB2861A403F6A15CE08340 /* Crashlytics */,
-				B5CBF49D36ED8E8825DAF44E9564BC2A /* Fabric */,
-				EF85A7DEC1B47E990721C71218B990C7 /* Firebase */,
-				4027E9E56D88EA0BF3BA04273A95D73E /* FirebaseAnalytics */,
-				652F5F0B061FD8542713E34CE593C8D8 /* FirebaseCore */,
-				6B3711F01BF904D6EF70D7B87A1F8A37 /* FirebaseInstanceID */,
-				D241D6A005A24FB5CA5F46FB3FD9087B /* Google-Mobile-Ads-SDK */,
-				58EF440D2F1EC753CEA1C91C9C46F2B5 /* GoogleToolboxForMac */,
-				301922A11A45664AA8F159D874C86D7C /* nanopb */,
+				DBBBCEC967FFE9D3D2D721029CD1E064 /* AppleReceiptValidator.swift */,
+				6FB0AA10879E125CD4CEA12DA2793E3D /* CompleteTransactionsController.swift */,
+				DE0B71E6D4C8543C7A7335D29D3F5A21 /* InAppProductQueryRequest.swift */,
+				D1A73B57B44989D1B7C239FDE42BC035 /* InAppReceipt.swift */,
+				937FE9227F5C6F46F2DF0E0C3DBF5767 /* InAppReceiptRefreshRequest.swift */,
+				AE830B61FFCCEA1469C3818183805E2F /* InAppReceiptVerificator.swift */,
+				2EE09978A4A570B7AC969BF14B23A56E /* OS.swift */,
+				F4F5CCA5372430D192CEECA2F8D0A48A /* PaymentQueueController.swift */,
+				84FAC68645A4006D83BB6F3174D471A4 /* PaymentsController.swift */,
+				B2A1239D0665F23EAFFE888A5237E1B3 /* ProductsInfoController.swift */,
+				73916D9C0AC49D61AB58D56E7015D805 /* RestorePurchasesController.swift */,
+				19BCC1579768B02A946BAE241EDA27A3 /* SKProduct+LocalizedPrice.swift */,
+				5D1BFB8F12049A5824B662D706EC4C3D /* SwiftyStoreKit.swift */,
+				A68B8A9BF15565CBD1DC02DB5F873B44 /* SwiftyStoreKit+Types.swift */,
+				EBE7EDEF5A84993A68AFE8365D6B98B1 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftyStoreKit;
+			path = SwiftyStoreKit;
 			sourceTree = "<group>";
 		};
-		E9881E19EAC83A85C200EF4C05DE69C9 /* Frameworks */ = {
+		DB5B1FDC46B00D33D5B5B337F985F647 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
-				433FB2AD8EDF332FEF3D9A6DD33B93C9 /* FirebaseInstanceID.framework */,
+				12B4FDFBAC64608C299419708DC48FDF /* GTMNSData+zlib.h */,
+				48F91E0B0C233837C3699296AB4056AC /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		DF8A829D18CC588518945617766B4C0F /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				3211E0EC6497E6D7ECAB270CA48D8F57 /* pb.h */,
+				3DBFE326A5EACE629D2D5F66392740A3 /* pb_common.c */,
+				2FA94711AAFF8B9EA47E24949DD592DA /* pb_common.h */,
+				CB3C4EBE718AC8EF7008794BD8B12811 /* pb_decode.c */,
+				6F3EC0478E839E09821824E719E68C0C /* pb_decode.h */,
+				271A1764B747C66D2A00A2203014A47F /* pb_encode.c */,
+				001232D8671C335535AF7A04AE4DDD5F /* pb_encode.h */,
+				E57921B4AADCCE57770A1047CA4665D1 /* decode */,
+				C4EC430823C9BF5CA641EC58C4FA4046 /* encode */,
+				0BA53ECEC958FB2C54DCB8EF91350904 /* Support Files */,
+			);
+			name = nanopb;
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		E57921B4AADCCE57770A1047CA4665D1 /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		E66EDD48E8BB636145DEB9F3EEAC5A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27776789A6F20CCC8A2B9E2F96BD3352 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF85A7DEC1B47E990721C71218B990C7 /* Firebase */ = {
+		E7B1BB6890920B4A6DB4254B13AFAC0E /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				EF898465F9AA6321C8AE6F548D11B2EE /* Core */,
+				C36F9700FBDBA22A2DA902823CD10EB0 /* ANSCompatibility.h */,
+				065B4684BC65E000CDAFD76C6EEB92F2 /* Answers.h */,
+				B3201478122AA1BB8E6C51EFFA42958E /* CLSAttributes.h */,
+				696B5D59999397DDF346821EE2EDC6E8 /* CLSLogging.h */,
+				6DDB6C69E36BE99E802FFF773502CAC9 /* CLSReport.h */,
+				983715851E8500AF3C88F17E943464DE /* CLSStackFrame.h */,
+				3777FFF1CFE6F94F5D0FB05DFDEADFBB /* Crashlytics.h */,
+				EA5919282F44D1C80DDABBA109731096 /* Frameworks */,
 			);
-			name = Firebase;
-			path = Firebase;
+			name = Crashlytics;
+			path = Crashlytics;
 			sourceTree = "<group>";
 		};
-		EF898465F9AA6321C8AE6F548D11B2EE /* Core */ = {
+		EA5919282F44D1C80DDABBA109731096 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D77503E33D6ED34C9346459DA1651D9 /* Firebase.h */,
+				399787C926034C74FFF3BBB1E94EDAAF /* Crashlytics.framework */,
 			);
-			name = Core;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBE7EDEF5A84993A68AFE8365D6B98B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A55CB19E4A8F8414DA2AEFCE794EE5 /* Info.plist */,
+				FECC6947FA8EDE010567C2393E0456BA /* Info.plist */,
+				68489A841876C9976AED1098E59C71B1 /* SwiftyStoreKit-iOS10.0.modulemap */,
+				07374E8DA2B16D38449DB614BFCE3941 /* SwiftyStoreKit-iOS10.0.xcconfig */,
+				E519CE23394E31D04E09671981C62674 /* SwiftyStoreKit-iOS10.0-dummy.m */,
+				70D1F06CCC49E4B0DB7005E423034BD1 /* SwiftyStoreKit-iOS10.0-prefix.pch */,
+				719A460973F34424C25B8159151C94F4 /* SwiftyStoreKit-iOS10.0-umbrella.h */,
+				BFFAE9FB699BEA4C0827F34B47FD3812 /* SwiftyStoreKit-iOS10.3.modulemap */,
+				408D021D599AEBA704A518EC9056ABDD /* SwiftyStoreKit-iOS10.3.xcconfig */,
+				66F13E87F5BBEAC2A94623D4E22CFA8D /* SwiftyStoreKit-iOS10.3-dummy.m */,
+				FE1D8305D91F66A8DDCA26D877E4A8DE /* SwiftyStoreKit-iOS10.3-prefix.pch */,
+				0C6A19BBDDAB04269610F9C59EC32C7B /* SwiftyStoreKit-iOS10.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyStoreKit-iOS10.0";
+			sourceTree = "<group>";
+		};
+		F5955D2640D53ABC09C8BC8F4FEA6FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C890F74B22276FFE154AAF858A1AFF8 /* GoogleToolboxForMac.framework */,
+				B615DF3C19AE794F65E59C2FFABD6297 /* GoogleToolboxForMac.framework */,
+				36AC93C2D3D2969E6FB155B236504357 /* nanopb.framework */,
+				90539D2C0CC9AD942EE429ED98038725 /* nanopb.framework */,
+				3465CDB86060884D30F0954ACD9B7D10 /* Pods_Es_casi_mi_cumplea_os.framework */,
+				736E0D035F70B5CDEC82E82E5ABBC849 /* Pods_Its_Almost_Christmas.framework */,
+				D3D1AA56431C519CE299F28A6657645C /* Pods_Its_Almost_Halloween.framework */,
+				AF69CF8212DD492C1EBC43B896303F94 /* Pods_Its_Almost_My_Birthday.framework */,
+				245D489E3169FBD1B1E03DC78E368A30 /* SwiftyStoreKit.framework */,
+				881003FD24074688D84407F1A79B559A /* SwiftyStoreKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F8BC45590AB083A7C791BFBF61DD6899 /* Pods-Its Almost Halloween */ = {
@@ -656,22 +791,47 @@
 			path = "Target Support Files/Pods-Its Almost Halloween";
 			sourceTree = "<group>";
 		};
+		FFBD01A810B3E77E848BBD4418B8ABE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1BB6890920B4A6DB4254B13AFAC0E /* Crashlytics */,
+				0C46DCF26AC096E3653050A138EA5753 /* Fabric */,
+				7303340A98A0399DBC7CA05E80965067 /* Firebase */,
+				3822C6EA82E6A30F13C87F526D2D4EAA /* FirebaseAnalytics */,
+				CBBE4801384305A8977E55261FE6EDC2 /* FirebaseCore */,
+				A1EE0DBED626DE9A6B373BF2D02D62D4 /* FirebaseInstanceID */,
+				0DB91512CD6A51162F6E97D215AF6DCF /* Google-Mobile-Ads-SDK */,
+				4E940DBC177AC85725785D3DF743F4D3 /* GoogleToolboxForMac */,
+				DF8A829D18CC588518945617766B4C0F /* nanopb */,
+				DB50936EACE8622B81D413EADDCEFA91 /* SwiftyStoreKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16441819A790AAD1B4767991B72250A2 /* Headers */ = {
+		0D77289007C2EB3BBF49B36343170BF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470B3B3E5750302B32176FF550270923 /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */,
+				0D73148AAFA19FF07F84781E36FCF35F /* Pods-Es casi mi cumpleaños-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20657959BCF573D9E8E8FF00812E4EA7 /* Headers */ = {
+		0D996CDF504016A42D3055ACC6BE54F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F0D31EDEEB5710B920DF5D99DF21C7 /* Pods-Its Almost My Birthday-umbrella.h in Headers */,
+				A5D536C7196BC466C1007A53CDBE4193 /* Pods-Its Almost Halloween-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27724E98E5CF37E43774222EE43516AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404EDA1850C28BF4766B8AE30985FA27 /* SwiftyStoreKit-iOS10.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,19 +857,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A33A541A84DA63232B0F745151226D7 /* Headers */ = {
+		9565A771AE0B4D9F6C260108649A7D87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFD69EAE190B79247D40FF6EAB2ADAA /* Pods-Its Almost Christmas-umbrella.h in Headers */,
+				4ECB9D30FA457DF42E3FE4FAE84F90F5 /* SwiftyStoreKit-iOS10.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83ED194613510B039E0AE70BA8872896 /* Headers */ = {
+		A4A068E7D48075F6AE414EBD32916AEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE966355B948CA240D96232EC766819 /* Pods-Its Almost Halloween-umbrella.h in Headers */,
+				621D1B53C6A832BD31310BDA063EFC50 /* Pods-Its Almost Christmas-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +882,14 @@
 				246C7CC040592C8B40143F68DF30CACF /* pb_common.h in Headers */,
 				6C67FC3156E2412A06248592CFDA49E2 /* pb_decode.h in Headers */,
 				B277DB257BDAE97EAAFC3C898D0EDC5A /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09F7B1F1B4DEE898CBD87F89AF331A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5FD164514F10F0F9FA0D7A37EDBB51 /* Pods-Its Almost My Birthday-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,26 +920,44 @@
 			);
 			name = "GoogleToolboxForMac-iOS10.3";
 			productName = "GoogleToolboxForMac-iOS10.3";
-			productReference = 24043E5773D799BD04B6D7ECDCDCC1F6 /* GoogleToolboxForMac.framework */;
+			productReference = B615DF3C19AE794F65E59C2FFABD6297 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2430E336EE6F6E6E03B99DDB35347E74 /* Pods-Its Almost Halloween */ = {
+		077BEA0BD79772948CA502AE694AC891 /* Pods-Its Almost Christmas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A526886604E6F66DCB69F8E96F2EC14A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */;
+			buildConfigurationList = B0D499BFB760A4E40F0A636D1E3A3D9A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */;
 			buildPhases = (
-				3DDDBC1AE99995C4A3A8C83CE3890855 /* Sources */,
-				51851629407432E4BC37AAC7F0C3E314 /* Frameworks */,
-				83ED194613510B039E0AE70BA8872896 /* Headers */,
+				6043A6CDB61F7824F4188C39536D4193 /* Sources */,
+				FB90B3A8FF6543A7F26A3ED906A30A5D /* Frameworks */,
+				A4A068E7D48075F6AE414EBD32916AEE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E6B2C3AC24F7D96B83BA430CBF5D70B5 /* PBXTargetDependency */,
-				756E73A6F14263EA631EDEA9DDAF154E /* PBXTargetDependency */,
+				FB27DE15FEE0177C038E2D3295B82C47 /* PBXTargetDependency */,
+				6AE395A2755A7AC6826132D5E02BD47D /* PBXTargetDependency */,
+				E7912A2506EE0E3F3B17175958206FB8 /* PBXTargetDependency */,
 			);
-			name = "Pods-Its Almost Halloween";
-			productName = "Pods-Its Almost Halloween";
-			productReference = 9784022E25A3CC3885310DD45AB58E77 /* Pods_Its_Almost_Halloween.framework */;
+			name = "Pods-Its Almost Christmas";
+			productName = "Pods-Its Almost Christmas";
+			productReference = 736E0D035F70B5CDEC82E82E5ABBC849 /* Pods_Its_Almost_Christmas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2549FF75E73C6C035536CFBC66B64FCB /* SwiftyStoreKit-iOS10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25773ACE18E5E1800DA234409F20F038 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit-iOS10.0" */;
+			buildPhases = (
+				C1516FBD2A2C73D0925D4FCFA24390B7 /* Sources */,
+				FE2962CC5F7709DABCAE7B293C892414 /* Frameworks */,
+				9565A771AE0B4D9F6C260108649A7D87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyStoreKit-iOS10.0";
+			productName = "SwiftyStoreKit-iOS10.0";
+			productReference = 245D489E3169FBD1B1E03DC78E368A30 /* SwiftyStoreKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */ = {
@@ -788,7 +974,27 @@
 			);
 			name = "GoogleToolboxForMac-iOS10.0";
 			productName = "GoogleToolboxForMac-iOS10.0";
-			productReference = DA0C829C39EEB581BF9077B769CBF8D1 /* GoogleToolboxForMac.framework */;
+			productReference = 6C890F74B22276FFE154AAF858A1AFF8 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D50C68D79F67287ACAC9BAB3D2A3735 /* Pods-Es casi mi cumpleaños */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107BBE18D5AD91FCE6F5F201D164E599 /* Build configuration list for PBXNativeTarget "Pods-Es casi mi cumpleaños" */;
+			buildPhases = (
+				BE81DEA42099BF1FDFA68BE22F19CFA0 /* Sources */,
+				39DFD7EEFAF43528DC0F9B3962D96DAF /* Frameworks */,
+				0D77289007C2EB3BBF49B36343170BF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2018374E7AA7C8D5BBB0EE850A69679A /* PBXTargetDependency */,
+				A1A1110BA4ED9DE3AA98E231F698B1F1 /* PBXTargetDependency */,
+				E15536CA64586715117A74BDF71971FE /* PBXTargetDependency */,
+			);
+			name = "Pods-Es casi mi cumpleaños";
+			productName = "Pods-Es casi mi cumpleaños";
+			productReference = 3465CDB86060884D30F0954ACD9B7D10 /* Pods_Es_casi_mi_cumplea_os.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */ = {
@@ -805,45 +1011,27 @@
 			);
 			name = "nanopb-iOS10.3";
 			productName = "nanopb-iOS10.3";
-			productReference = B8CC163AA84B9021047FF013C9794C06 /* nanopb.framework */;
+			productReference = 36AC93C2D3D2969E6FB155B236504357 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D8F70E8C670E93044E05FCF0C152714 /* Pods-Its Almost My Birthday */ = {
+		6450AD0FFDE55693DAA6D8011415AC88 /* Pods-Its Almost Halloween */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 669A18C77510E9BEDC96698A72886017 /* Build configuration list for PBXNativeTarget "Pods-Its Almost My Birthday" */;
+			buildConfigurationList = 17405DDA5AD263071270D2E940968816 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */;
 			buildPhases = (
-				8EAE32068FC03575A63F5696CCE5D5C9 /* Sources */,
-				4CA70A27D7D2CCB0FF096A3B0748B504 /* Frameworks */,
-				20657959BCF573D9E8E8FF00812E4EA7 /* Headers */,
+				072C4F7BE345499DD7C0C48A73DFCBDD /* Sources */,
+				BECCDE357B591A2E26C6D950BEA43A2C /* Frameworks */,
+				0D996CDF504016A42D3055ACC6BE54F5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAB70775967655CCFCA5FF7752846E41 /* PBXTargetDependency */,
-				13CB875E2F0CFA6A5EF9CC73FE100149 /* PBXTargetDependency */,
+				7C3A409D78D5357F30F786B80C0B4E25 /* PBXTargetDependency */,
+				D66C8035325CF68664934E1B4F907E09 /* PBXTargetDependency */,
+				2D1F388B442A642DDEE56ACAC437E3FE /* PBXTargetDependency */,
 			);
-			name = "Pods-Its Almost My Birthday";
-			productName = "Pods-Its Almost My Birthday";
-			productReference = ECA9827F1E1588C661BE820897E44D0B /* Pods_Its_Almost_My_Birthday.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8F3DE6B379A5D6F371967B8D6B7B22D3 /* Pods-Es casi mi cumpleaños */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 465EA9306A7790A116D4C9189B4DCE42 /* Build configuration list for PBXNativeTarget "Pods-Es casi mi cumpleaños" */;
-			buildPhases = (
-				3A6D3BEEBD3ECE1A9EAD2F92DA91B8F4 /* Sources */,
-				6E386788BD250645E4BF48C5A59F02E5 /* Frameworks */,
-				16441819A790AAD1B4767991B72250A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43AC1E8590213761B494F51537C48994 /* PBXTargetDependency */,
-				5BD02857C95FA3E25493996075EC4312 /* PBXTargetDependency */,
-			);
-			name = "Pods-Es casi mi cumpleaños";
-			productName = "Pods-Es casi mi cumpleaños";
-			productReference = 91727E01EDEF75B53EE5E53149EF72E6 /* Pods_Es_casi_mi_cumplea_os.framework */;
+			name = "Pods-Its Almost Halloween";
+			productName = "Pods-Its Almost Halloween";
+			productReference = D3D1AA56431C519CE299F28A6657645C /* Pods_Its_Almost_Halloween.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */ = {
@@ -860,26 +1048,44 @@
 			);
 			name = "nanopb-iOS10.0";
 			productName = "nanopb-iOS10.0";
-			productReference = 37234DF6088C9BA5B76C00C39C84E34E /* nanopb.framework */;
+			productReference = 90539D2C0CC9AD942EE429ED98038725 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B09EF962A5F853214A86AEBB14B50C62 /* Pods-Its Almost Christmas */ = {
+		D18EA6A0740D9DB88C0E6B02C3970F8F /* Pods-Its Almost My Birthday */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59464EEBFBB5FA7355447BCF6CD70AD6 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */;
+			buildConfigurationList = 674B1F9FCEB257CD8B6628C8C93F49AC /* Build configuration list for PBXNativeTarget "Pods-Its Almost My Birthday" */;
 			buildPhases = (
-				14D6F0867130719762F1D687CC392735 /* Sources */,
-				8B1B7D07A3F42D38477D767D6F0786E7 /* Frameworks */,
-				5A33A541A84DA63232B0F745151226D7 /* Headers */,
+				3FA7E8199C25F9D2D2676CDD6CFF3B78 /* Sources */,
+				7CD0384C9E701B7C7B6F2FDD4EFE9540 /* Frameworks */,
+				F09F7B1F1B4DEE898CBD87F89AF331A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E57F378291150B2134A5544A7BE438C /* PBXTargetDependency */,
-				24C77B48C5CEF432FD4B10FD68C92944 /* PBXTargetDependency */,
+				1F40D73D32FFD1587C663B1E61512ACE /* PBXTargetDependency */,
+				21F3F1937318026AFC5FD4BC8B231408 /* PBXTargetDependency */,
+				D89C28769D2A690D4E1DEBB561A0DD12 /* PBXTargetDependency */,
 			);
-			name = "Pods-Its Almost Christmas";
-			productName = "Pods-Its Almost Christmas";
-			productReference = 6BF1F01D665B7A513F6C8E8C29B85DFC /* Pods_Its_Almost_Christmas.framework */;
+			name = "Pods-Its Almost My Birthday";
+			productName = "Pods-Its Almost My Birthday";
+			productReference = AF69CF8212DD492C1EBC43B896303F94 /* Pods_Its_Almost_My_Birthday.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1AD220349480F6F982B6877AB16B4CB /* SwiftyStoreKit-iOS10.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBE0A2D62FC4A689B95A40C4230DED0 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit-iOS10.3" */;
+			buildPhases = (
+				46C00CE5FA2E341E4141DEA7677FA59D /* Sources */,
+				D2E3AD0E6F5E67328CC5CED02DB1BBE6 /* Frameworks */,
+				27724E98E5CF37E43774222EE43516AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyStoreKit-iOS10.3";
+			productName = "SwiftyStoreKit-iOS10.3";
+			productReference = 881003FD24074688D84407F1A79B559A /* SwiftyStoreKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -899,7 +1105,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5816D240256555770588230C2349C95D /* Products */;
+			productRefGroup = F5955D2640D53ABC09C8BC8F4FEA6FEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -907,36 +1113,52 @@
 				0502D5ECF27891C29CE18AAE7C444166 /* GoogleToolboxForMac-iOS10.3 */,
 				A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */,
 				58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */,
-				8F3DE6B379A5D6F371967B8D6B7B22D3 /* Pods-Es casi mi cumpleaños */,
-				B09EF962A5F853214A86AEBB14B50C62 /* Pods-Its Almost Christmas */,
-				2430E336EE6F6E6E03B99DDB35347E74 /* Pods-Its Almost Halloween */,
-				5D8F70E8C670E93044E05FCF0C152714 /* Pods-Its Almost My Birthday */,
+				2D50C68D79F67287ACAC9BAB3D2A3735 /* Pods-Es casi mi cumpleaños */,
+				077BEA0BD79772948CA502AE694AC891 /* Pods-Its Almost Christmas */,
+				6450AD0FFDE55693DAA6D8011415AC88 /* Pods-Its Almost Halloween */,
+				D18EA6A0740D9DB88C0E6B02C3970F8F /* Pods-Its Almost My Birthday */,
+				2549FF75E73C6C035536CFBC66B64FCB /* SwiftyStoreKit-iOS10.0 */,
+				E1AD220349480F6F982B6877AB16B4CB /* SwiftyStoreKit-iOS10.3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14D6F0867130719762F1D687CC392735 /* Sources */ = {
+		072C4F7BE345499DD7C0C48A73DFCBDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB57596AB8484AAD33E9B14C649A455 /* Pods-Its Almost Christmas-dummy.m in Sources */,
+				C969BE8DD38587040B3144ABB6D86C10 /* Pods-Its Almost Halloween-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A6D3BEEBD3ECE1A9EAD2F92DA91B8F4 /* Sources */ = {
+		3FA7E8199C25F9D2D2676CDD6CFF3B78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C30023F2E262C7BFA5649F13D38063 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */,
+				8BE749A94578D2F394D09E6D18890308 /* Pods-Its Almost My Birthday-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DDDBC1AE99995C4A3A8C83CE3890855 /* Sources */ = {
+		46C00CE5FA2E341E4141DEA7677FA59D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E74A78477F07BCC691569FE41C2C756 /* Pods-Its Almost Halloween-dummy.m in Sources */,
+				50B186AD3EE7B0E75F9D78932379A407 /* AppleReceiptValidator.swift in Sources */,
+				D089D9D8F81B874027D3E9015A3D7636 /* CompleteTransactionsController.swift in Sources */,
+				97BF4DE026B8C667D8BDB665D126445A /* InAppProductQueryRequest.swift in Sources */,
+				BD4674902B4D6CA6883C8AA16BC71897 /* InAppReceipt.swift in Sources */,
+				96F17DEA8828A15A25CE4013995958E1 /* InAppReceiptRefreshRequest.swift in Sources */,
+				F23A51A630B49572979E3E5B4379AC26 /* InAppReceiptVerificator.swift in Sources */,
+				76885359C0FD84B47659C9B7A7914D97 /* OS.swift in Sources */,
+				B4D93C0DFB0E7CDF003162D07857A2AD /* PaymentQueueController.swift in Sources */,
+				104DC2CF1DE6D7DFD74E9DDD4F5D2CE6 /* PaymentsController.swift in Sources */,
+				467264216B43BDC364262BDC4BB410FA /* ProductsInfoController.swift in Sources */,
+				A657566D36D36FE8D8AFE2D2187D49FF /* RestorePurchasesController.swift in Sources */,
+				A1FC34EDC61147BF16A9DEE6E9149386 /* SKProduct+LocalizedPrice.swift in Sources */,
+				93E5C94C1AF810DCDE7F712275A46773 /* SwiftyStoreKit+Types.swift in Sources */,
+				584CFD175D01A2E014CA16FA35313362 /* SwiftyStoreKit-iOS10.3-dummy.m in Sources */,
+				EF73B1B79E07EAA811CFE42E324BDD03 /* SwiftyStoreKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,11 +1171,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EAE32068FC03575A63F5696CCE5D5C9 /* Sources */ = {
+		6043A6CDB61F7824F4188C39536D4193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F07E1DA7C9078A9BCBFD932F64835AE /* Pods-Its Almost My Birthday-dummy.m in Sources */,
+				AB0F213710A9479E578B00190727A7FF /* Pods-Its Almost Christmas-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +1199,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE81DEA42099BF1FDFA68BE22F19CFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F80D7698B2C194B0861E8704931247 /* Pods-Es casi mi cumpleaños-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFA8B6CBF883628AC185BA6ED7047B29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -988,233 +1218,138 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1516FBD2A2C73D0925D4FCFA24390B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785EE33F06EFE8F7757DA04C328727C4 /* AppleReceiptValidator.swift in Sources */,
+				DF2DD56D248EBD3DEADD75D00FD1FF00 /* CompleteTransactionsController.swift in Sources */,
+				E38811B9727BACA362492DAEECFAACCC /* InAppProductQueryRequest.swift in Sources */,
+				7713AECA786DB308037258A0368E0528 /* InAppReceipt.swift in Sources */,
+				B8D678C72FAC0FB45EE278134A496799 /* InAppReceiptRefreshRequest.swift in Sources */,
+				9A0D3BB6E8F5C99B86D37774F46B4DBD /* InAppReceiptVerificator.swift in Sources */,
+				F57521905DBCCAE2197918B784AEEED5 /* OS.swift in Sources */,
+				EF47000DA7D542B9BA69004D34AA9D94 /* PaymentQueueController.swift in Sources */,
+				0C6AC78B1A51E45DBA7EE932563B96FC /* PaymentsController.swift in Sources */,
+				3A09550F0F41BC920BE525A1365FCE5D /* ProductsInfoController.swift in Sources */,
+				A4E5897F9F9FD190131021AC7E8D1BE4 /* RestorePurchasesController.swift in Sources */,
+				778A0EAE180D19E92E0937380BB6ACFD /* SKProduct+LocalizedPrice.swift in Sources */,
+				231F313B97C80EECBA7012A0CD7EF661 /* SwiftyStoreKit+Types.swift in Sources */,
+				6266B5AABAC6D86A1CF5D7DAE0ADF9EA /* SwiftyStoreKit-iOS10.0-dummy.m in Sources */,
+				FAC498BF7E83453951147CE9C6522AB9 /* SwiftyStoreKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13CB875E2F0CFA6A5EF9CC73FE100149 /* PBXTargetDependency */ = {
+		1F40D73D32FFD1587C663B1E61512ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "nanopb-iOS10.0";
-			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
-			targetProxy = 62574672473896CB071863D488EF63F2 /* PBXContainerItemProxy */;
+			name = "GoogleToolboxForMac-iOS10.0";
+			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
+			targetProxy = A1003D08547B24EC4E984C8975BC7F02 /* PBXContainerItemProxy */;
 		};
-		24C77B48C5CEF432FD4B10FD68C92944 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "nanopb-iOS10.0";
-			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
-			targetProxy = 35060839AE29BC1216507E477292091C /* PBXContainerItemProxy */;
-		};
-		43AC1E8590213761B494F51537C48994 /* PBXTargetDependency */ = {
+		2018374E7AA7C8D5BBB0EE850A69679A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-iOS10.3";
 			target = 0502D5ECF27891C29CE18AAE7C444166 /* GoogleToolboxForMac-iOS10.3 */;
-			targetProxy = C82577BC03F1AEDB9E388FA77E5D957D /* PBXContainerItemProxy */;
+			targetProxy = B40E23EEB18F5C772A152A35382FF51C /* PBXContainerItemProxy */;
 		};
-		5BD02857C95FA3E25493996075EC4312 /* PBXTargetDependency */ = {
+		21F3F1937318026AFC5FD4BC8B231408 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "nanopb-iOS10.3";
-			target = 58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */;
-			targetProxy = 1CDC5FAD1463C1A5F9804CF1A602282C /* PBXContainerItemProxy */;
+			name = "SwiftyStoreKit-iOS10.0";
+			target = 2549FF75E73C6C035536CFBC66B64FCB /* SwiftyStoreKit-iOS10.0 */;
+			targetProxy = 874900782186D7427E08C7C9EE0D9803 /* PBXContainerItemProxy */;
 		};
-		756E73A6F14263EA631EDEA9DDAF154E /* PBXTargetDependency */ = {
+		2D1F388B442A642DDEE56ACAC437E3FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "nanopb-iOS10.0";
 			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
-			targetProxy = 889DCEE3F65D8D9DA9F1CE92CE0C4E42 /* PBXContainerItemProxy */;
+			targetProxy = A4E46584A76BFB2860F723D514DC13CD /* PBXContainerItemProxy */;
 		};
-		8E57F378291150B2134A5544A7BE438C /* PBXTargetDependency */ = {
+		6AE395A2755A7AC6826132D5E02BD47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyStoreKit-iOS10.0";
+			target = 2549FF75E73C6C035536CFBC66B64FCB /* SwiftyStoreKit-iOS10.0 */;
+			targetProxy = 426AEE96FFC8074CA7D98B94BB52CAEC /* PBXContainerItemProxy */;
+		};
+		7C3A409D78D5357F30F786B80C0B4E25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-iOS10.0";
 			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
-			targetProxy = EE1FD37EEE7B5B5367332122E9E20BB7 /* PBXContainerItemProxy */;
+			targetProxy = 630D2831A91796D2CBBE5896CC45C9E4 /* PBXContainerItemProxy */;
 		};
-		CAB70775967655CCFCA5FF7752846E41 /* PBXTargetDependency */ = {
+		A1A1110BA4ED9DE3AA98E231F698B1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyStoreKit-iOS10.3";
+			target = E1AD220349480F6F982B6877AB16B4CB /* SwiftyStoreKit-iOS10.3 */;
+			targetProxy = 05FD94EF502DA6BA2B7258E5DF5BF30A /* PBXContainerItemProxy */;
+		};
+		D66C8035325CF68664934E1B4F907E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyStoreKit-iOS10.0";
+			target = 2549FF75E73C6C035536CFBC66B64FCB /* SwiftyStoreKit-iOS10.0 */;
+			targetProxy = 31DDDF00ADF3475CF66F07CE98256E40 /* PBXContainerItemProxy */;
+		};
+		D89C28769D2A690D4E1DEBB561A0DD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanopb-iOS10.0";
+			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
+			targetProxy = C647ED1278EA1C969679B7497835A92E /* PBXContainerItemProxy */;
+		};
+		E15536CA64586715117A74BDF71971FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanopb-iOS10.3";
+			target = 58039CFF73133A377E627F1F2D8FB60E /* nanopb-iOS10.3 */;
+			targetProxy = 350EE5ED27B2DDB36D938EC7A01F2714 /* PBXContainerItemProxy */;
+		};
+		E7912A2506EE0E3F3B17175958206FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nanopb-iOS10.0";
+			target = A02CAD5A46A5A185E93745DAC12647AC /* nanopb-iOS10.0 */;
+			targetProxy = 3E5FA1E1D62261167F97BA4D7055ABA5 /* PBXContainerItemProxy */;
+		};
+		FB27DE15FEE0177C038E2D3295B82C47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-iOS10.0";
 			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
-			targetProxy = FA2F9945C55C262C484734663FEE5A97 /* PBXContainerItemProxy */;
-		};
-		E6B2C3AC24F7D96B83BA430CBF5D70B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GoogleToolboxForMac-iOS10.0";
-			target = 2C1F745463CF50466F748F50743F2314 /* GoogleToolboxForMac-iOS10.0 */;
-			targetProxy = F32D0513026CA3214FCC3F801B2815AE /* PBXContainerItemProxy */;
+			targetProxy = A031F5FA2DEE81B948E9B52A36BDC855 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06D0E4F1962D0674E573678943BA33DC /* Debug */ = {
+		07E422132937F4BBBC6D155198186F9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3BDF2B9CD3E19CE427F7D36C246517 /* nanopb-iOS10.3.xcconfig */;
+			baseConfigurationReference = EFDAB60C2BAB120CAA967C4E622554F1 /* nanopb-iOS10.3.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = nanopb;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		31A2EF78E38AB5AE7BE5768DDD3723FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3BDF2B9CD3E19CE427F7D36C246517 /* nanopb-iOS10.3.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = nanopb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		320552E6E181D475133D9CF086BD8893 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD0E27602F66CC81F3A9502C9FBBE22 /* GoogleToolboxForMac-iOS10.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GoogleToolboxForMac;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8E47E81F021F2DA367CCB5463F87F16F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EF4FB8476B99FB62D72FDA43DE3499C /* GoogleToolboxForMac-iOS10.3.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GoogleToolboxForMac;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8FBE0D5B4C7A4C54B76A300E0D456640 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Es_casi_mi_cumplea_os;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		937623E3F0E480C8244D8C6D946A8FAF /* Debug */ = {
+		08BAE91CA2BB8017F3AD03843BE9DFA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC27880CEE2452803CFE673BE2D743DB /* Pods-Es casi mi cumpleaños.debug.xcconfig */;
 			buildSettings = {
@@ -1223,20 +1358,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1244,62 +1375,46 @@
 				PRODUCT_NAME = Pods_Es_casi_mi_cumplea_os;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+		14C57CE3BF14EDA61A2619533875ECA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385066B724AA58FE8E37AF7ABA23461A /* nanopb-iOS10.0.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0.modulemap";
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A545D9B01213A94A5915452E404DDD3D /* Release */ = {
+		471A7640C1B333F50FD5D873F9FE1516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4ABA682485E8C227233A07BA9803851F /* Pods-Its Almost Halloween.release.xcconfig */;
 			buildSettings = {
@@ -1308,20 +1423,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Halloween/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1329,83 +1440,72 @@
 				PRODUCT_NAME = Pods_Its_Almost_Halloween;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C2326E72D8F7413CCF262BC824BF039B /* Debug */ = {
+		5218F0E0F614EB08AEC9CBE8B7B74FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EF4FB8476B99FB62D72FDA43DE3499C /* GoogleToolboxForMac-iOS10.3.xcconfig */;
+			baseConfigurationReference = 7BCD23787EB666B7269176FB27E1ADBE /* Pods-Es casi mi cumpleaños.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Es casi mi cumpleaños/Pods-Es casi mi cumpleaños.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Es_casi_mi_cumplea_os;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70F26C72A8E6379CBBBF23A60BCC005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408D021D599AEBA704A518EC9056ABDD /* SwiftyStoreKit-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit-iOS10.3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GoogleToolboxForMac;
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3.modulemap";
+				PRODUCT_NAME = SwiftyStoreKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1413,113 +1513,7 @@
 			};
 			name = Debug;
 		};
-		C3DE7113DDCE79F3D1C9640AE3B95D64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A8C30B25473B17881E1D8030685D13C /* nanopb-iOS10.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = nanopb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C8376F60F0738D8734AA06571ADB3E7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost My Birthday/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Its_Almost_My_Birthday;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CB24F0FDFE0BDD4BA009C0BC8C5AA1BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost My Birthday/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Its_Almost_My_Birthday;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF6E4B608AF07E1C8C47633438C50E9D /* Debug */ = {
+		75543B803DA20451DA41E479D94EE548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0A923FF5878946D64C3829183924B37 /* Pods-Its Almost Christmas.debug.xcconfig */;
 			buildSettings = {
@@ -1528,20 +1522,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Christmas/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1549,105 +1539,93 @@
 				PRODUCT_NAME = Pods_Its_Almost_Christmas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D71544C87F88BE851E5E97269D9AF16D /* Release */ = {
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Christmas/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Its_Almost_Christmas;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EB701957BCCEA6EEB9D849FBDB68645B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A8C30B25473B17881E1D8030685D13C /* nanopb-iOS10.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = nanopb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EEA0E25B8B82F84B85BAD6921A7C5BC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD0E27602F66CC81F3A9502C9FBBE22 /* GoogleToolboxForMac-iOS10.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8854123D54A93E8F7FA7545A72AFCA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A37B8F8D90F2514D1A573FE7A13E11 /* GoogleToolboxForMac-iOS10.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1659,7 +1637,226 @@
 			};
 			name = Debug;
 		};
-		F367752130088F50A85C624070B76BD5 /* Debug */ = {
+		894558A0A8468433233344D9554989BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408D021D599AEBA704A518EC9056ABDD /* SwiftyStoreKit-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit-iOS10.3/SwiftyStoreKit-iOS10.3.modulemap";
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DDD274D823E2DFB6B3B023373CC3C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AC0D8FC5075C0FE77C817EC7B25696 /* Pods-Its Almost My Birthday.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost My Birthday/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_My_Birthday;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A025DF69599AEA44D5E8D316866169F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7280D1207875162C24AEB8DA02CBDED4 /* Pods-Its Almost Christmas.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Christmas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Christmas/Pods-Its Almost Christmas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_Christmas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01E24FD44F44108E919296A830E48F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4993BEE76F67501B33A6EE726CFFA247 /* GoogleToolboxForMac-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BADFE1189C07C44DA6CC92F63F4D1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2533BFDD1F0886BF5E3B3A9254942A4F /* Pods-Its Almost My Birthday.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost My Birthday/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost My Birthday/Pods-Its Almost My Birthday.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Its_Almost_My_Birthday;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C11E2F292E93B0231AE20988C0B2C3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C4B7E0DCBBC54805AED8E27261BA593 /* Pods-Its Almost Halloween.debug.xcconfig */;
 			buildSettings = {
@@ -1668,20 +1865,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Its Almost Halloween/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Its Almost Halloween/Pods-Its Almost Halloween.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1689,20 +1882,234 @@
 				PRODUCT_NAME = Pods_Its_Almost_Halloween;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		CAA2346BA14A3B37F8C3B0AB992201F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A37B8F8D90F2514D1A573FE7A13E11 /* GoogleToolboxForMac-iOS10.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.0/GoogleToolboxForMac-iOS10.0.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3BFB5FF05B013EE0567790B67C0EA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4993BEE76F67501B33A6EE726CFFA247 /* GoogleToolboxForMac-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac-iOS10.3/GoogleToolboxForMac-iOS10.3.modulemap";
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8994BAC1F04DCB6E22B2BCF8ABDCBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDAB60C2BAB120CAA967C4E622554F1 /* nanopb-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.3/nanopb-iOS10.3.modulemap";
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E62DEA1BFD36ACE8B33B3A3C01CA6DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385066B724AA58FE8E37AF7ABA23461A /* nanopb-iOS10.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb-iOS10.0/nanopb-iOS10.0.modulemap";
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE7A5DA078213D771AA51EF79BE2D009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07374E8DA2B16D38449DB614BFCE3941 /* SwiftyStoreKit-iOS10.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit-iOS10.0/SwiftyStoreKit-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit-iOS10.0/SwiftyStoreKit-iOS10.0.modulemap";
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5551273688A2A2F053F3D9FEAE9C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07374E8DA2B16D38449DB614BFCE3941 /* SwiftyStoreKit-iOS10.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit-iOS10.0/SwiftyStoreKit-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit-iOS10.0/SwiftyStoreKit-iOS10.0.modulemap";
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		107BBE18D5AD91FCE6F5F201D164E599 /* Build configuration list for PBXNativeTarget "Pods-Es casi mi cumpleaños" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BAE91CA2BB8017F3AD03843BE9DFA8 /* Debug */,
+				5218F0E0F614EB08AEC9CBE8B7B74FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17405DDA5AD263071270D2E940968816 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11E2F292E93B0231AE20988C0B2C3F4 /* Debug */,
+				471A7640C1B333F50FD5D873F9FE1516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25773ACE18E5E1800DA234409F20F038 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7A5DA078213D771AA51EF79BE2D009 /* Debug */,
+				F5551273688A2A2F053F3D9FEAE9C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2AF69D1C36EEBF7FC024D9D01824FE7A /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac-iOS10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEA0E25B8B82F84B85BAD6921A7C5BC9 /* Debug */,
-				320552E6E181D475133D9CF086BD8893 /* Release */,
+				8854123D54A93E8F7FA7545A72AFCA68 /* Debug */,
+				CAA2346BA14A3B37F8C3B0AB992201F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1710,17 +2117,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		465EA9306A7790A116D4C9189B4DCE42 /* Build configuration list for PBXNativeTarget "Pods-Es casi mi cumpleaños" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				937623E3F0E480C8244D8C6D946A8FAF /* Debug */,
-				8FBE0D5B4C7A4C54B76A300E0D456640 /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1728,26 +2126,17 @@
 		4D86407C5176328AADAE9664C6143D03 /* Build configuration list for PBXNativeTarget "nanopb-iOS10.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06D0E4F1962D0674E573678943BA33DC /* Debug */,
-				31A2EF78E38AB5AE7BE5768DDD3723FD /* Release */,
+				D8994BAC1F04DCB6E22B2BCF8ABDCBE3 /* Debug */,
+				07E422132937F4BBBC6D155198186F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59464EEBFBB5FA7355447BCF6CD70AD6 /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */ = {
+		674B1F9FCEB257CD8B6628C8C93F49AC /* Build configuration list for PBXNativeTarget "Pods-Its Almost My Birthday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF6E4B608AF07E1C8C47633438C50E9D /* Debug */,
-				D71544C87F88BE851E5E97269D9AF16D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		669A18C77510E9BEDC96698A72886017 /* Build configuration list for PBXNativeTarget "Pods-Its Almost My Birthday" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8376F60F0738D8734AA06571ADB3E7A /* Debug */,
-				CB24F0FDFE0BDD4BA009C0BC8C5AA1BB /* Release */,
+				BADFE1189C07C44DA6CC92F63F4D1148 /* Debug */,
+				8DDD274D823E2DFB6B3B023373CC3C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1755,17 +2144,26 @@
 		8AFE9F7E7369FD57AE3CD313C25C2E12 /* Build configuration list for PBXNativeTarget "nanopb-iOS10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3DE7113DDCE79F3D1C9640AE3B95D64 /* Debug */,
-				EB701957BCCEA6EEB9D849FBDB68645B /* Release */,
+				E62DEA1BFD36ACE8B33B3A3C01CA6DEF /* Debug */,
+				14C57CE3BF14EDA61A2619533875ECA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A526886604E6F66DCB69F8E96F2EC14A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Halloween" */ = {
+		AFBE0A2D62FC4A689B95A40C4230DED0 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit-iOS10.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F367752130088F50A85C624070B76BD5 /* Debug */,
-				A545D9B01213A94A5915452E404DDD3D /* Release */,
+				70F26C72A8E6379CBBBF23A60BCC005C /* Debug */,
+				894558A0A8468433233344D9554989BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D499BFB760A4E40F0A636D1E3A3D9A /* Build configuration list for PBXNativeTarget "Pods-Its Almost Christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75543B803DA20451DA41E479D94EE548 /* Debug */,
+				A025DF69599AEA44D5E8D316866169F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1773,8 +2171,8 @@
 		D9B3EFFF5B13F0BA24DEE6FEAB09819D /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac-iOS10.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2326E72D8F7413CCF262BC824BF039B /* Debug */,
-				8E47E81F021F2DA367CCB5463F87F16F /* Release */,
+				B01E24FD44F44108E919296A830E48F8 /* Debug */,
+				D3BFB5FF05B013EE0567790B67C0EA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

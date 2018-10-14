@@ -16,6 +16,7 @@ extension UIView {
     }
     
     func setUpBlurryBackgroundImage( image : UIImage, withAlpha alpha : CGFloat? = nil ) {
+
         if let oldImage = self.viewWithTag(123) {
             oldImage.removeFromSuperview()
         }
@@ -25,13 +26,13 @@ extension UIView {
         }
         
         let backgroundImage = UIImageView()
-        backgroundImage.frame = CGRect(x: self.frame.minX, y: self.bounds.minY, width: self.bounds.width, height: self.bounds.height)
+        backgroundImage.frame = CGRect(x: self.frame.minX - 20, y: self.bounds.minY - 20, width: self.bounds.width + 20, height: self.bounds.height + 40)
         backgroundImage.image = image
         backgroundImage.tag = 123
         backgroundImage.contentMode = .scaleAspectFill
         let blurImage = UIView()
         blurImage.tag = 124
-        blurImage.frame = CGRect(x: 0, y: 0, width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)
+        blurImage.frame = self.frame
         blurImage.backgroundColor = .white
         blurImage.alpha = alpha ?? 0.6
         self.addSubview(backgroundImage)

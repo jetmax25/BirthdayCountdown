@@ -20,6 +20,10 @@ struct DateCountdownViewModel {
     
     init() {
         
+        if let requestedReview = UserDefaults.standard.value(forKey: "AskedReview") as? Bool {
+            self.requestedReview = requestedReview
+        }
+        
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
             try AVAudioSession.sharedInstance().setActive(true)

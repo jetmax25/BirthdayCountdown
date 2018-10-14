@@ -25,6 +25,8 @@
 		<string>BloodLust</string>
 		<key>Color</key>
 		<string>#FF8C00</string>
+		<key>Color2</key>
+		<string>#FF8C00</string>
 	</dict>
 	<key>Name</key>
 	<string>Halloween</string>

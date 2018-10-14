@@ -11,15 +11,31 @@ import GoogleMobileAds
 import Fabric
 import Crashlytics
 import Firebase
+import SwiftyStoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static var adFree = false
+    static var interstitial: GADInterstitial?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        SwiftyStoreKit.completeTransactions(atomically: true) { purchases in
+            for purchase in purchases {
+                switch purchase.transaction.transactionState {
+                case .purchased, .restored:
+                    if purchase.needsFinishTransaction {
+                        // Deliver content from server, then:
+                        SwiftyStoreKit.finishTransaction(purchase.transaction)
+                    }
+                // Unlock content
+                case .failed, .purchasing, .deferred:
+                    break // do nothing
+                }
+            }
+        }
         
         print(Bundle.main.bundlePath)
         FirebaseApp.configure()
@@ -30,6 +46,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let path = Bundle.main.path(forResource: "Config", ofType: "plist"), let configDict = NSDictionary(contentsOfFile: path) else  {
             return false
         }
+        
+        AppDelegate.adFree = UserDefaults.standard.value(forKey: "AdFree") as? Bool ?? false
+        
+        if !AppDelegate.adFree {
+            Answers.logCustomEvent(withName: "Ad Loaded", customAttributes: nil)
+            AppDelegate.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5594325776314197/5058013154")
+            let request = GADRequest()
+            AppDelegate.interstitial?.load(request)
+        }
+
         
         #if BIRTHDAY
             GADMobileAds.configure(withApplicationID: "ca-app-pub-5594325776314197~1097607605")
